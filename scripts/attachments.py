@@ -253,7 +253,7 @@ def run():
                     errors.append(f"{f['name'] or f['url']}: {e}")
             if not files:
                 note = "첨부파일 없음" if not found else "다운로드 실패: " + "; ".join(errors)[:300]
-                post(api, {"action": "result", "token": token, "key": k, "note": note, "done": not found})
+                post(api, {"action": "result", "token": token, "key": k, "note": note, "done": False})
                 summary.append(f"| {title} | {note} |")
                 continue
             # 이름 겹치면 번호 붙이기
@@ -308,7 +308,9 @@ def test(urls):
             print("  페이지 읽기 실패:", e)
             continue
         if not found:
-            print("  첨부 못 찾음")
+            html = page(s, u)
+            t = BeautifulSoup(html, "html.parser").title
+            print(f"  첨부 못 찾음 (페이지 {len(html):,}자, 제목: {t.get_text(strip=True)[:60] if t else '-'}, goFileDown {html.count('goFileDown')}회)")
         for f in found:
             try:
                 d = download(s, f, u)
