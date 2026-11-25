@@ -3,16 +3,19 @@
  *
  * 하는 일
  *  1) 공고 페이지에서 누른 ⭐지원예정 / 숨기기 표시를 구글시트에 저장 (모든 기기에서 같이 보임)
- *  2) GitHub 봇이 받아 온 ⭐공고의 첨부파일을 구글드라이브 「강사지원DB/공고첨부」에 저장
+ *  2) GitHub 봇이 저장소 inbox/ 에 받아 둔 ⭐공고 첨부파일을 10분마다 가져와
+ *     구글드라이브 「강사지원DB/공고첨부/<공고>」 폴더에 저장
  *
  * 처음 한 번만: 편집기에서 setup 실행 → 권한 허용 → 배포(웹 앱, 실행: 나, 액세스: 모든 사용자)
  * 자세한 순서는 apps-script/README.md
  */
 
+const REPO = 'Izzy-Lee/incheon-instructor-alerts';
+const BRANCH = 'main';
 const HEAD = ['key', 'state', 'title', 'url', 'org', 'deadline', 'at', 'saved', 'folder', 'note', 'tries'];
 const P = PropertiesService.getScriptProperties();
 
-/** 처음 한 번 실행: 시트·드라이브 폴더·업로드 비밀번호를 만든다. */
+/** 처음 한 번 실행: 시트·드라이브 폴더·10분 트리거를 만든다. 여러 번 실행해도 괜찮음. */
 function setup() {
   let ssId = P.getProperty('SHEET_ID');
   if (!ssId) {
@@ -28,15 +31,12 @@ function setup() {
     const db = findOrCreate_(DriveApp.getRootFolder(), '강사지원DB');
     const f = findOrCreate_(db, '공고첨부');
     P.setProperty('FOLDER_ID', f.getId());
-    // 시트도 같은 폴더(강사지원DB)로 옮겨 둔다
-    try { DriveApp.getFileById(ssId).moveTo(db); } catch (e) {}
+    try { DriveApp.getFileById(ssId).moveTo(db); } catch (e) {} // 시트도 강사지원DB 폴더로
   }
-  if (!P.getProperty('UPLOAD_TOKEN')) {
-    P.setProperty('UPLOAD_TOKEN', Utilities.getUuid().replace(/-/g, ''));
-  }
+  ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction() === 'pull').forEach(t => ScriptApp.deleteTrigger(t));
+  ScriptApp.newTrigger('pull').timeBased().everyMinutes(10).create();
   Logger.log('시트: https://docs.google.com/spreadsheets/d/' + ssId);
   Logger.log('첨부 폴더: https://drive.google.com/drive/folders/' + P.getProperty('FOLDER_ID'));
-  Logger.log('UPLOAD_TOKEN (GitHub Secrets에 넣을 값): ' + P.getProperty('UPLOAD_TOKEN'));
 }
 
 function findOrCreate_(parent, name) {
@@ -49,8 +49,7 @@ function sheet_() {
 }
 
 function rows_() {
-  const sh = sheet_();
-  const v = sh.getDataRange().getValues();
+  const v = sheet_().getDataRange().getValues();
   const head = v.shift();
   return v.map((r, i) => {
     const o = { _row: i + 2 };
@@ -63,7 +62,7 @@ function out_(obj) {
   return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(ContentService.MimeType.JSON);
 }
 
-/** GET ?action=marks → 모든 표시 */
+/** GET → 모든 표시 */
 function doGet(e) {
   const marks = {};
   rows_().forEach(r => {
@@ -76,7 +75,7 @@ function doGet(e) {
   return out_({ ok: true, marks });
 }
 
-/** POST (text/plain JSON) */
+/** POST (text/plain JSON): {action:'mark', key, state, ...} 또는 {action:'marks', items:[...]} */
 function doPost(e) {
   let body;
   try { body = JSON.parse(e.postData.contents); } catch (err) { return out_({ ok: false, error: 'bad json' }); }
@@ -84,65 +83,70 @@ function doPost(e) {
   lock.waitLock(20000);
   try {
     if (body.action === 'mark') return out_(mark_(body));
-    if (body.action === 'marks') return out_({ ok: true, n: (body.items || []).map(mark_).length });
-    if (body.token !== P.getProperty('UPLOAD_TOKEN')) return out_({ ok: false, error: 'token' });
-    if (body.action === 'upload') return out_(upload_(body));
-    if (body.action === 'result') return out_(result_(body));
+    if (body.action === 'marks') { (body.items || []).slice(0, 500).forEach(mark_); return out_({ ok: true }); }
     return out_({ ok: false, error: 'unknown action' });
   } finally {
     lock.releaseLock();
   }
 }
 
+function clip_(s, n) { return String(s || '').slice(0, n); }
+
 /** 표시 저장. state 가 비어 있으면 표시 지움. 이미 받은 첨부 기록(saved/folder)은 그대로 둔다. */
 function mark_(b) {
   if (!b.key) return { ok: false, error: 'key' };
+  if (b.state && b.state !== 'plan' && b.state !== 'hidden') return { ok: false, error: 'state' };
   const sh = sheet_();
   const r = rows_().find(x => x.key === b.key);
-  const at = b.at || Utilities.formatDate(new Date(), 'Asia/Seoul', 'yyyy-MM-dd');
+  const at = clip_(b.at, 10) || Utilities.formatDate(new Date(), 'Asia/Seoul', 'yyyy-MM-dd');
   if (!r) {
     if (!b.state) return { ok: true };
-    sh.appendRow([b.key, b.state, b.title || '', b.url || '', b.org || '', b.deadline || '', at, '', '', '', 0]);
+    sh.appendRow([clip_(b.key, 200), b.state, clip_(b.title, 300), clip_(b.url, 1000), clip_(b.org, 100), clip_(b.deadline, 10), at, '', '', '', 0]);
     return { ok: true };
   }
-  const vals = [b.key, b.state || '', b.title || r.title, b.url || r.url, b.org || r.org, b.deadline || r.deadline, at];
+  const vals = [r.key, b.state || '', clip_(b.title, 300) || r.title, clip_(b.url, 1000) || r.url, clip_(b.org, 100) || r.org, clip_(b.deadline, 10) || r.deadline, at];
   sh.getRange(r._row, 1, 1, vals.length).setValues([vals]);
   return { ok: true };
 }
 
-/** 봇이 보낸 첨부파일 저장: { token, key, folderName, files:[{name, mime, b64}] } */
-function upload_(b) {
-  const r = rows_().find(x => x.key === b.key);
-  if (!r) return { ok: false, error: 'no mark' };
-  const root = DriveApp.getFolderById(P.getProperty('FOLDER_ID'));
-  const name = String(b.folderName || r.title || b.key).replace(/[\\/:*?"<>|]/g, ' ').slice(0, 120);
-  const folder = findOrCreate_(root, name);
-  const saved = [];
-  (b.files || []).forEach(f => {
-    const fname = String(f.name).replace(/[\\/:*?"<>|]/g, ' ');
-    const old = folder.getFilesByName(fname);
-    while (old.hasNext()) old.next().setTrashed(true); // 같은 이름은 새것으로 교체
-    const blob = Utilities.newBlob(Utilities.base64Decode(f.b64), f.mime || 'application/octet-stream', fname);
-    saved.push(folder.createFile(blob).getName());
-  });
-  if (b.url) folder.setDescription('원문 공고: ' + b.url);
-  const sh = sheet_();
-  sh.getRange(r._row, 8, 1, 4).setValues([[
-    Utilities.formatDate(new Date(), 'Asia/Seoul', 'yyyy-MM-dd HH:mm'),
-    folder.getUrl(),
-    saved.length + '개 저장: ' + saved.join(', '),
-    (Number(r.tries) || 0) + 1,
-  ]]);
-  return { ok: true, folder: folder.getUrl(), saved };
-}
-
-/** 첨부를 못 받았을 때 기록: { token, key, note, done } — done 이면 더 시도하지 않음 */
-function result_(b) {
-  const r = rows_().find(x => x.key === b.key);
-  if (!r) return { ok: false, error: 'no mark' };
-  const tries = (Number(r.tries) || 0) + 1;
-  const sh = sheet_();
-  if (b.done) sh.getRange(r._row, 8).setValue('첨부 없음');
-  sh.getRange(r._row, 10, 1, 2).setValues([[b.note || '', tries]]);
-  return { ok: true };
+/** 10분마다: 저장소 inbox/index.json 을 보고 새로 받은 첨부를 드라이브에 저장 */
+function pull() {
+  const raw = 'https://raw.githubusercontent.com/' + REPO + '/' + BRANCH + '/inbox/';
+  const res = UrlFetchApp.fetch(raw + 'index.json?t=' + Date.now(), { muteHttpExceptions: true });
+  if (res.getResponseCode() !== 200) return;
+  const index = JSON.parse(res.getContentText());
+  const lock = LockService.getScriptLock();
+  lock.waitLock(30000);
+  try {
+    const sh = sheet_();
+    const rows = rows_();
+    const root = DriveApp.getFolderById(P.getProperty('FOLDER_ID'));
+    Object.keys(index).forEach(id => {
+      const it = index[id];
+      const r = rows.find(x => x.key === it.key);
+      if (!r || r.state !== 'plan' || r.saved) return;
+      if (it.status === 'ready') {
+        const name = String(it.folderName || r.title || it.key).replace(/[\\/:*?"<>|]/g, ' ').slice(0, 120);
+        const folder = findOrCreate_(root, name);
+        const saved = [];
+        it.files.forEach(f => {
+          const fr = UrlFetchApp.fetch(raw + id + '/' + encodeURIComponent(f.stored), { muteHttpExceptions: true });
+          if (fr.getResponseCode() !== 200) throw new Error('파일 가져오기 실패 ' + f.stored + ' ' + fr.getResponseCode());
+          const fname = String(f.name).replace(/[\\/:*?"<>|]/g, ' ');
+          const old = folder.getFilesByName(fname);
+          while (old.hasNext()) old.next().setTrashed(true);
+          saved.push(folder.createFile(fr.getBlob().setName(fname)).getName());
+        });
+        if (it.url) folder.setDescription('원문 공고: ' + it.url);
+        sh.getRange(r._row, 8, 1, 4).setValues([[
+          Utilities.formatDate(new Date(), 'Asia/Seoul', 'yyyy-MM-dd HH:mm'),
+          folder.getUrl(), saved.length + '개 저장: ' + saved.join(', '), Number(it.tries) || 1,
+        ]]);
+      } else if (String(r.note) !== String(it.note || '') || Number(r.tries) !== Number(it.tries || 0)) {
+        sh.getRange(r._row, 10, 1, 2).setValues([[it.note || '', Number(it.tries) || 0]]);
+      }
+    });
+  } finally {
+    lock.releaseLock();
+  }
 }

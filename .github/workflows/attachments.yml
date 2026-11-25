@@ -11,7 +11,7 @@ on:
         default: ""
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: attachments
@@ -37,11 +37,20 @@ jobs:
           TEST_URLS: ${{ github.event.inputs.test_urls }}
         run: python scripts/attachments.py --test $TEST_URLS
 
-      - name: 지원예정 첨부 저장
+      - name: 지원예정 첨부 받기
         if: ${{ github.event.inputs.test_urls == '' }}
-        env:
-          UPLOAD_TOKEN: ${{ secrets.UPLOAD_TOKEN }}
         run: |
-          if [ -z "$UPLOAD_TOKEN" ]; then echo "UPLOAD_TOKEN 이 아직 없어요 — 설정 전이라 건너뜀"; exit 0; fi
           if ! grep -q "script.google.com" docs/config.js; then echo "docs/config.js 에 웹앱 주소가 아직 없어요 — 건너뜀"; exit 0; fi
           python scripts/attachments.py
+
+      - name: 받은 첨부 저장소에 올리기 (Apps Script 가 드라이브로 옮겨 감)
+        if: ${{ github.event.inputs.test_urls == '' }}
+        run: |
+          [ -d inbox ] || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A inbox
+          git diff --cached --quiet && exit 0
+          git commit -m "지원예정 첨부 $(TZ=Asia/Seoul date '+%F %H:%M')"
+          for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done
+          exit 1
