@@ -32,7 +32,7 @@
 - id: yeonsu
   name: 연수구 채용공고
   type: links
-  url: https://eminwon.yeonsu.go.kr/emwp/jsp/ofr/OfrNotAncmtLSub.jsp?not_ancmt_se_code=05
+  url: https://eminwon.yeonsu.go.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?jndinm=OfrNotAncmtEJB&context=NTIS&method=selectListOfrNotAncmt&methodnm=selectListOfrNotAncmtHomepage&homepage_pbs_yn=Y&subCheck=Y&ofr_pageSize=30&not_ancmt_se_code=05&pageIndex=1
 
 - id: namdong
   name: 남동구 채용공고
@@ -44,10 +44,11 @@
   type: links
   url: https://www.icbp.go.kr/main/participation/news/recruit.jsp
 
-- id: gyeyang
-  name: 계양구 채용공고
-  type: links
-  url: https://www.gyeyang.go.kr/open_content/main/open_info/admin/job.jsp
+# 해외 서버(GitHub)에서 접속이 막혀 있어 꺼 둠. 제물포구 공고는 인천일자리플랫폼에도 올라옴.
+# - id: gyeyang
+#   name: 계양구 채용공고
+#   type: links
+#   url: https://www.gyeyang.go.kr/open_content/main/open_info/admin/job.jsp
 
 - id: seohae
   name: 서해구 채용공고
@@ -59,10 +60,11 @@
   type: links
   url: https://www.geomdan.go.kr/main/community/news/job.jsp
 
-- id: jemulpo
-  name: 제물포구 채용공고
-  type: links
-  url: https://incheon.work.go.kr/dong/openPlaza/boardData/retrieveBoardContList.do?lwknetBoardNo=1456
+# 해외 서버(GitHub)에서 접속이 막혀 있어 꺼 둠. 제물포구 공고는 인천일자리플랫폼에도 올라옴.
+# - id: jemulpo
+#   name: 제물포구 채용공고
+#   type: links
+#   url: https://incheon.work.go.kr/dong/openPlaza/boardData/retrieveBoardContList.do?lwknetBoardNo=1456
 
 - id: yeongjong
   name: 영종구 채용공고

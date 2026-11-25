@@ -46,13 +46,13 @@ def load_yaml(name):
 
 def fetch(url: str) -> str:
     last = None
-    for attempt in range(3):
+    for attempt in range(2):
         try:
             try:
-                r = session.get(url, timeout=30)
+                r = session.get(url, timeout=20)
             except requests.exceptions.SSLError:
                 # 일부 공공기관 사이트는 인증서 체인이 불완전함. 공개 게시판 읽기만 하므로 재시도.
-                r = session.get(url, timeout=30, verify=False)
+                r = session.get(url, timeout=20, verify=False)
             r.raise_for_status()
             if not r.encoding or r.encoding.lower() in ("iso-8859-1", "ascii"):
                 r.encoding = r.apparent_encoding
@@ -282,12 +282,16 @@ def main():
 
     status, found = [], {}
     for src in sources:
+        print(f"수집: {src['name']}", flush=True)
         try:
             items = PARSERS[src["type"]](src)
             hits = 0
             for it in items:
                 cat = classify(it, kw)
                 if not cat:
+                    continue
+                dl = to_date(it.get("deadline"))
+                if dl and dl < TODAY:  # 이미 마감된 공고는 건너뜀
                     continue
                 hits += 1
                 it["category"], it["mine"] = cat["name"], bool(cat.get("mine"))
@@ -374,7 +378,7 @@ def main():
     out.mkdir(exist_ok=True)
     (out / "issue_title.txt").write_text(title, encoding="utf-8")
     (out / "issue.md").write_text(body, encoding="utf-8")
-    (out / "should_post").write_text("yes" if (new or urgent or changed or ok < len(status)) else "no")
+    (out / "should_post").write_text("yes" if (new or urgent or changed) else "no")
     print(title)
     print(json.dumps(status, ensure_ascii=False, indent=1))
     return 0
