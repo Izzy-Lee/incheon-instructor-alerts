@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>인천 강사공고 모음</title>
+<style>
+  :root { --pink:#f6d6dc; --ink:#1a1a1a; --mute:#777; --line:#eee; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",sans-serif; color:var(--ink); background:#fff; }
+  header { background:var(--pink); padding:28px 20px 20px; }
+  header h1 { margin:0 0 6px; font-size:24px; }
+  header p { margin:0; color:#555; font-size:14px; }
+  main { max-width:900px; margin:0 auto; padding:16px 16px 60px; }
+  .bar { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 16px; }
+  .bar input { flex:1 1 220px; padding:10px 12px; border:1px solid #ddd; border-radius:8px; font-size:15px; }
+  .chip { border:1px solid var(--ink); background:#fff; border-radius:999px; padding:7px 14px; font-size:14px; cursor:pointer; }
+  .chip.on { background:var(--ink); color:#fff; }
+  .item { border-bottom:1px solid var(--line); padding:14px 2px; }
+  .item a { color:var(--ink); font-weight:600; text-decoration:none; font-size:16px; line-height:1.4; }
+  .item a:hover { text-decoration:underline; }
+  .meta { color:var(--mute); font-size:13px; margin-top:4px; }
+  .tag { display:inline-block; font-size:12px; padding:2px 8px; border-radius:6px; background:#f2f2f2; margin-right:6px; }
+  .tag.mine { background:var(--pink); }
+  .dd { font-weight:700; color:#c0392b; }
+  .empty { color:var(--mute); padding:30px 0; text-align:center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>인천 강사공고 모음</h1>
+  <p id="updated">불러오는 중…</p>
+</header>
+<main>
+  <div class="bar">
+    <input id="q" placeholder="검색 (예: 미술, 연수구, 주민자치)">
+    <button class="chip" id="hideClosed">마감 지난 공고 숨기기</button>
+  </div>
+  <div class="bar" id="cats"></div>
+  <div id="list"></div>
+</main>
+<script>
+const today = new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Seoul'})); today.setHours(0,0,0,0);
+let all = [], cat = '전체', hide = true;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function dday(d) {
+  if (!d) return '';
+  const n = Math.round((new Date(d + 'T00:00:00') - today) / 864e5);
+  return n === 0 ? 'D-DAY' : n > 0 ? 'D-' + n : '마감';
+}
+function render() {
+  const q = $('#q').value.trim();
+  const rows = all.filter(p =>
+    (cat === '전체' || (cat === '내 분야' ? p.mine : p.category === cat)) &&
+    (!hide || !p.deadline || dday(p.deadline) !== '마감') &&
+    (!q || (p.title + p.org + p.via + p.category).includes(q)));
+  $('#list').innerHTML = rows.length ? rows.map(p => `
+    <div class="item">
+      <span class="tag ${p.mine ? 'mine' : ''}">${esc(p.category)}</span>
+      <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>
+      <div class="meta">${esc(p.org)} · 마감 ${esc(p.deadline || '미기재')} <span class="dd">${dday(p.deadline)}</span> · 처음 본 날 ${esc(p.first_seen)} · ${esc(p.via)}</div>
+    </div>`).join('') : '<div class="empty">조건에 맞는 공고가 없어요.</div>';
+}
+fetch('data.json?' + Date.now()).then(r => r.json()).then(d => {
+  all = d.postings;
+  $('#updated').textContent = `마지막 업데이트 ${d.updated} · 공고 ${all.length}건 · 매일 아침 자동 갱신`;
+  const cats = ['전체', '내 분야', ...new Set(all.map(p => p.category))];
+  $('#cats').innerHTML = cats.map(c => `<button class="chip ${c === cat ? 'on' : ''}" data-c="${esc(c)}">${esc(c)}</button>`).join('');
+  $('#cats').onclick = e => { if (!e.target.dataset.c) return; cat = e.target.dataset.c;
+    [...$('#cats').children].forEach(b => b.classList.toggle('on', b.dataset.c === cat)); render(); };
+  render();
+}).catch(() => { $('#updated').textContent = '아직 데이터가 없어요. 첫 실행 후에 채워져요.'; });
+$('#q').oninput = render;
+$('#hideClosed').classList.add('on');
+$('#hideClosed').onclick = () => { hide = !hide; $('#hideClosed').classList.toggle('on', hide); render(); };
+</script>
+</body>
+</html>
