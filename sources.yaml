@@ -8,6 +8,22 @@
   type: platform
   url: https://www.incheon.go.kr/jobs/main/recruit/public/list.do
 
+- id: ice
+  name: 인천광역시교육청 채용공고
+  type: ice
+  url: https://www.ice.go.kr/ice/na/ntt/selectNttList.do?mi=10997&bbsId=1981
+  mi: 10997
+  bbsId: 1981
+  pages: 2              # 1페이지 = 최근 100건
+
+- id: gojobs
+  name: 나라일터
+  type: gojobs
+  url: https://www.gojobs.go.kr/apmList.do?menuNo=401
+  region: 인천          # 기관명이나 제목에 이 단어가 있는 것만
+  keywords: [강사, 방과후, 프로그램]
+  pages: 10             # 검색어마다 최근 몇 페이지(1페이지=10건)를 볼지
+
 - id: michuhol
   name: 미추홀구 채용공고
   type: links

@@ -162,7 +162,78 @@ def parse_links(src):
     return out
 
 
-PARSERS = {"platform": parse_platform, "links": parse_links}
+def parse_gojobs(src):
+    """나라일터 모집공고: 검색어별로 최근 몇 페이지를 읽고 기관·제목에 '인천'이 들어간 것만 남긴다."""
+    base = "https://www.gojobs.go.kr/"
+    out = []
+    for kw in src.get("keywords", ["강사"]):
+        for page in range(1, src.get("pages", 10) + 1):
+            q = urlencode({"menuNo": 401, "searchKeyword": kw, "pageIndex": page})
+            soup = BeautifulSoup(fetch(f"{base}apmList.do?{q}"), "html.parser")
+            links = soup.select("a[href*=fn_apmView]")
+            if not links:
+                break
+            for a in links:
+                tr = a.find_parent("tr")
+                cells = [clean(td.get_text(" ")) for td in tr.find_all("td")]
+                if len(cells) < 5:
+                    continue
+                title, org = clean(a.get_text(" ")), cells[2]
+                if src.get("region", "인천") not in (org + title):
+                    continue
+                m = re.search(r"'(\d+)'\s*,\s*'(\d+)'", a.get("href", ""))
+                url = (
+                    f"{base}apmView.do?" + urlencode({"menuNo": 401, "searchJobsecode": m[1], "empmnsn": m[2]})
+                    if m
+                    else src["url"]
+                )
+                out.append(
+                    {
+                        "title": title,
+                        "org": org,
+                        "via": src["name"],
+                        "url": url,
+                        "posted": to_date(cells[3]).isoformat() if to_date(cells[3]) else None,
+                        "deadline": to_date(cells[4]).isoformat() if to_date(cells[4]) else None,
+                    }
+                )
+            time.sleep(0.5)
+    return out
+
+
+def parse_ice(src):
+    """인천광역시교육청 채용공고 게시판 (등록일·모집상태·기관·직종·제목·모집종료일...)."""
+    base = "https://www.ice.go.kr/ice/na/ntt/"
+    out = []
+    for page in range(1, src.get("pages", 2) + 1):
+        q = urlencode({"mi": src["mi"], "bbsId": src["bbsId"], "listCo": 100, "currPage": page})
+        soup = BeautifulSoup(fetch(f"{base}selectNttList.do?{q}"), "html.parser")
+        links = soup.select("a.nttInfoBtn")
+        if not links:
+            break
+        for a in links:
+            tds = [clean(td.get_text(" ")) for td in a.find_parent("tr").find_all("td")]
+            if len(tds) < 6:
+                continue
+            nid = a.get("data-id")
+            out.append(
+                {
+                    "title": clean(a.get("title") or a.get_text(" ")),
+                    "org": re.sub(r"\((공립|사립)\)", "", tds[2]).strip(),
+                    "kind": tds[3],
+                    "status": tds[1],
+                    "via": src["name"],
+                    "url": f"{base}selectNttInfo.do?" + urlencode({"mi": src["mi"], "bbsId": src["bbsId"], "nttSn": nid})
+                    if nid
+                    else src["url"],
+                    "posted": to_date(tds[0]).isoformat() if to_date(tds[0]) else None,
+                    "deadline": to_date(tds[5]).isoformat() if to_date(tds[5]) else None,
+                }
+            )
+    return out
+
+
+PARSERS = {"platform": parse_platform, "links": parse_links, "gojobs": parse_gojobs, "ice": parse_ice}
 
 
 # ---------- 분류 ----------
@@ -170,7 +241,8 @@ def classify(item, kw):
     t = item["title"]
     if any(x in t for x in kw["exclude"]):
         return None
-    if not any(x in t for x in kw["include"]):
+    kind = item.get("kind", "")
+    if not any(x in t for x in kw["include"]) and not any(x in kind for x in kw.get("include_kinds", [])):
         return None
     hay = t + " " + item.get("org", "")
     for c in kw["categories"]:
@@ -195,6 +267,8 @@ def dday(iso):
 def line(p):
     dl = f"마감 {fmt_date(p['deadline'])}" + (f" · {dday(p['deadline'])}" if p.get("deadline") else "")
     org = f"{p['org']} · " if p.get("org") else ""
+    if p.get("kind"):
+        org += f"{p['kind']} · "
     return f"- **[{p['category']}]** {org}[{p['title']}]({p['url']})  \n  {dl} · 출처: {p['via']}"
 
 
