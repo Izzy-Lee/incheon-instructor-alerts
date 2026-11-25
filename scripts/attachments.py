@@ -81,8 +81,9 @@ def form_fields(soup, selector):
 
 def link_name(a) -> str:
     t = re.sub(r"\s+", " ", (a.get("title") or "") + " " + a.get_text(" ")).strip()
+    t = re.sub(r"^(새창|새 창|첨부파일)\s*", "", t)
     m = re.search(r"([^\s/][^/]*?" + EXT_RE.pattern + ")", t, re.I)
-    return m[1].strip() if m else ""
+    return re.sub(r"^(새창|새 창)\s*", "", m[1].strip()) if m else ""
 
 
 # ---------- 사이트별 첨부 찾기: [{name, method, url, data}] ----------
@@ -99,13 +100,12 @@ def find_files(s, url, depth=0):
             if "gojobs.go.kr/apmView" in h or "ice.go.kr/ice/na/ntt/selectNttInfo" in h:
                 return find_files(s, urljoin(url, h), depth + 1)
 
-    # 인천광역시교육청: goFileDown('키') → 상세폼을 POST
+    # 인천광역시교육청: goFileDown('키') → /comm/nttFileDownload.do?fileKey=키 (GET 으로 받아야 함, POST 는 403)
     if "ice.go.kr" in host:
-        data = form_fields(soup, "#nttViewForm")
         for a in soup.select("a[href*=goFileDown], a[onclick*=goFileDown]"):
             args = js_args(a.get("href", "") + a.get("onclick", ""))
             if args:
-                out.append({"name": link_name(a), "method": "POST", "data": data,
+                out.append({"name": link_name(a), "method": "GET", "data": None,
                             "url": urljoin(url, "/comm/nttFileDownload.do?fileKey=" + args[0])})
 
     # 나라일터: gfn_fileDown('파일명','uuid','저장구분')
