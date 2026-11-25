@@ -87,6 +87,16 @@ def link_name(a) -> str:
 
 # ---------- 사이트별 첨부 찾기: [{name, method, url, data}] ----------
 def find_files(s, url, depth=0):
+    """첨부 찾기. 교육청 등은 가끔 첨부 없는 페이지를 주므로 못 찾으면 몇 번 다시 읽는다."""
+    for attempt in range(4):
+        found = _find_files(s, url, depth)
+        if found or depth:
+            return found
+        time.sleep(3 + attempt * 3)
+    return found
+
+
+def _find_files(s, url, depth=0):
     host = urlparse(url).netloc
     html = page(s, url)
     soup = BeautifulSoup(html, "html.parser")
@@ -97,7 +107,7 @@ def find_files(s, url, depth=0):
         for a in soup.select("a[href]"):
             h = a["href"]
             if "gojobs.go.kr/apmView" in h or "ice.go.kr/ice/na/ntt/selectNttInfo" in h:
-                return find_files(s, urljoin(url, h), depth + 1)
+                return _find_files(s, urljoin(url, h), depth + 1)
 
     # 인천광역시교육청: goFileDown('키') → /comm/nttFileDownload.do?fileKey=키 (GET 으로 받아야 함, POST 는 403)
     if "ice.go.kr" in host:
