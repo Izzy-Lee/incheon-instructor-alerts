@@ -247,7 +247,7 @@ def classify(item, kw):
     hay = t + " " + item.get("org", "")
     for c in kw["categories"]:
         if not c["words"] or any(w in hay for w in c["words"]):
-            return c
+            return None if c.get("drop") else c
     return kw["categories"][-1]
 
 
