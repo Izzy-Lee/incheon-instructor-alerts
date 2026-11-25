@@ -5,25 +5,41 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>인천 강사공고 모음</title>
 <style>
-  :root { --pink:#f6d6dc; --ink:#1a1a1a; --mute:#777; --line:#eee; }
+  :root { --pink:#f6d6dc; --pink2:#e9a9b5; --ink:#1a1a1a; --mute:#777; --line:#eee; }
   * { box-sizing:border-box; }
   body { margin:0; font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",sans-serif; color:var(--ink); background:#fff; }
   header { background:var(--pink); padding:28px 20px 20px; }
   header h1 { margin:0 0 6px; font-size:24px; }
   header p { margin:0; color:#555; font-size:14px; }
   main { max-width:900px; margin:0 auto; padding:16px 16px 60px; }
-  .bar { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 16px; }
+  .tabs { display:flex; gap:6px; border-bottom:2px solid var(--ink); margin-top:8px; }
+  .tab { border:0; background:none; padding:10px 14px; font-size:15px; cursor:pointer; color:var(--mute); border-radius:8px 8px 0 0; }
+  .tab.on { background:var(--ink); color:#fff; font-weight:700; }
+  .tab b { font-weight:700; margin-left:4px; }
+  .bar { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
   .bar input { flex:1 1 220px; padding:10px 12px; border:1px solid #ddd; border-radius:8px; font-size:15px; }
   .chip { border:1px solid var(--ink); background:#fff; border-radius:999px; padding:7px 14px; font-size:14px; cursor:pointer; }
   .chip.on { background:var(--ink); color:#fff; }
-  .item { border-bottom:1px solid var(--line); padding:14px 2px; }
+  .item { display:flex; gap:12px; align-items:flex-start; border-bottom:1px solid var(--line); padding:14px 2px 14px 10px; border-left:4px solid transparent; }
+  .item.plan { border-left-color:var(--pink2); background:#fff8f9; }
+  .item.hidden { opacity:.55; }
+  .body { flex:1; min-width:0; }
   .item a { color:var(--ink); font-weight:600; text-decoration:none; font-size:16px; line-height:1.4; }
   .item a:hover { text-decoration:underline; }
   .meta { color:var(--mute); font-size:13px; margin-top:4px; }
   .tag { display:inline-block; font-size:12px; padding:2px 8px; border-radius:6px; background:#f2f2f2; margin-right:6px; }
   .tag.mine { background:var(--pink); }
   .dd { font-weight:700; color:#c0392b; }
+  .acts { display:flex; flex-direction:column; gap:6px; flex-shrink:0; }
+  .act { border:1px solid #ccc; background:#fff; border-radius:8px; padding:6px 10px; font-size:13px; cursor:pointer; white-space:nowrap; }
+  .act.planOn { background:var(--pink2); border-color:var(--pink2); color:#fff; font-weight:700; }
+  .act:hover { border-color:var(--ink); }
   .empty { color:var(--mute); padding:30px 0; text-align:center; }
+  .note { color:var(--mute); font-size:12px; margin-top:24px; }
+  .note button { font-size:12px; }
+  .toast { position:fixed; left:50%; bottom:24px; transform:translateX(-50%); background:var(--ink); color:#fff; padding:10px 16px; border-radius:999px; font-size:14px; display:none; }
+  .toast button { background:none; border:0; color:var(--pink); font-weight:700; margin-left:10px; cursor:pointer; font-size:14px; }
+  @media (max-width:560px) { .item { flex-direction:column; } .acts { flex-direction:row; } }
 </style>
 </head>
 <body>
@@ -32,36 +48,106 @@
   <p id="updated">불러오는 중…</p>
 </header>
 <main>
+  <div class="tabs" id="tabs">
+    <button class="tab on" data-v="open">공고<b id="nOpen"></b></button>
+    <button class="tab" data-v="plan">⭐ 지원예정<b id="nPlan"></b></button>
+    <button class="tab" data-v="hidden">숨긴 공고<b id="nHidden"></b></button>
+  </div>
   <div class="bar">
     <input id="q" placeholder="검색 (예: 미술, 연수구, 주민자치)">
-    <button class="chip" id="hideClosed">마감 지난 공고 숨기기</button>
+    <button class="chip on" id="hideClosed">마감 지난 공고 숨기기</button>
   </div>
   <div class="bar" id="cats"></div>
   <div id="list"></div>
+  <p class="note">⭐ 지원예정·숨기기 표시는 지금 쓰는 이 브라우저에 저장돼요. 다른 기기로 옮기려면
+    <button id="exp">표시 내보내기</button> <button id="imp">가져오기</button></p>
 </main>
+<div class="toast" id="toast"><span id="toastMsg"></span><button id="undo">되돌리기</button></div>
 <script>
+const KEY = 'incheon-alerts-marks-v1';
 const today = new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Seoul'})); today.setHours(0,0,0,0);
-let all = [], cat = '전체', hide = true;
+let all = [], cat = '전체', hide = true, view = 'open', marks = {}, lastUndo = null, toastT;
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const keyOf = p => (p.title || '').replace(/\[[^\]]*공고[^\]]*\]/g, '').replace(/[\s\p{P}\p{S}_]+/gu, '').toLowerCase();
+
+function loadMarks() { try { marks = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { marks = {}; } }
+function saveMarks() { try { localStorage.setItem(KEY, JSON.stringify(marks)); } catch (e) {} }
+function setMark(p, state) {
+  const k = keyOf(p), prev = marks[k] ? {...marks[k]} : null;
+  if (state) marks[k] = {state, title: p.title, at: new Date().toISOString().slice(0,10)}; else delete marks[k];
+  saveMarks();
+  lastUndo = () => { if (prev) marks[k] = prev; else delete marks[k]; saveMarks(); render(); };
+  const msg = state === 'plan' ? '지원예정에 넣었어요' : state === 'hidden' ? '숨겼어요' : '표시를 지웠어요';
+  $('#toastMsg').textContent = msg; $('#toast').style.display = 'block';
+  clearTimeout(toastT); toastT = setTimeout(() => $('#toast').style.display = 'none', 4000);
+  render();
+}
 function dday(d) {
   if (!d) return '';
   const n = Math.round((new Date(d + 'T00:00:00') - today) / 864e5);
   return n === 0 ? 'D-DAY' : n > 0 ? 'D-' + n : '마감';
 }
+function stateOf(p) { return marks[keyOf(p)]?.state || ''; }
+
 function render() {
   const q = $('#q').value.trim();
-  const rows = all.filter(p =>
-    (cat === '전체' || (cat === '내 분야' ? p.mine : p.category === cat)) &&
-    (!hide || !p.deadline || dday(p.deadline) !== '마감') &&
-    (!q || (p.title + p.org + p.via + p.category).includes(q)));
-  $('#list').innerHTML = rows.length ? rows.map(p => `
-    <div class="item">
-      <span class="tag ${p.mine ? 'mine' : ''}">${esc(p.category)}</span>
-      <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>
-      <div class="meta">${esc(p.org)} · 마감 ${esc(p.deadline || '미기재')} <span class="dd">${dday(p.deadline)}</span> · 처음 본 날 ${esc(p.first_seen)} · ${esc(p.via)}</div>
-    </div>`).join('') : '<div class="empty">조건에 맞는 공고가 없어요.</div>';
+  const counts = {open: 0, plan: 0, hidden: 0};
+  all.forEach(p => { const s = stateOf(p); if (s === 'hidden') counts.hidden++; else { counts.open++; if (s === 'plan') counts.plan++; } });
+  $('#nOpen').textContent = counts.open; $('#nPlan').textContent = counts.plan; $('#nHidden').textContent = counts.hidden;
+
+  const rows = all.filter(p => {
+    const s = stateOf(p);
+    if (view === 'open' && s === 'hidden') return false;
+    if (view === 'plan' && s !== 'plan') return false;
+    if (view === 'hidden' && s !== 'hidden') return false;
+    if (cat !== '전체' && (cat === '내 분야' ? !p.mine : p.category !== cat)) return false;
+    if (hide && view !== 'plan' && p.deadline && dday(p.deadline) === '마감') return false;
+    return !q || (p.title + p.org + p.via + p.category + (p.kind || '')).includes(q);
+  });
+  if (view === 'open') rows.sort((a, b) => (stateOf(b) === 'plan') - (stateOf(a) === 'plan'));
+
+  $('#list').innerHTML = rows.length ? rows.map((p, i) => {
+    const s = stateOf(p);
+    return `<div class="item ${s}" data-i="${all.indexOf(p)}">
+      <div class="body">
+        <span class="tag ${p.mine ? 'mine' : ''}">${esc(p.category)}</span>
+        <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>
+        <div class="meta">${esc(p.org)}${p.kind ? ' · ' + esc(p.kind) : ''} · 마감 ${esc(p.deadline || '미기재')} <span class="dd">${dday(p.deadline)}</span> · 처음 본 날 ${esc(p.first_seen)} · ${esc(p.via)}${s && marks[keyOf(p)]?.at ? ' · 표시한 날 ' + esc(marks[keyOf(p)].at) : ''}</div>
+      </div>
+      <div class="acts">
+        ${s === 'hidden'
+          ? `<button class="act" data-a="">다시 보기</button>`
+          : `<button class="act ${s === 'plan' ? 'planOn' : ''}" data-a="${s === 'plan' ? '' : 'plan'}">${s === 'plan' ? '★ 지원예정' : '☆ 지원예정'}</button>
+             <button class="act" data-a="hidden">숨기기</button>`}
+      </div>
+    </div>`;
+  }).join('') : `<div class="empty">${view === 'plan' ? '지원예정으로 표시한 공고가 없어요. 공고 옆 ☆ 지원예정을 눌러 보세요.' : view === 'hidden' ? '숨긴 공고가 없어요.' : '조건에 맞는 공고가 없어요.'}</div>`;
 }
+
+$('#list').addEventListener('click', e => {
+  const b = e.target.closest('button.act'); if (!b) return;
+  const p = all[+b.closest('.item').dataset.i]; setMark(p, b.dataset.a || null);
+});
+$('#tabs').addEventListener('click', e => {
+  const b = e.target.closest('.tab'); if (!b) return; view = b.dataset.v;
+  [...$('#tabs').children].forEach(t => t.classList.toggle('on', t === b)); render();
+});
+$('#undo').onclick = () => { if (lastUndo) lastUndo(); lastUndo = null; $('#toast').style.display = 'none'; };
+$('#q').oninput = render;
+$('#hideClosed').onclick = () => { hide = !hide; $('#hideClosed').classList.toggle('on', hide); render(); };
+$('#exp').onclick = () => {
+  const code = btoa(unescape(encodeURIComponent(JSON.stringify(marks))));
+  try { navigator.clipboard.writeText(code); } catch (e) {}
+  prompt('이 글자를 복사해서 다른 기기의 "가져오기"에 붙여 넣으세요 (클립보드에도 복사됨)', code);
+};
+$('#imp').onclick = () => {
+  const code = prompt('다른 기기에서 내보낸 글자를 붙여 넣으세요'); if (!code) return;
+  try { Object.assign(marks, JSON.parse(decodeURIComponent(escape(atob(code.trim()))))); saveMarks(); render(); alert('가져왔어요'); }
+  catch (e) { alert('형식이 맞지 않아요. 내보내기 글자를 그대로 붙여 넣어 주세요.'); }
+};
+
+loadMarks();
 fetch('data.json?' + Date.now()).then(r => r.json()).then(d => {
   all = d.postings;
   $('#updated').textContent = `마지막 업데이트 ${d.updated} · 공고 ${all.length}건 · 매일 아침 자동 갱신`;
@@ -71,9 +157,6 @@ fetch('data.json?' + Date.now()).then(r => r.json()).then(d => {
     [...$('#cats').children].forEach(b => b.classList.toggle('on', b.dataset.c === cat)); render(); };
   render();
 }).catch(() => { $('#updated').textContent = '아직 데이터가 없어요. 첫 실행 후에 채워져요.'; });
-$('#q').oninput = render;
-$('#hideClosed').classList.add('on');
-$('#hideClosed').onclick = () => { hide = !hide; $('#hideClosed').classList.toggle('on', hide); render(); };
 </script>
 </body>
 </html>
