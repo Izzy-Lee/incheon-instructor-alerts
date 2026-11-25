@@ -1,0 +1,47 @@
+name: 지원예정 첨부 드라이브 저장
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"   # 30분마다
+  workflow_dispatch:
+    inputs:
+      test_urls:
+        description: "시험용: 공고 주소(띄어쓰기로 여러 개). 적으면 업로드 없이 첨부만 찾아 봄"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: attachments
+  cancel-in-progress: false
+
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 라이브러리 설치
+        run: pip install -r requirements.txt
+
+      - name: 첨부 찾기 시험
+        if: ${{ github.event.inputs.test_urls != '' }}
+        env:
+          TEST_URLS: ${{ github.event.inputs.test_urls }}
+        run: python scripts/attachments.py --test $TEST_URLS
+
+      - name: 지원예정 첨부 저장
+        if: ${{ github.event.inputs.test_urls == '' }}
+        env:
+          UPLOAD_TOKEN: ${{ secrets.UPLOAD_TOKEN }}
+        run: |
+          if [ -z "$UPLOAD_TOKEN" ]; then echo "UPLOAD_TOKEN 이 아직 없어요 — 설정 전이라 건너뜀"; exit 0; fi
+          if ! grep -q "script.google.com" docs/config.js; then echo "docs/config.js 에 웹앱 주소가 아직 없어요 — 건너뜀"; exit 0; fi
+          python scripts/attachments.py

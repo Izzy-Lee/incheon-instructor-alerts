@@ -26,6 +26,7 @@
   .body { flex:1; min-width:0; }
   .item a { color:var(--ink); font-weight:600; text-decoration:none; font-size:16px; line-height:1.4; }
   .item a:hover { text-decoration:underline; }
+  .item a.drv { font-size:13px; font-weight:700; color:#b03a57; }
   .meta { color:var(--mute); font-size:13px; margin-top:4px; }
   .tag { display:inline-block; font-size:12px; padding:2px 8px; border-radius:6px; background:#f2f2f2; margin-right:6px; }
   .tag.mine { background:var(--pink); }
@@ -59,9 +60,10 @@
   </div>
   <div class="bar" id="cats"></div>
   <div id="list"></div>
-  <p class="note">⭐ 지원예정·숨기기 표시는 지금 쓰는 이 브라우저에 저장돼요. 다른 기기로 옮기려면
-    <button id="exp">표시 내보내기</button> <button id="imp">가져오기</button></p>
+  <p class="note"><span id="syncNote"></span>
+    <span id="xfer">다른 기기로 옮기려면 <button id="exp">표시 내보내기</button> <button id="imp">가져오기</button></span></p>
 </main>
+<script src="config.js"></script>
 <div class="toast" id="toast"><span id="toastMsg"></span><button id="undo">되돌리기</button></div>
 <script>
 const KEY = 'incheon-alerts-marks-v1';
@@ -71,17 +73,65 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const keyOf = p => (p.title || '').replace(/\[[^\]]*공고[^\]]*\]/g, '').replace(/[\s\p{P}\p{S}_]+/gu, '').toLowerCase();
 
+const API = window.MARKS_API || '', SYNCED = 'incheon-alerts-synced-v1';
+let sync = API ? 'loading' : 'off';
+
 function loadMarks() { try { marks = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { marks = {}; } }
 function saveMarks() { try { localStorage.setItem(KEY, JSON.stringify(marks)); } catch (e) {} }
+function toast(msg, undo) {
+  $('#toastMsg').textContent = msg; $('#undo').style.display = undo ? '' : 'none'; $('#toast').style.display = 'block';
+  clearTimeout(toastT); toastT = setTimeout(() => $('#toast').style.display = 'none', 4000);
+}
+async function post(body) {
+  const r = await fetch(API, {method: 'POST', headers: {'Content-Type': 'text/plain;charset=utf-8'}, body: JSON.stringify(body)});
+  const d = await r.json(); if (!d.ok) throw new Error(d.error || 'fail'); return d;
+}
+function payload(k, m) {
+  return {key: k, state: m ? m.state : '', title: m?.title || '', url: m?.url || '', org: m?.org || '', deadline: m?.deadline || '', at: m?.at || ''};
+}
+function pushMark(k) {
+  if (!API) return;
+  post({action: 'mark', ...payload(k, marks[k])}).catch(() => toast('저장에 실패했어요. 인터넷 연결을 확인하고 다시 눌러 주세요.'));
+}
+// 공용 저장소(구글시트)에서 표시를 읽어 온다. 이 기기에만 있던 예전 표시는 처음 한 번 올려 준다.
+async function syncMarks() {
+  if (!API) return;
+  try {
+    const d = await (await fetch(API + '?action=marks&t=' + Date.now())).json();
+    const server = d.marks || {};
+    let first = false; try { first = !localStorage.getItem(SYNCED); } catch (e) {}
+    if (first) {
+      const up = Object.keys(marks).filter(k => !server[k]);
+      if (up.length) { await post({action: 'marks', items: up.map(k => payload(k, marks[k]))}); up.forEach(k => server[k] = marks[k]); }
+      try { localStorage.setItem(SYNCED, '1'); } catch (e) {}
+      if (up.length) toast(`이 기기의 표시 ${up.length}개를 모든 기기에 공유했어요`);
+    }
+    marks = server; saveMarks(); sync = 'on';
+  } catch (e) { sync = 'fail'; }
+  renderNote(); render();
+}
+function renderNote() {
+  $('#syncNote').innerHTML = sync === 'on'
+    ? '⭐ 지원예정·숨기기 표시는 <b>모든 기기에서 같이</b> 보여요. ⭐ 공고의 첨부(공고문·지원서)는 30분 안에 구글드라이브 「강사지원DB/공고첨부」에 자동 저장돼요.'
+    : sync === 'loading' ? '표시 불러오는 중…'
+    : sync === 'fail' ? '표시를 불러오지 못했어요. 지금은 이 브라우저에 저장된 표시만 보여요.'
+    : '⭐ 지원예정·숨기기 표시는 지금 쓰는 이 브라우저에 저장돼요.';
+}
 function setMark(p, state) {
   const k = keyOf(p), prev = marks[k] ? {...marks[k]} : null;
-  if (state) marks[k] = {state, title: p.title, at: new Date().toISOString().slice(0,10)}; else delete marks[k];
-  saveMarks();
-  lastUndo = () => { if (prev) marks[k] = prev; else delete marks[k]; saveMarks(); render(); };
-  const msg = state === 'plan' ? '지원예정에 넣었어요' : state === 'hidden' ? '숨겼어요' : '표시를 지웠어요';
-  $('#toastMsg').textContent = msg; $('#toast').style.display = 'block';
-  clearTimeout(toastT); toastT = setTimeout(() => $('#toast').style.display = 'none', 4000);
+  if (state) marks[k] = {...(prev || {}), state, title: p.title, url: p.url, org: p.org, deadline: p.deadline, at: new Date().toISOString().slice(0,10)};
+  else delete marks[k];
+  saveMarks(); pushMark(k);
+  lastUndo = () => { if (prev) marks[k] = prev; else delete marks[k]; saveMarks(); pushMark(k); render(); };
+  toast(state === 'plan' ? (API ? '지원예정에 넣었어요 · 첨부는 30분 안에 드라이브로 저장돼요' : '지원예정에 넣었어요') : state === 'hidden' ? '숨겼어요' : '표시를 지웠어요', true);
   render();
+}
+function fileInfo(m) {
+  if (!m || m.state !== 'plan' || !API) return '';
+  if (m.folder) return ` · <a class="drv" href="${esc(m.folder)}" target="_blank" rel="noopener">📁 드라이브에 저장됨</a>`;
+  if (m.saved === '첨부 없음') return ' · 첨부파일 없음';
+  if (m.note && (m.tries || 0) >= 3) return ` · 첨부 저장 실패 (${esc(m.note)})`;
+  return ' · 📎 첨부 저장 대기 중';
 }
 function dday(d) {
   if (!d) return '';
@@ -113,7 +163,7 @@ function render() {
       <div class="body">
         <span class="tag ${p.mine ? 'mine' : ''}">${esc(p.category)}</span>
         <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>
-        <div class="meta">${esc(p.org)}${p.kind ? ' · ' + esc(p.kind) : ''} · 마감 ${esc(p.deadline || '미기재')} <span class="dd">${dday(p.deadline)}</span> · 처음 본 날 ${esc(p.first_seen)} · ${esc(p.via)}${s && marks[keyOf(p)]?.at ? ' · 표시한 날 ' + esc(marks[keyOf(p)].at) : ''}</div>
+        <div class="meta">${esc(p.org)}${p.kind ? ' · ' + esc(p.kind) : ''} · 마감 ${esc(p.deadline || '미기재')} <span class="dd">${dday(p.deadline)}</span> · 처음 본 날 ${esc(p.first_seen)} · ${esc(p.via)}${s && marks[keyOf(p)]?.at ? ' · 표시한 날 ' + esc(marks[keyOf(p)].at) : ''}${fileInfo(marks[keyOf(p)])}</div>
       </div>
       <div class="acts">
         ${s === 'hidden'
@@ -143,11 +193,13 @@ $('#exp').onclick = () => {
 };
 $('#imp').onclick = () => {
   const code = prompt('다른 기기에서 내보낸 글자를 붙여 넣으세요'); if (!code) return;
-  try { Object.assign(marks, JSON.parse(decodeURIComponent(escape(atob(code.trim()))))); saveMarks(); render(); alert('가져왔어요'); }
+  try { const got = JSON.parse(decodeURIComponent(escape(atob(code.trim())))); Object.assign(marks, got); saveMarks();
+    if (API) post({action: 'marks', items: Object.keys(got).map(k => payload(k, marks[k]))}).catch(() => {});
+    render(); alert('가져왔어요'); }
   catch (e) { alert('형식이 맞지 않아요. 내보내기 글자를 그대로 붙여 넣어 주세요.'); }
 };
 
-loadMarks();
+loadMarks(); renderNote();
 fetch('data.json?' + Date.now()).then(r => r.json()).then(d => {
   all = d.postings;
   $('#updated').textContent = `마지막 업데이트 ${d.updated} · 공고 ${all.length}건 · 매일 아침 자동 갱신`;
@@ -155,7 +207,7 @@ fetch('data.json?' + Date.now()).then(r => r.json()).then(d => {
   $('#cats').innerHTML = cats.map(c => `<button class="chip ${c === cat ? 'on' : ''}" data-c="${esc(c)}">${esc(c)}</button>`).join('');
   $('#cats').onclick = e => { if (!e.target.dataset.c) return; cat = e.target.dataset.c;
     [...$('#cats').children].forEach(b => b.classList.toggle('on', b.dataset.c === cat)); render(); };
-  render();
+  render(); syncMarks();
 }).catch(() => { $('#updated').textContent = '아직 데이터가 없어요. 첫 실행 후에 채워져요.'; });
 </script>
 </body>
