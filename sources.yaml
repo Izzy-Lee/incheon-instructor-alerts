@@ -20,7 +20,8 @@
   name: 나라일터
   type: gojobs
   url: https://www.gojobs.go.kr/apmList.do?menuNo=401
-  region: 인천          # 기관명이나 제목에 이 단어가 있는 것만
+  # 인천에서 30분 안쪽 지역만: 기관명이나 제목에 아래 단어가 있는 것
+  region: [인천, 부천, 김포, 시흥, 강서구, 양천구, 구로구]
   keywords: [강사, 방과후, 프로그램]
   pages: 10             # 검색어마다 최근 몇 페이지(1페이지=10건)를 볼지
 
@@ -127,3 +128,16 @@
   url: https://www.incheon.go.kr/wiw/WIW030101
 
 # 미추홀종합사회복지관(michu.or.kr)은 홈페이지 주소가 바뀌어 예전 게시판이 열리지 않음 — 새 게시판 주소를 찾으면 추가
+
+# ---- 2차 추가 (구글시트 '유사 공고 100' 중 인천 30분 거리 이내) ----
+- id: incheon-gosi
+  name: 인천시 고시공고(강사)
+  org: 인천광역시
+  type: links
+  url: https://www.incheon.go.kr/IC010307?srchTitle=%EA%B0%95%EC%82%AC
+
+- id: yangcheon-50plus
+  name: 양천50플러스센터 공지
+  org: 양천50플러스센터
+  type: links
+  url: https://www.50plus.or.kr/ycp/notice.do

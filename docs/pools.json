@@ -1,0 +1,8 @@
+{
+  "note": "공고가 따로 안 뜨고, 미리 등록해 두면 기관이 연락하는 강사 인력풀이에요. 한 번씩 등록해 두세요.",
+  "pools": [
+    {"name": "미추홀구 평생학습관 강사찾기(강사 등록)", "area": "인천 미추홀", "url": "https://www.michuhol.go.kr/lll/teacher_search/list.do"},
+    {"name": "인천교육청 학교지원단 강사 인력풀 등록", "area": "인천", "url": "https://edus.ice.go.kr/edusupport/program/0000-0049-0145/administrationManpowerPool/list04.do"},
+    {"name": "연수구 평생교육센터 강사은행 등록", "area": "인천 연수", "url": "https://www.yeonsu.go.kr/lll/"}
+  ]
+}

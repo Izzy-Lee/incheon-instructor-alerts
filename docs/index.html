@@ -45,6 +45,9 @@
   .toast { position:fixed; left:50%; bottom:24px; transform:translateX(-50%); background:var(--ink); color:#fff; padding:10px 16px; border-radius:999px; font-size:14px; display:none; }
   .toast button { background:none; border:0; color:var(--pink); font-weight:700; margin-left:10px; cursor:pointer; font-size:14px; }
   @media (max-width:560px) { .item { flex-direction:column; } .acts { flex-direction:row; } }
+  .pools { margin-top:28px; border:1px solid var(--line); border-radius:10px; padding:10px 14px; }
+  .pools summary { cursor:pointer; font-weight:700; }
+  .pools li { margin:6px 0; } .pools a { color:var(--ink); }
 </style>
 </head>
 <body>
@@ -68,6 +71,11 @@
   <div id="list"></div>
   <p class="note"><span id="syncNote"></span>
     <span id="xfer">다른 기기로 옮기려면 <button id="exp">표시 내보내기</button> <button id="imp">가져오기</button></span></p>
+  <details class="pools" id="pools" style="display:none">
+    <summary>📌 상시 강사풀 등록처 (공고 없이 미리 등록)</summary>
+    <p class="note" id="poolsNote"></p>
+    <ul id="poolsList"></ul>
+  </details>
 </main>
 <script src="config.js"></script>
 <div class="toast" id="toast"><span id="toastMsg"></span><button id="undo">되돌리기</button></div>
@@ -227,6 +235,12 @@ $('#imp').onclick = () => {
 };
 
 loadMarks(); renderNote();
+fetch('pools.json?' + Date.now()).then(r => r.json()).then(d => {
+  const esc2 = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  document.getElementById('poolsNote').textContent = d.note || '';
+  document.getElementById('poolsList').innerHTML = d.pools.map(p => `<li><a href="${esc2(p.url)}" target="_blank" rel="noopener">${esc2(p.name)}</a> · ${esc2(p.area)}</li>`).join('');
+  document.getElementById('pools').style.display = '';
+}).catch(() => {});
 fetch('data.json?' + Date.now()).then(r => r.json()).then(d => {
   all = d.postings;
   $('#updated').textContent = `마지막 업데이트 ${d.updated} · 공고 ${all.length}건 · 매일 아침 자동 갱신`;

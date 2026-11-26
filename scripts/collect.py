@@ -142,8 +142,20 @@ def parse_links(src):
         if len(text) < 6:
             continue
         row = a.find_parent(["tr", "li"])
-        if row is None:
-            continue
+        if row is None:  # 표·목록이 아닌 카드형(div) 게시판: 날짜가 보이는 가까운 상자까지 올라감
+            row = a
+            for _ in range(3):
+                row = row.parent
+                if row is None:
+                    break
+                t = row.get_text(" ")
+                if len(t) > 400:
+                    row = None
+                    break
+                if DATE_RE.search(t) or SHORT_DATE_RE.search(t):
+                    break
+            if row is None:
+                continue
         row_text = clean(row.get_text(" "))
         if not (DATE_RE.search(row_text) or SHORT_DATE_RE.search(row_text)) or len(row_text) > 400:
             continue
@@ -187,7 +199,9 @@ def parse_gojobs(src):
                 if len(cells) < 5:
                     continue
                 title, org = clean(a.get_text(" ")), cells[2]
-                if src.get("region", "인천") not in (org + title):
+                regions = src.get("region", "인천")
+                regions = regions if isinstance(regions, list) else [regions]
+                if not any(r in (org + title) for r in regions):
                     continue
                 m = re.search(r"'(\d+)'\s*,\s*'(\d+)'", a.get("href", ""))
                 url = (
