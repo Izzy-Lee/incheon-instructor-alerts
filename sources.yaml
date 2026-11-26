@@ -85,8 +85,8 @@
 - id: michuholnoin
   name: 미추홀노인복지관 공지
   org: 미추홀노인복지관
-  type: links
-  url: https://www.michuholnoin.or.kr/bbs/board.php?bo_table=notice
+  type: rss
+  url: https://www.michuholnoin.or.kr/bbs/rss.php?bo_table=notice
 
 - id: yeonsu-lll
   name: 연수구 평생학습 강사모집
@@ -106,11 +106,7 @@
   type: links
   url: https://www.sunhakwc.or.kr/bbs_shop/list.htm?board_code=board2
 
-- id: icwelfare
-  name: 인천종합사회복지관 공지
-  org: 인천종합사회복지관
-  type: links
-  url: https://icwelfare.or.kr/main/sub.html?boardID=www25
+# 인천종합사회복지관(icwelfare.or.kr) 게시판은 주소가 바뀌어 404 — 새 주소를 찾으면 추가
 
 - id: incheon-womens-plaza
   name: 인천 여성의광장 공지

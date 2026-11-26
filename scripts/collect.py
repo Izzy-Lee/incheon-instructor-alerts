@@ -82,6 +82,7 @@ def to_date(s: str | None):
 
 def clean(s: str) -> str:
     s = re.sub(r"\s+", " ", s or "").strip()
+    s = re.sub(r"^(공지|NOTICE)\s+", "", s)
     for junk in ("새로운 글", "NEW", "첨부파일"):
         s = s.replace(junk, " ")
     return re.sub(r"\s+", " ", s).strip()
@@ -240,7 +241,32 @@ def parse_ice(src):
     return out
 
 
-PARSERS = {"platform": parse_platform, "links": parse_links, "gojobs": parse_gojobs, "ice": parse_ice}
+def parse_rss(src):
+    """RSS 피드 (그누보드 게시판 등)."""
+    soup = BeautifulSoup(fetch(src["url"]), "html.parser")
+    out = []
+    for item in soup.find_all("item"):
+        title = clean(item.find("title").get_text(" ")) if item.find("title") else ""
+        link_tag = item.find("link")
+        link = (link_tag.get_text(strip=True) or (link_tag.next_sibling or "").strip()) if link_tag else src["url"]
+        date_tag = item.find(["pubdate", "dc:date", "date"])
+        posted = None
+        if date_tag:
+            raw = date_tag.get_text(" ", strip=True)
+            d = to_date(raw)
+            if not d:
+                try:
+                    from email.utils import parsedate_to_datetime
+                    d = parsedate_to_datetime(raw).astimezone(KST).date()
+                except Exception:  # noqa: BLE001
+                    d = None
+            posted = d.isoformat() if d else None
+        out.append({"title": title, "org": src.get("org") or src["name"], "via": src["name"],
+                    "url": link or src["url"], "posted": posted, "deadline": None})
+    return out
+
+
+PARSERS = {"platform": parse_platform, "links": parse_links, "gojobs": parse_gojobs, "ice": parse_ice, "rss": parse_rss}
 
 
 # ---------- 분류 ----------

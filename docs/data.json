@@ -98,11 +98,6 @@
    "hits": 0
   },
   {
-   "name": "인천종합사회복지관 공지",
-   "ok": false,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://icwelfare.or.kr/main/sub.html?boardID=www25"
-  },
-  {
    "name": "인천 여성의광장 공지",
    "ok": true,
    "total": 19,
@@ -751,19 +746,7 @@
    "last_seen": "2026-11-26"
   },
   {
-   "title": "[모집] 특강 - 영상검사와 AI의 융합 건강강좌 모집 ~11/3(화)",
-   "org": "숭의종합사회복지관",
-   "via": "숭의종합사회복지관 공지",
-   "url": "https://sewel.or.kr/post/notice/1572",
-   "posted": "2026-10-13",
-   "deadline": null,
-   "category": "주민자치·평생교육",
-   "mine": false,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26"
-  },
-  {
-   "title": "공지 2027년 인천광역시 여성의광장 교육강사 공개모집(추가) 공고",
+   "title": "2027년 인천광역시 여성의광장 교육강사 공개모집(추가) 공고",
    "org": "인천여성의광장",
    "via": "인천 여성의광장 공지",
    "url": "https://www.incheon.go.kr/wp/WP020101/3094773",
@@ -775,7 +758,7 @@
    "last_seen": "2026-11-26"
   },
   {
-   "title": "공지 2027년 인천광역시 여성의광장 교육강사 공개모집 공고",
+   "title": "2027년 인천광역시 여성의광장 교육강사 공개모집 공고",
    "org": "인천여성의광장",
    "via": "인천 여성의광장 공지",
    "url": "https://www.incheon.go.kr/wp/WP020101/3094725",
@@ -816,18 +799,6 @@
    "via": "인천 여성복지관 알림",
    "url": "https://www.incheon.go.kr/wwc/WC030101/3092923",
    "posted": "2026-10-30",
-   "deadline": null,
-   "category": "주민자치·평생교육",
-   "mine": false,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26"
-  },
-  {
-   "title": "2026년 제4기 사회교육 강의 폐강 안내(한식조리기능사(야간), 바리스타커피2급과 핸드드립(주말),나는 초보요리사)",
-   "org": "인천여성복지관",
-   "via": "인천 여성복지관 알림",
-   "url": "https://www.incheon.go.kr/wwc/WC030101/3090677",
-   "posted": "2026-10-12",
    "deadline": null,
    "category": "주민자치·평생교육",
    "mine": false,
