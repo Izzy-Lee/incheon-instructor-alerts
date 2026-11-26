@@ -95,7 +95,7 @@ function clip_(s, n) { return String(s || '').slice(0, n); }
 /** 표시 저장. state 가 비어 있으면 표시 지움. 이미 받은 첨부 기록(saved/folder)은 그대로 둔다. */
 function mark_(b) {
   if (!b.key) return { ok: false, error: 'key' };
-  if (b.state && b.state !== 'plan' && b.state !== 'hidden') return { ok: false, error: 'state' };
+  if (b.state && ['plan', 'applied', 'hidden'].indexOf(b.state) < 0) return { ok: false, error: 'state' };
   const sh = sheet_();
   const r = rows_().find(x => x.key === b.key);
   const at = clip_(b.at, 10) || Utilities.formatDate(new Date(), 'Asia/Seoul', 'yyyy-MM-dd');
@@ -124,7 +124,7 @@ function pull() {
     Object.keys(index).forEach(id => {
       const it = index[id];
       const r = rows.find(x => x.key === it.key);
-      if (!r || r.state !== 'plan' || r.saved) return;
+      if (!r || (r.state !== 'plan' && r.state !== 'applied') || r.saved) return;
       if (it.status === 'ready') {
         const name = String(it.folderName || r.title || it.key).replace(/[\\/:*?"<>|]/g, ' ').slice(0, 120);
         const folder = findOrCreate_(root, name);
