@@ -6,6 +6,7 @@ sources.yaml 의 사이트를 읽어 강사 공고만 골라 data/postings.json 
 from __future__ import annotations
 
 import hashlib
+import os
 import json
 import re
 import sys
@@ -174,6 +175,10 @@ def _parse_links_page(src, seen):
             continue
         href = a.get("href", "") or ""
         link = src["url"] if (not href or href.startswith(("javascript", "#"))) else urljoin(src["url"], href)
+        if src.get("detail") and link == src["url"]:
+            mm = re.search(r"(\d{3,})", href + " " + (a.get("onclick") or ""))
+            if mm:
+                link = src["detail"].format(id=mm[1])
         key = norm_title(text)
         if key in seen:
             continue
@@ -189,7 +194,9 @@ def _parse_links_page(src, seen):
                 "via": src["name"],
                 "url": link,
                 "posted": dates[0].isoformat() if dates else None,
-                "deadline": to_date(rng[2]).isoformat() if rng and to_date(rng[2]) else None,
+                "deadline": (to_date(rng[2]).isoformat() if rng and to_date(rng[2]) else
+                             (to_date(dm[1]).isoformat() if (dm := re.search(r"마감\S*\s*(20\d\d[-./]\d{1,2}[-./]\d{1,2})", row_text)) else None)),
+                "extra": row_text,
             }
         )
     return out
@@ -362,7 +369,8 @@ PARSERS = {"zighang": parse_zighang, "eminwon": parse_eminwon, "platform": parse
 # ---------- 분류 ----------
 def classify(item, kw):
     t = item["title"]
-    if any(x in t for x in kw["exclude"]):
+    t_ex = t + " " + item.get("extra", "") if kw.get("exclude_in_row") else t
+    if any(x in t_ex for x in kw["exclude"]):
         return None
     kind = item.get("kind", "")
     if not any(x in t for x in kw["include"]) and not any(x in kind for x in kw.get("include_kinds", [])):
@@ -396,10 +404,21 @@ def line(p):
 
 
 # ---------- 메인 ----------
+PROFILES = {
+    "instructors": dict(sources="sources.yaml", keywords="keywords.yaml", db="data/postings.json", reports="reports",
+                        page_data="docs/data.json", out="out", prefix="[인천 강사공고]",
+                        heading="인천 강사 구인공고 일일 요약", mine_label="🎨 내 분야 (미술·공예)"),
+    "grants": dict(sources="grants/sources.yaml", keywords="grants/keywords.yaml", db="data/grants.json", reports="reports/grants",
+                   page_data="docs/grants.json", out="out/grants", prefix="[지원사업 공고]",
+                   heading="인천 지원사업·공모 일일 요약", mine_label="⭐ 잘 맞는 분야"),
+}
+PROFILE = PROFILES[os.environ.get("PROFILE", "instructors")]
+
+
 def main():
-    sources = load_yaml("sources.yaml")
-    kw = load_yaml("keywords.yaml")
-    db_path = ROOT / "data" / "postings.json"
+    sources = load_yaml(PROFILE["sources"])
+    kw = load_yaml(PROFILE["keywords"])
+    db_path = ROOT / PROFILE["db"]
     db = json.loads(db_path.read_text(encoding="utf-8")) if db_path.exists() else {}
     first_run = not db
 
@@ -422,6 +441,7 @@ def main():
                 ps = to_date(it.get("posted"))
                 if not dl and ps and (TODAY - ps).days > 45:  # 마감일 모르는 오래된 글은 건너뜀
                     continue
+                it.pop("extra", None)
                 hits += 1
                 it["category"], it["mine"] = cat["name"], bool(cat.get("mine"))
                 pid = make_id(it["title"])
@@ -465,16 +485,16 @@ def main():
     mine = [p for p in db.values() if p["mine"] and (not to_date(p.get("deadline")) or to_date(p["deadline"]) >= TODAY)]
 
     ok = sum(s["ok"] for s in status)
-    title = f"[인천 강사공고] {TODAY.month}/{TODAY.day}({WEEK[TODAY.weekday()]}) 신규 {len(new)}건 · 마감임박 {len(urgent)}건"
+    title = f"{PROFILE['prefix']} {TODAY.month}/{TODAY.day}({WEEK[TODAY.weekday()]}) 신규 {len(new)}건 · 마감임박 {len(urgent)}건"
     md = [
-        f"## 인천 강사 구인공고 일일 요약 — {today} ({WEEK[TODAY.weekday()]})",
+        f"## {PROFILE['heading']} — {today} ({WEEK[TODAY.weekday()]})",
         "",
         f"신규 {len(new)}건 · 마감 임박 {len(urgent)}건 · 변경 {len(changed)}건 · 수집 소스 {ok}/{len(status)} 정상",
         "",
     ]
     if first_run:
         md += ["> 첫 실행이라 지금 올라와 있는 공고가 모두 신규로 잡혔어요. 내일부터는 새로 올라온 것만 나와요.", ""]
-    md += ["### 🎨 내 분야 (미술·공예)", ""]
+    md += [f"### {PROFILE['mine_label']}", ""]
     md += [line(p) for p in sorted(mine, key=lambda p: p.get("deadline") or "9999")] or ["없음"]
     md += ["", f"### ⏰ 마감 임박 ({URGENT_DAYS}일 이내)", ""]
     md += [line(p) for p in urgent] or ["없음"]
@@ -490,12 +510,12 @@ def main():
     md += ["", f"실행 시각 {NOW.strftime('%H:%M')} KST"]
     body = "\n".join(md)
 
-    (ROOT / "data").mkdir(exist_ok=True)
+    db_path.parent.mkdir(parents=True, exist_ok=True)
     db_path.write_text(json.dumps(db, ensure_ascii=False, indent=1), encoding="utf-8")
-    (ROOT / "reports").mkdir(exist_ok=True)
-    (ROOT / "reports" / f"{today}.md").write_text(f"# {title}\n\n{body}\n", encoding="utf-8")
+    (ROOT / PROFILE["reports"]).mkdir(parents=True, exist_ok=True)
+    (ROOT / PROFILE["reports"] / f"{today}.md").write_text(f"# {title}\n\n{body}\n", encoding="utf-8")
     (ROOT / "docs").mkdir(exist_ok=True)
-    (ROOT / "docs" / "data.json").write_text(
+    (ROOT / PROFILE["page_data"]).write_text(
         json.dumps(
             {"updated": NOW.strftime("%Y-%m-%d %H:%M"), "status": status, "postings": sorted(db.values(), key=lambda p: p.get("deadline") or "9999")},
             ensure_ascii=False,
@@ -503,8 +523,8 @@ def main():
         ),
         encoding="utf-8",
     )
-    out = ROOT / "out"
-    out.mkdir(exist_ok=True)
+    out = ROOT / PROFILE["out"]
+    out.mkdir(parents=True, exist_ok=True)
     (out / "issue_title.txt").write_text(title, encoding="utf-8")
     (out / "issue.md").write_text(body, encoding="utf-8")
     (out / "should_post").write_text("yes" if (new or urgent or changed) else "no")

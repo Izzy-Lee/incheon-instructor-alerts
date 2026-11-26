@@ -1,0 +1,64 @@
+# 지원사업·공모 공고를 확인할 사이트 (기존 Claude 예약 '지원사업 공고 알림 9개 사이트'를 옮겨 옴)
+- id: ito
+  name: 인천관광공사 공지사항
+  org: 인천관광공사
+  type: links
+  url: https://www.ito.or.kr/main/board/notice.jsp
+
+- id: inckl
+  name: 인천콘텐츠코리아랩 공지
+  org: 인천콘텐츠코리아랩
+  type: links
+  url: https://www.inckl.or.kr/user/board/list.do?board_id=notice
+
+- id: itp
+  name: 인천테크노파크 지원사업
+  org: 인천테크노파크
+  type: links
+  url: https://www.itp.or.kr/intro.asp?tmid=13
+
+- id: dreampark
+  name: 드림파크문화재단 알림마당
+  org: 드림파크문화재단
+  type: links
+  url: https://www.dreamparkcf.com/sub/board.php?mn=notice&fn=board&md=l&zest_bn=hana_board_19&bn=hana_board_19&page=1
+
+- id: tourbiz
+  name: 인천관광기업지원센터 공지
+  org: 인천관광기업지원센터
+  type: links
+  url: https://tourbiz.ito.or.kr/info/notice
+
+- id: kstartup
+  name: K-Startup 모집중 공고
+  org: K-Startup
+  type: links
+  url: https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do
+  urls:
+    - https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do
+    - https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?page=2
+  detail: https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn={id}
+
+- id: ifac-notice
+  name: 인천문화재단 재단소식
+  org: 인천문화재단
+  type: links
+  url: https://ifac.or.kr/bbs/list.do?key=m2501152808232
+
+- id: ifac-support
+  name: 인천문화재단 지원사업 공고
+  org: 인천문화재단
+  type: links
+  url: https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255
+
+- id: ifac-other
+  name: 인천문화재단 타 기관 지원사업
+  org: 인천 문화기관
+  type: links
+  url: https://ifac.or.kr/bbs/list.do?key=m2501152808367
+
+- id: michu-lib
+  name: 미추홀구립도서관 공지
+  org: 미추홀구립도서관
+  type: links
+  url: https://hnrl.michu.incheon.kr/mchglib/hp/open/notice/noticeList.do

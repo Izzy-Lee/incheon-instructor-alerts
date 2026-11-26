@@ -31,11 +31,17 @@ jobs:
       - name: 공고 수집
         run: python scripts/collect.py
 
+      - name: 지원사업 공고 수집
+        continue-on-error: true
+        env:
+          PROFILE: grants
+        run: python scripts/collect.py
+
       - name: 결과 저장
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data reports docs/data.json
+          git add data reports docs/data.json docs/grants.json
           git diff --cached --quiet || git commit -m "공고 업데이트 $(TZ=Asia/Seoul date +%F)"
           for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done
           exit 1
@@ -53,4 +59,20 @@ jobs:
             --title "$(cat out/issue_title.txt)" \
             --body "$BODY" \
             --label "공고" \
+            --assignee "${{ github.repository_owner }}"
+
+      - name: 지원사업 이슈로 알림
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -f out/grants/should_post ] || [ "$(cat out/grants/should_post)" != "yes" ]; then echo "새 지원사업 없음"; exit 0; fi
+          gh label create "지원사업" --color 1A1A1A --description "지원사업·공모 일일 요약" 2>/dev/null || true
+          BODY="$(cat out/grants/issue.md)
+
+          전체 목록: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/grants.html"
+          gh issue create \
+            --title "$(cat out/grants/issue_title.txt)" \
+            --body "$BODY" \
+            --label "지원사업" \
             --assignee "${{ github.repository_owner }}"
