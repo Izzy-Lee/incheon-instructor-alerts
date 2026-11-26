@@ -1,23 +1,23 @@
 {
- "updated": "2026-11-26 09:49",
+ "updated": "2026-11-26 11:55",
  "status": [
   {
    "name": "인천일자리플랫폼 공공채용",
    "ok": true,
-   "total": 129,
+   "total": 140,
    "hits": 6
   },
   {
    "name": "인천광역시교육청 채용공고",
    "ok": true,
    "total": 200,
-   "hits": 58
+   "hits": 66
   },
   {
    "name": "나라일터",
    "ok": true,
-   "total": 35,
-   "hits": 6
+   "total": 37,
+   "hits": 8
   },
   {
    "name": "미추홀구 채용공고",
@@ -52,7 +52,7 @@
   {
    "name": "검단구 채용공고",
    "ok": true,
-   "total": 10,
+   "total": 9,
    "hits": 0
   },
   {
@@ -70,7 +70,7 @@
   {
    "name": "옹진군 채용공고",
    "ok": true,
-   "total": 9,
+   "total": 10,
    "hits": 0
   },
   {
@@ -94,7 +94,7 @@
   {
    "name": "선학종합사회복지관 채용",
    "ok": true,
-   "total": 11,
+   "total": 12,
    "hits": 0
   },
   {
@@ -125,6 +125,42 @@
    "name": "양천50플러스센터 공지",
    "ok": true,
    "total": 7,
+   "hits": 0
+  },
+  {
+   "name": "인천사회복지사협회 구인정보",
+   "ok": true,
+   "total": 21,
+   "hits": 0
+  },
+  {
+   "name": "미추홀구 고시공고",
+   "ok": true,
+   "total": 10,
+   "hits": 0
+  },
+  {
+   "name": "미추홀구 동 주민자치센터 소식",
+   "ok": true,
+   "total": 205,
+   "hits": 3
+  },
+  {
+   "name": "미추홀구 평생학습관 공지",
+   "ok": true,
+   "total": 10,
+   "hits": 0
+  },
+  {
+   "name": "검단구 고시공고",
+   "ok": true,
+   "total": 50,
+   "hits": 0
+  },
+  {
+   "name": "제물포구 평생학습관 소식",
+   "ok": true,
+   "total": 10,
    "hits": 0
   }
  ],
@@ -472,6 +508,20 @@
    "last_seen": "2026-11-26"
   },
   {
+   "title": "학교폭력책임교사 시수경감을 위한 음악전담 시간강사 채용 공고(1차)",
+   "org": "인천용현남초등학교",
+   "kind": "시간강사",
+   "status": "모집중",
+   "via": "인천광역시교육청 채용공고",
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389680",
+   "posted": "2026-11-26",
+   "deadline": "2026-11-29",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
    "title": "인천송림초등학교 계약제교원(보건교사 종일제 강사) 1차 채용 공고",
    "org": "인천광역시교육청 인천광역시남부교육지원청 인천송림초등학교",
    "via": "인사혁신처-나라일터",
@@ -568,6 +618,32 @@
    "last_seen": "2026-11-26"
   },
   {
+   "title": "2026학년도 신송고등학고 계약제 교원(시간강사) 채용",
+   "org": "신송고등학교",
+   "kind": "시간강사",
+   "status": "모집중",
+   "via": "인천광역시교육청 채용공고",
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389638",
+   "posted": "2026-11-26",
+   "deadline": "2026-11-30",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "2026학년도 신송고등학교 계약제 교원(시간강사) 채용 계획",
+   "org": "인천광역시교육청 신송고등학교",
+   "via": "나라일터",
+   "url": "https://www.gojobs.go.kr/apmView.do?menuNo=401&searchJobsecode=020&empmnsn=400596",
+   "posted": "2026-11-26",
+   "deadline": "2026-11-30",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
    "title": "2026학년도 강화중학교 국어 시간강사 채용 공고",
    "org": "인천광역시교육청 인천광역시강화교육지원청 강화중학교",
    "via": "인사혁신처-나라일터, 인천광역시교육청 채용공고",
@@ -622,6 +698,32 @@
    "last_seen": "2026-11-26"
   },
   {
+   "title": "계양고등학교 계약제교원(시간강사)-지구과학 채용 공고",
+   "org": "계양고등학교",
+   "kind": "시간강사",
+   "status": "모집중",
+   "via": "인천광역시교육청 채용공고",
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389637",
+   "posted": "2026-11-26",
+   "deadline": "2026-12-01",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "계양고등학교 계약제교원(시간강사)-지구과학 1명",
+   "org": "인천광역시교육청 계양고등학교",
+   "via": "나라일터",
+   "url": "https://www.gojobs.go.kr/apmView.do?menuNo=401&searchJobsecode=020&empmnsn=400608",
+   "posted": "2026-11-26",
+   "deadline": "2026-12-01",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
    "title": "마곡안전체험관 교육강사(기간제 근로자) 채용 공고",
    "org": "서울특별시 강서구 안전교통국 안전체험관",
    "via": "나라일터",
@@ -648,6 +750,48 @@
    "last_seen": "2026-11-26"
   },
   {
+   "title": "2026학년도 인천효성고 시간강사 채용 공고(국어)",
+   "org": "인천효성고등학교",
+   "kind": "시간강사",
+   "status": "모집중",
+   "via": "인천광역시교육청 채용공고",
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389656",
+   "posted": "2026-11-26",
+   "deadline": "2026-12-04",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "2027학년도 인천성리초등학교 돌봄교실 특기적성 프로그램 강사 채용 공고",
+   "org": "인천성리초등학교",
+   "kind": "돌봄",
+   "status": "대기중",
+   "via": "인천광역시교육청 채용공고",
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389635",
+   "posted": "2026-11-26",
+   "deadline": "2026-12-04",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "2026학년도 인천한빛초등학교병설유치원 방과후 과정 강사(기간제) 채용 공고",
+   "org": "인천한빛초등학교병설유치원",
+   "kind": "방과후강사",
+   "status": "대기중",
+   "via": "인천광역시교육청 채용공고",
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389655",
+   "posted": "2026-11-26",
+   "deadline": "2026-12-08",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
    "title": "[긴급]2026 구월중학교 계약제교원(시간강사-특수) 채용 계획 공고(2차)",
    "org": "구월중학교",
    "kind": "시간강사",
@@ -664,7 +808,7 @@
   {
    "title": "주안4동 주민자치센터 프로그램 강사 모집 공고",
    "org": "미추홀구",
-   "via": "미추홀구 채용공고",
+   "via": "미추홀구 채용공고, 미추홀구 동 주민자치센터 소식",
    "url": "https://www.michuhol.go.kr/main/board/view.do?sq=363555&board_code=job_noti&search=eyJib2FyZF9jb2RlIjoiam9iX25vdGkifQ==",
    "posted": "2026-11-24",
    "deadline": null,
@@ -846,6 +990,30 @@
    "org": "인천광역시",
    "via": "인천시 고시공고(강사)",
    "url": "https://www.incheon.go.kr/IC010307/view?sno=68412&gosigbn=A&curPage=1&srchTitle=%EA%B0%95%EC%82%AC",
+   "posted": "2026-11-11",
+   "deadline": null,
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "2027년 용현5동 주민자치센터 프로그램 강사 모집 공고",
+   "org": "미추홀구 주민자치센터",
+   "via": "미추홀구 동 주민자치센터 소식",
+   "url": "https://www.michuhol.go.kr/dongoffice/board/view.do?sq=356686&board_code=board_77&dept_sq=292&search=eyJkZXB0X3NxIjoiMjkyIiwiYm9hcmRfY29kZSI6ImJvYXJkXzc3In0=",
+   "posted": "2026-11-17",
+   "deadline": null,
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "학익2동 주민자치센터 어린이발레 프로그램 강사 모집 공고",
+   "org": "미추홀구 주민자치센터",
+   "via": "미추홀구 동 주민자치센터 소식",
+   "url": "https://www.michuhol.go.kr/dongoffice/board/view.do?sq=351014&board_code=board_77&dept_sq=314&search=eyJkZXB0X3NxIjoiMzE0IiwiYm9hcmRfY29kZSI6ImJvYXJkXzc3In0=",
    "posted": "2026-11-11",
    "deadline": null,
    "category": "주민자치·평생교육",
