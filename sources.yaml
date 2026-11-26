@@ -85,8 +85,8 @@
 - id: michuholnoin
   name: 미추홀노인복지관 공지
   org: 미추홀노인복지관
-  type: rss
-  url: https://www.michuholnoin.or.kr/bbs/rss.php?bo_table=notice
+  type: links   # 해외 서버(GitHub)에서 읽으면 목록이 비어 옴 — 막힘이 풀리면 자동으로 잡힘
+  url: https://www.michuholnoin.or.kr/bbs/board.php?bo_table=notice
 
 - id: yeonsu-lll
   name: 연수구 평생학습 강사모집
