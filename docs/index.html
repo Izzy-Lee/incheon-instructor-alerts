@@ -94,7 +94,9 @@ function payload(k, m) {
 }
 function pushMark(k) {
   if (!API) return;
-  post({action: 'mark', ...payload(k, marks[k])}).catch(() => toast('저장에 실패했어요. 인터넷 연결을 확인하고 다시 눌러 주세요.'));
+  const send = () => post({action: 'mark', ...payload(k, marks[k])});
+  send().catch(() => setTimeout(() => send().catch(() => setTimeout(() => send().catch(() =>
+    toast('저장에 실패했어요. 인터넷 연결을 확인하고 다시 눌러 주세요.')), 8000)), 3000));
 }
 // 공용 저장소(구글시트)에서 표시를 읽어 온다. 이 기기에만 있던 예전 표시는 처음 한 번 올려 준다.
 async function syncMarks() {

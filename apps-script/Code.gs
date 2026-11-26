@@ -115,8 +115,7 @@ function pull() {
   const res = UrlFetchApp.fetch(raw + 'index.json?t=' + Date.now(), { muteHttpExceptions: true });
   if (res.getResponseCode() !== 200) return;
   const index = JSON.parse(res.getContentText());
-  const lock = LockService.getScriptLock();
-  lock.waitLock(30000);
+  const lock = { releaseLock() {} }; // 파일 옮기는 동안 ⭐ 저장이 막히지 않게 잠금 없이
   try {
     const sh = sheet_();
     const rows = rows_();
