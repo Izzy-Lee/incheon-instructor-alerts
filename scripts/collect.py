@@ -409,7 +409,10 @@ def main():
         try:
             items = PARSERS[src["type"]](src)
             hits = 0
+            src_ex = src.get("exclude") or []
             for it in items:
+                if any(x in it["title"] for x in src_ex):
+                    continue
                 cat = classify(it, kw)
                 if not cat:
                     continue
