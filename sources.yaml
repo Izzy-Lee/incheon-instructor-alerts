@@ -80,3 +80,54 @@
   name: 옹진군 채용공고
   type: links
   url: https://www.ongjin.go.kr/open_content/job/sub/notice.jsp
+
+# ---- 복지관·여성회관 (구글시트 '강사공고 URL' 목록에서 추가) ----
+- id: michuholnoin
+  name: 미추홀노인복지관 공지
+  org: 미추홀노인복지관
+  type: links
+  url: https://www.michuholnoin.or.kr/bbs/board.php?bo_table=notice
+
+- id: yeonsu-lll
+  name: 연수구 평생학습 강사모집
+  org: 연수구 평생학습관
+  type: links
+  url: https://www.yeonsu.go.kr/lll/notice/teacher_job.asp
+
+- id: sewel
+  name: 숭의종합사회복지관 공지
+  org: 숭의종합사회복지관
+  type: links
+  url: https://sewel.or.kr/post/notice
+
+- id: sunhakwc
+  name: 선학종합사회복지관 채용
+  org: 선학종합사회복지관
+  type: links
+  url: https://www.sunhakwc.or.kr/bbs_shop/list.htm?board_code=board2
+
+- id: icwelfare
+  name: 인천종합사회복지관 공지
+  org: 인천종합사회복지관
+  type: links
+  url: https://icwelfare.or.kr/main/sub.html?boardID=www25
+
+- id: incheon-womens-plaza
+  name: 인천 여성의광장 공지
+  org: 인천여성의광장
+  type: links
+  url: https://www.incheon.go.kr/wp/WP020101
+
+- id: incheon-womens-welfare
+  name: 인천 여성복지관 알림
+  org: 인천여성복지관
+  type: links
+  url: https://www.incheon.go.kr/wwc/WC030101
+
+- id: incheon-west-women
+  name: 인천 서부여성회관 소식
+  org: 서부여성회관
+  type: links
+  url: https://www.incheon.go.kr/wiw/WIW030101
+
+# 미추홀종합사회복지관(michu.or.kr)은 홈페이지 주소가 바뀌어 예전 게시판이 열리지 않음 — 새 게시판 주소를 찾으면 추가

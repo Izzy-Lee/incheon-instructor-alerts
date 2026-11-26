@@ -29,6 +29,7 @@ UA = (
     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 )
 DATE_RE = re.compile(r"(20\d\d)\s*[-./]\s*(\d{1,2})\s*[-./]\s*(\d{1,2})")
+SHORT_DATE_RE = re.compile(r"(?<![\d.])(\d{2})[-.](\d{2})[-.](\d{2})(?![\d.])")  # 26.11.25 같은 두 자리 연도
 RANGE_RE = re.compile(
     r"(20\d\d\s*[-./]\s*\d{1,2}\s*[-./]\s*\d{1,2})\s*[~∼-]\s*(20\d\d\s*[-./]\s*\d{1,2}\s*[-./]\s*\d{1,2})"
 )
@@ -67,10 +68,14 @@ def to_date(s: str | None):
     if not s:
         return None
     m = DATE_RE.search(s)
+    y = int(m[1]) if m else None
     if not m:
-        return None
+        m = SHORT_DATE_RE.search(s)
+        if not m:
+            return None
+        y = 2000 + int(m[1])
     try:
-        return datetime(int(m[1]), int(m[2]), int(m[3])).date()
+        return datetime(y, int(m[2]), int(m[3])).date()
     except ValueError:
         return None
 
@@ -139,7 +144,7 @@ def parse_links(src):
         if row is None:
             continue
         row_text = clean(row.get_text(" "))
-        if not DATE_RE.search(row_text) or len(row_text) > 400:
+        if not (DATE_RE.search(row_text) or SHORT_DATE_RE.search(row_text)) or len(row_text) > 400:
             continue
         href = a.get("href", "") or ""
         link = src["url"] if (not href or href.startswith(("javascript", "#"))) else urljoin(src["url"], href)
@@ -148,11 +153,13 @@ def parse_links(src):
             continue
         seen.add(key)
         rng = RANGE_RE.search(row_text)
-        dates = [d for d in (to_date(x.group(0)) for x in DATE_RE.finditer(row_text)) if d]
+        dates = [d for d in (to_date(x.group(0)) for x in DATE_RE.finditer(row_text)) if d] or [
+            d for d in (to_date(x.group(0)) for x in SHORT_DATE_RE.finditer(row_text)) if d
+        ]
         out.append(
             {
                 "title": text,
-                "org": src["name"].replace(" 채용공고", ""),
+                "org": src.get("org") or src["name"].replace(" 채용공고", ""),
                 "via": src["name"],
                 "url": link,
                 "posted": dates[0].isoformat() if dates else None,
@@ -292,6 +299,9 @@ def main():
                     continue
                 dl = to_date(it.get("deadline"))
                 if dl and dl < TODAY:  # 이미 마감된 공고는 건너뜀
+                    continue
+                ps = to_date(it.get("posted"))
+                if not dl and ps and (TODAY - ps).days > 45:  # 마감일 모르는 오래된 글은 건너뜀
                     continue
                 hits += 1
                 it["category"], it["mine"] = cat["name"], bool(cat.get("mine"))
