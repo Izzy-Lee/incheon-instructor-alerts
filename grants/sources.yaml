@@ -31,6 +31,7 @@
 
 - id: kstartup
   name: K-Startup 모집중 공고
+  tidy: true
   org: K-Startup
   type: links
   url: https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do
@@ -41,18 +42,21 @@
 
 - id: ifac-notice
   name: 인천문화재단 재단소식
+  tidy: true
   org: 인천문화재단
   type: links
   url: https://ifac.or.kr/bbs/list.do?key=m2501152808232
 
 - id: ifac-support
   name: 인천문화재단 지원사업 공고
+  tidy: true
   org: 인천문화재단
   type: links
   url: https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255
 
 - id: ifac-other
   name: 인천문화재단 타 기관 지원사업
+  tidy: true
   org: 인천 문화기관
   type: links
   url: https://ifac.or.kr/bbs/list.do?key=m2501152808367

@@ -89,6 +89,26 @@ def clean(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def tidy_title(t: str) -> str:
+    """목록 줄 전체가 링크로 잡힌 경우 제목만 남긴다 (예: '지원사업 제목 OOO 공지 2026-11-23 792 예술지원팀')."""
+    t = clean(t)
+    if "제목 " in t[:20]:
+        t = t.split("제목 ", 1)[1]
+    t = re.sub(r"^.*?D-\d+\s+(마감일자\s+\S+\s+)?", "", t) if re.search(r"D-\d+", t[:40]) else t
+    t = re.sub(r"새로운\s?게시글|새글|NEW", " ", t)
+    m = DATE_RE.search(t)
+    if m and m.start() > 12:
+        t = t[: m.start()]
+    w = t.split()
+    for i in range(len(w) // 2, 2, -1):  # 'A B C A B' 처럼 제목이 두 번 붙은 경우
+        if w[i:] == w[: len(w) - i]:
+            t = " ".join(w[:i])
+            break
+    t = re.sub(r"[\s\[(]+$", "", t.strip())
+    t = re.sub(r"\s+(공지|첨부파일|파일있음)\s*$", "", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
 def norm_title(t: str) -> str:
     t = re.sub(r"\[[^\]]*공고[^\]]*\]", "", t)
     return re.sub(r"[\s\W_]+", "", t).lower()
@@ -152,7 +172,7 @@ def _parse_links_page(src, seen):
     soup = BeautifulSoup(fetch(src["url"]), "html.parser")
     out = []
     for a in soup.find_all("a"):
-        text = clean(a.get("title") if (a.get_text(strip=True).endswith("...") and a.get("title")) else a.get_text(" "))
+        text = (tidy_title if src.get("tidy") else clean)(a.get("title") if (a.get_text(strip=True).endswith("...") and a.get("title")) else a.get_text(" "))
         if len(text) < 6:
             continue
         row = a.find_parent(["tr", "li"])
