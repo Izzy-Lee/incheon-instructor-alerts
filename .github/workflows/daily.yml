@@ -3,6 +3,7 @@ name: 인천 강사공고 수집
 on:
   schedule:
     - cron: "43 21 * * *"   # 매일 06:43 KST (UTC 21:43)
+    - cron: "43 8 * * *"    # 매일 17:43 KST (UTC 08:43) — 오후 6시 전에 저녁 공고 반영
   workflow_dispatch: {}       # Actions 탭에서 수동 실행 가능
 
 permissions:
