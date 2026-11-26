@@ -131,7 +131,7 @@ function fileInfo(m) {
   if (!m || m.state !== 'plan' || !API) return '';
   if (m.folder) return ` · <a class="drv" href="${esc(m.folder)}" target="_blank" rel="noopener">📁 드라이브에 저장됨</a>`;
   if (m.saved === '첨부 없음') return ' · 첨부파일 없음';
-  if (m.note && (m.tries || 0) >= 3) return ` · 첨부 저장 실패 (${esc(m.note)})`;
+  if (m.note && (m.tries || 0) >= 6) return ` · 첨부 저장 실패 (${esc(m.note)})`;
   return ' · 📎 첨부 저장 대기 중';
 }
 function dday(d) {

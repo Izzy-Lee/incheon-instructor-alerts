@@ -31,7 +31,7 @@ UA = (
     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 )
 EXT_RE = re.compile(r"\.(hwpx?|hwtx|pdf|docx?|xlsx?|zip|jpe?g|png|pptx?|txt|odt)(?![A-Za-z0-9])", re.I)
-MAX_TRIES = 3
+MAX_TRIES = 6  # 실행할 때마다 서버(IP)가 달라서, 막힌 서버에 걸리면 다음 실행에서 다시 시도
 KST = timezone(timedelta(hours=9))
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -96,10 +96,15 @@ def find_files(s, url, depth=0):
     return found
 
 
+LAST_PAGE = {}
+
+
 def _find_files(s, url, depth=0):
     host = urlparse(url).netloc
     html = page(s, url)
     soup = BeautifulSoup(html, "html.parser")
+    t = soup.title.get_text(strip=True)[:40] if soup.title else "-"
+    LAST_PAGE.update(url=url, info=f"페이지 {len(html):,}자, 제목 '{t}'")
     out = []
 
     # 인천일자리플랫폼: 원문(나라일터·교육청) 링크를 따라간다
@@ -267,7 +272,7 @@ def run():
                 except Exception as e:  # noqa: BLE001
                     errors.append(f"{f['name'] or '파일'}: {str(e)[:120]}")
             if not files:
-                raise RuntimeError("첨부파일을 못 찾음" if not found else "다운로드 실패 — " + "; ".join(errors))
+                raise RuntimeError(f"첨부파일을 못 찾음 ({LAST_PAGE.get('info', '')})" if not found else "다운로드 실패 — " + "; ".join(errors))
             d = INBOX / iid
             shutil.rmtree(d, ignore_errors=True)
             d.mkdir(parents=True)
