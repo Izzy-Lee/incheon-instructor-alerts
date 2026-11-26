@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 12:23",
+ "updated": "2026-11-26 12:45",
  "status": [
   {
    "name": "인천일자리플랫폼 공공채용",
@@ -166,8 +166,8 @@
   {
    "name": "직행 채용공고",
    "ok": true,
-   "total": 153,
-   "hits": 104
+   "total": 141,
+   "hits": 32
   }
  ],
  "postings": [
@@ -1104,6 +1104,19 @@
    "via": "직행 채용공고",
    "url": "https://zighang.com/recruitment/6f245e00-7e62-40e7-a773-0f5a0edb9996",
    "posted": "2026-11-25",
+   "deadline": "2026-12-31",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "[부천시] 2026학년도 소사고 특수교육 협력강사 채용 공고",
+   "org": "경기도교육청",
+   "kind": "기타교육",
+   "via": "직행 채용공고",
+   "url": "https://zighang.com/recruitment/2c54fb63-de4a-4d01-93b8-49e17ea2566f",
+   "posted": "2026-11-26",
    "deadline": "2026-12-31",
    "category": "학교·방과후",
    "mine": false,
