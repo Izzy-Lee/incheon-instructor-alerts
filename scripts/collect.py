@@ -320,7 +320,43 @@ def parse_eminwon(src):
     return out
 
 
-PARSERS = {"eminwon": parse_eminwon, "platform": parse_platform, "links": parse_links, "gojobs": parse_gojobs, "ice": parse_ice, "rss": parse_rss}
+def parse_zighang(src):
+    """직행(zighang.com) 채용공고 API: 지역(구·시) + 검색어로 최신순 조회."""
+    api = "https://api.zighang.com/api/recruitments/v4"
+    art = re.compile(r"미술|공예|그림|드로잉|수채|회화|캘리|일러스트|웹툰|만화|도예")
+    drop = set(src.get("drop_categories", []))
+    out, seen = [], set()
+    for kw in src.get("keywords", ["강사"]):
+        for page in range(src.get("pages", 2)):
+            params = [("page", page), ("size", 100), ("sortCondition", "LATEST"), ("orderCondition", "DESC"), ("keyword", kw)]
+            params += [("districts", d) for d in src["districts"]]
+            r = session.get(api, params=params, timeout=20,
+                            headers={"Origin": "https://zighang.com", "Referer": "https://zighang.com/recruitment"})
+            r.raise_for_status()
+            content = (r.json().get("data") or {}).get("content") or []
+            for c in content:
+                if c["id"] in seen:
+                    continue
+                seen.add(c["id"])
+                cats = c.get("depthTwos") or []
+                if drop & set(cats) and not art.search(c.get("title", "")):
+                    continue
+                out.append({
+                    "title": clean(c.get("title", "")),
+                    "org": ((c.get("company") or {}).get("name") or "").strip(),
+                    "kind": "·".join(cats),
+                    "via": src["name"],
+                    "url": f"https://zighang.com/recruitment/{c['id']}",
+                    "posted": (c.get("createdAt") or "")[:10] or None,
+                    "deadline": (c.get("endDate") or "")[:10] or None,
+                })
+            if len(content) < 100:
+                break
+            time.sleep(0.5)
+    return out
+
+
+PARSERS = {"zighang": parse_zighang, "eminwon": parse_eminwon, "platform": parse_platform, "links": parse_links, "gojobs": parse_gojobs, "ice": parse_ice, "rss": parse_rss}
 
 
 # ---------- 분류 ----------

@@ -200,3 +200,16 @@
   org: 제물포구 평생학습관
   type: links
   url: https://www.jemulpo.go.kr/lll/bbs/bbsMsgList.do?bcd=ljuris
+
+# ---- 직행(zighang.com) 채용공고 — 인천 30분 권역 구·시만 ----
+- id: zighang
+  name: 직행 채용공고
+  type: zighang
+  url: https://zighang.com/recruitment
+  keywords: [강사, 방과후, 미술]
+  pages: 2
+  districts: [인천_중구, 인천_동구, 인천_미추홀구, 인천_연수구, 인천_남동구, 인천_부평구, 인천_계양구, 인천_서구,
+              인천_강화군, 인천_옹진군, 경기_부천시원미구, 경기_부천시소사구, 경기_부천시오정구, 경기_김포시, 경기_시흥시,
+              서울_강서구, 서울_양천구, 서울_구로구]
+  # 학원 교과 강사(영어·수학·입시)와 강사 아닌 직군은 빼기 (미술·공예 관련 제목은 남김)
+  drop_categories: [국어_외국어강사, 수학_과학강사, 입시학원강사, 경호_경비, 리크루터_헤드헌터, 유치원_보육교사, 운영관리_OM, 교재개발_교수설계]
