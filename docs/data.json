@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 09:38",
+ "updated": "2026-11-26 09:49",
  "status": [
   {
    "name": "인천일자리플랫폼 공공채용",
@@ -16,8 +16,8 @@
   {
    "name": "나라일터",
    "ok": true,
-   "total": 31,
-   "hits": 5
+   "total": 35,
+   "hits": 6
   },
   {
    "name": "미추홀구 채용공고",
@@ -52,7 +52,7 @@
   {
    "name": "검단구 채용공고",
    "ok": true,
-   "total": 9,
+   "total": 10,
    "hits": 0
   },
   {
@@ -113,6 +113,18 @@
    "name": "인천 서부여성회관 소식",
    "ok": true,
    "total": 16,
+   "hits": 0
+  },
+  {
+   "name": "인천시 고시공고(강사)",
+   "ok": true,
+   "total": 10,
+   "hits": 4
+  },
+  {
+   "name": "양천50플러스센터 공지",
+   "ok": true,
+   "total": 7,
    "hits": 0
   }
  ],
@@ -610,6 +622,18 @@
    "last_seen": "2026-11-26"
   },
   {
+   "title": "마곡안전체험관 교육강사(기간제 근로자) 채용 공고",
+   "org": "서울특별시 강서구 안전교통국 안전체험관",
+   "via": "나라일터",
+   "url": "https://www.gojobs.go.kr/apmView.do?menuNo=401&searchJobsecode=020&empmnsn=400321",
+   "posted": "2026-11-23",
+   "deadline": "2026-12-02",
+   "category": "기타",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
    "title": "2027학년도 인천연송초등학교 돌봄교실 특기적성 프로그램 강사 채용 공고",
    "org": "인천연송초등학교",
    "kind": "돌봄",
@@ -748,7 +772,7 @@
   {
    "title": "2027년 인천광역시 여성의광장 교육강사 공개모집(추가) 공고",
    "org": "인천여성의광장",
-   "via": "인천 여성의광장 공지",
+   "via": "인천 여성의광장 공지, 인천시 고시공고(강사)",
    "url": "https://www.incheon.go.kr/wp/WP020101/3094773",
    "posted": "2026-11-13",
    "deadline": null,
@@ -760,7 +784,7 @@
   {
    "title": "2027년 인천광역시 여성의광장 교육강사 공개모집 공고",
    "org": "인천여성의광장",
-   "via": "인천 여성의광장 공지",
+   "via": "인천 여성의광장 공지, 인천시 고시공고(강사)",
    "url": "https://www.incheon.go.kr/wp/WP020101/3094725",
    "posted": "2026-11-13",
    "deadline": null,
@@ -799,6 +823,30 @@
    "via": "인천 여성복지관 알림",
    "url": "https://www.incheon.go.kr/wwc/WC030101/3092923",
    "posted": "2026-10-30",
+   "deadline": null,
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "2027년 인천광역시 여성복지관 교육강사 공개모집 공고(재)",
+   "org": "인천광역시",
+   "via": "인천시 고시공고(강사)",
+   "url": "https://www.incheon.go.kr/IC010307/view?sno=68481&gosigbn=A&curPage=1&srchTitle=%EA%B0%95%EC%82%AC",
+   "posted": "2026-11-18",
+   "deadline": null,
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "2027년 인천광역시 여성복지관 교육강사 공개모집 공고-추가",
+   "org": "인천광역시",
+   "via": "인천시 고시공고(강사)",
+   "url": "https://www.incheon.go.kr/IC010307/view?sno=68412&gosigbn=A&curPage=1&srchTitle=%EA%B0%95%EC%82%AC",
+   "posted": "2026-11-11",
    "deadline": null,
    "category": "주민자치·평생교육",
    "mine": false,
