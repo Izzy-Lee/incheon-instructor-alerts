@@ -141,3 +141,62 @@
   org: 양천50플러스센터
   type: links
   url: https://www.50plus.or.kr/ycp/notice.do
+
+# ---- 3차 추가 (구글시트 '인천 9개 구 강사 모집 모니터링' — 모두 인천 30분 권역) ----
+- id: iasw
+  name: 인천사회복지사협회 구인정보
+  org: 인천 사회복지기관
+  type: links
+  url: https://www.iasw.or.kr/employment/jobinfo.php?code=jobinfo
+
+- id: michuhol-gosi
+  name: 미추홀구 고시공고
+  org: 미추홀구
+  type: links
+  url: https://www.michuhol.go.kr/main/board/list.do?board_code=board_13
+
+- id: michuhol-dong
+  name: 미추홀구 동 주민자치센터 소식
+  org: 미추홀구 주민자치센터
+  type: links
+  url: https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77
+  urls:
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=287
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=288
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=289
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=290
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=291
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=292
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=293
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=294
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=295
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=296
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=297
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=298
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=299
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=300
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=301
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=302
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=303
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=304
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=305
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=313
+    - https://www.michuhol.go.kr/dongoffice/board/list.do?board_code=board_77&dept_sq=314
+
+- id: michuhol-lll
+  name: 미추홀구 평생학습관 공지
+  org: 미추홀구 평생학습관
+  type: links
+  url: https://www.michuhol.go.kr/lll/board/list.do?board_code=l_board_1
+
+- id: geomdan-eminwon
+  name: 검단구 고시공고
+  org: 검단구
+  type: eminwon
+  url: https://eminwon.geomdan.go.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?jndinm=OfrNotAncmtEJB&context=NTIS&method=selectListOfrNotAncmt&methodnm=selectListOfrNotAncmtHomepage&homepage_pbs_yn=Y&subCheck=Y&ofr_pageSize=50&not_ancmt_se_code=01,02,03,04,05,06&pageIndex=1
+
+- id: jemulpo-lll
+  name: 제물포구 평생학습관 소식
+  org: 제물포구 평생학습관
+  type: links
+  url: https://www.jemulpo.go.kr/lll/bbs/bbsMsgList.do?bcd=ljuris

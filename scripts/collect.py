@@ -134,9 +134,22 @@ def parse_platform(src):
 
 
 def parse_links(src):
-    """일반 게시판: 날짜가 함께 적힌 줄(tr/li)의 링크를 공고로 본다."""
-    soup = BeautifulSoup(fetch(src["url"]), "html.parser")
+    """일반 게시판: 날짜가 함께 적힌 줄(tr/li)의 링크를 공고로 본다. urls 목록이 있으면 모두 읽는다."""
+    urls = src.get("urls") or [src["url"]]
     out, seen = [], set()
+    for u in urls:
+        try:
+            out += _parse_links_page({**src, "url": u}, seen)
+        except Exception:  # noqa: BLE001
+            if len(urls) == 1:
+                raise
+        time.sleep(0.3)
+    return out
+
+
+def _parse_links_page(src, seen):
+    soup = BeautifulSoup(fetch(src["url"]), "html.parser")
+    out = []
     for a in soup.find_all("a"):
         text = clean(a.get("title") if (a.get_text(strip=True).endswith("...") and a.get("title")) else a.get_text(" "))
         if len(text) < 6:
@@ -280,7 +293,34 @@ def parse_rss(src):
     return out
 
 
-PARSERS = {"platform": parse_platform, "links": parse_links, "gojobs": parse_gojobs, "ice": parse_ice, "rss": parse_rss}
+def parse_eminwon(src):
+    """새올 고시공고 목록: 링크 대신 칸(td)에 searchDetail('번호')가 걸린 형식."""
+    soup = BeautifulSoup(fetch(src["url"]), "html.parser")
+    base = src["url"].split("?")[0]
+    out = []
+    for tr in soup.find_all("tr"):
+        tds = tr.find_all("td", recursive=False)
+        m = None
+        for td in tds:
+            m = re.search(r"searchDetail\('(\d+)'\)", td.get("onclick", "") or "")
+            if m:
+                break
+        if not m or len(tds) < 4:
+            continue
+        cells = [clean(td.get_text(" ")) for td in tds]
+        title = max(cells, key=len)
+        dates = [to_date(c) for c in cells if to_date(c)]
+        out.append({
+            "title": title, "org": src.get("org") or src["name"], "via": src["name"],
+            "url": base + "?" + urlencode({"jndinm": "OfrNotAncmtEJB", "context": "NTIS", "method": "selectOfrNotAncmt",
+                                           "methodnm": "selectOfrNotAncmtRegst", "homepage_pbs_yn": "Y", "subCheck": "Y",
+                                           "not_ancmt_mgt_no": m[1]}),
+            "posted": dates[0].isoformat() if dates else None, "deadline": None,
+        })
+    return out
+
+
+PARSERS = {"eminwon": parse_eminwon, "platform": parse_platform, "links": parse_links, "gojobs": parse_gojobs, "ice": parse_ice, "rss": parse_rss}
 
 
 # ---------- 분류 ----------
