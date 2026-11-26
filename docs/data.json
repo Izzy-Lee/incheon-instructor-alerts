@@ -1,23 +1,23 @@
 {
- "updated": "2026-11-25 20:40",
+ "updated": "2026-11-26 09:33",
  "status": [
   {
    "name": "인천일자리플랫폼 공공채용",
    "ok": true,
-   "total": 120,
-   "hits": 12
+   "total": 129,
+   "hits": 6
   },
   {
    "name": "인천광역시교육청 채용공고",
    "ok": true,
    "total": 200,
-   "hits": 66
+   "hits": 58
   },
   {
    "name": "나라일터",
    "ok": true,
    "total": 31,
-   "hits": 7
+   "hits": 5
   },
   {
    "name": "미추홀구 채용공고",
@@ -29,7 +29,7 @@
    "name": "연수구 채용공고",
    "ok": true,
    "total": 28,
-   "hits": 6
+   "hits": 3
   },
   {
    "name": "남동구 채용공고",
@@ -46,7 +46,7 @@
   {
    "name": "서해구 채용공고",
    "ok": true,
-   "total": 10,
+   "total": 9,
    "hits": 0
   },
   {
@@ -71,6 +71,53 @@
    "name": "옹진군 채용공고",
    "ok": true,
    "total": 9,
+   "hits": 0
+  },
+  {
+   "name": "미추홀노인복지관 공지",
+   "ok": true,
+   "total": 0,
+   "hits": 0
+  },
+  {
+   "name": "연수구 평생학습 강사모집",
+   "ok": true,
+   "total": 15,
+   "hits": 0
+  },
+  {
+   "name": "숭의종합사회복지관 공지",
+   "ok": true,
+   "total": 30,
+   "hits": 1
+  },
+  {
+   "name": "선학종합사회복지관 채용",
+   "ok": true,
+   "total": 11,
+   "hits": 0
+  },
+  {
+   "name": "인천종합사회복지관 공지",
+   "ok": false,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://icwelfare.or.kr/main/sub.html?boardID=www25"
+  },
+  {
+   "name": "인천 여성의광장 공지",
+   "ok": true,
+   "total": 19,
+   "hits": 2
+  },
+  {
+   "name": "인천 여성복지관 알림",
+   "ok": true,
+   "total": 14,
+   "hits": 4
+  },
+  {
+   "name": "인천 서부여성회관 소식",
+   "ok": true,
+   "total": 16,
    "hits": 0
   }
  ],
@@ -125,7 +172,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2026학년도 인천청라중학교 시간강사(국어) 채용",
@@ -137,7 +184,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2026학년도 인천하늘중학교 시간강사(국어) 채용 공고",
@@ -151,7 +198,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "인천석암초등학교 시간강사 채용 공고",
@@ -165,7 +212,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "(신대초) 초등 특수 계약제교원(시간강사) 채용 공고",
@@ -179,7 +226,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "3학년 담임 시간강사",
@@ -193,7 +240,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2026.12.4.자 서운고 계약제교원 채용 공고(특수)",
@@ -207,7 +254,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2026학년도 인천청라중학교 채용공고(국어)",
@@ -221,7 +268,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 인천영종초 초등돌봄교실 특기적성 강사 모집 공고",
@@ -235,7 +282,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "인천여자상업고등학교 시간강사 공고",
@@ -247,7 +294,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "★급구★ 부원여중 과학 시간강사 채용 공고",
@@ -261,7 +308,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "북인천여자중학교 특수 시간강사 채용공고",
@@ -275,7 +322,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2026학년도 인천소방고등학교 계약제 교원 채용 공고(역사 시간강사)",
@@ -289,7 +336,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "26학년도 인천여자상업고등학교 시간강사(정보컴퓨터) 공고",
@@ -303,7 +350,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 오후돌봄교실 특기 적성 프로그램 강사 채용 공고",
@@ -317,7 +364,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 가원초등학교 초등돌봄교실 특기적성 프로그램 강사 채용",
@@ -331,7 +378,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 돌봄교실 단체활동(특기적성)프로그램 개인위탁 강사 채용 공고",
@@ -345,7 +392,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2026학년도 인천송담초등학교 초등돌봄교실 겨울방학 중 특강(토탈공예) 강사 모집 공고",
@@ -359,7 +406,7 @@
    "category": "미술·공예",
    "mine": true,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 초등돌봄교실 특기적성 프로그램강사 공고",
@@ -373,7 +420,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 초등돌봄교실 특기적성 프로그램 강사 모집",
@@ -405,17 +452,17 @@
   },
   {
    "title": "2026학년도 인천생활과학고등학교 시간강사(의상, 조리) 채용 공고",
-   "org": "인천생활과학고등학교",
+   "org": "인천광역시교육청 인천생활과학고등학교",
    "kind": "시간강사",
    "status": "대기중",
-   "via": "인천광역시교육청 채용공고, 나라일터",
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389551",
-   "posted": "2026-11-25",
+   "via": "인사혁신처-나라일터, 인천광역시교육청 채용공고",
+   "url": "https://www.incheon.go.kr/jobs/main/recruit/public/view.do?rcrut_info_sn=136706",
+   "posted": null,
    "deadline": "2026-11-29",
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "인천송림초등학교 계약제교원(보건교사 종일제 강사) 1차 채용 공고",
@@ -427,7 +474,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2026학년도 인천은송초등학교병설유치원 방과후과정 대체강사(시간제) 채용 공고",
@@ -441,7 +488,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027 유치원 방과후 과정 특성화프로그램 강사 채용 공고",
@@ -455,7 +502,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 초등돌봄교실 단체활동 프로그램 지도 강사 모집 공고",
@@ -469,7 +516,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 초등돌봄교실 단체활동 프로그램 강사 채용 공고",
@@ -483,7 +530,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 인천귤현초등학교 방과후 프로그램 개인위탁 강사 모집 공고",
@@ -497,7 +544,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 인천서운초등학교 초등돌봄교실 단체프로그램 지도강사 모집 공고",
@@ -511,7 +558,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2026학년도 강화중학교 국어 시간강사 채용 공고",
@@ -523,7 +570,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 윤슬초등학교 초등돌봄교실 특기적성 프로그램 강사 모집 공고",
@@ -537,7 +584,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 인천굴포초등학교 초등돌봄교실 단체활동 프로그램 개인위탁 강사 모집 공고",
@@ -551,7 +598,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 초등돌봄교실 특기적성프로그램 위탁강사 모집",
@@ -565,7 +612,7 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027학년도 인천연송초등학교 돌봄교실 특기적성 프로그램 강사 채용 공고",
@@ -579,7 +626,21 @@
    "category": "학교·방과후",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "[긴급]2026 구월중학교 계약제교원(시간강사-특수) 채용 계획 공고(2차)",
+   "org": "구월중학교",
+   "kind": "시간강사",
+   "status": "모집중",
+   "via": "인천광역시교육청 채용공고",
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389642",
+   "posted": "2026-11-26",
+   "deadline": "2026-12-16",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
   },
   {
    "title": "주안4동 주민자치센터 프로그램 강사 모집 공고",
@@ -591,7 +652,7 @@
    "category": "주민자치·평생교육",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027년 1분기 연수2동 주민자치센터 프로그램 강사 모집 공고",
@@ -603,7 +664,7 @@
    "category": "주민자치·평생교육",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027년도 송도5동 주민자치회 프로그램 강사 모집",
@@ -615,7 +676,7 @@
    "category": "주민자치·평생교육",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "송도2동 주민자치센터 프로그램 강사 모집 공고",
@@ -627,7 +688,7 @@
    "category": "주민자치·평생교육",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "송도3동 주민자치센터 프로그램 강사(성인미술회화, 케이크 데코레이션, 쿠...",
@@ -675,7 +736,7 @@
    "category": "주민자치·평생교육",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "2027년도 영종2동 주민자치센터 프로그램 강사 공개모집 공고",
@@ -687,7 +748,91 @@
    "category": "주민자치·평생교육",
    "mine": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "[모집] 특강 - 영상검사와 AI의 융합 건강강좌 모집 ~11/3(화)",
+   "org": "숭의종합사회복지관",
+   "via": "숭의종합사회복지관 공지",
+   "url": "https://sewel.or.kr/post/notice/1572",
+   "posted": "2026-10-13",
+   "deadline": null,
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "공지 2027년 인천광역시 여성의광장 교육강사 공개모집(추가) 공고",
+   "org": "인천여성의광장",
+   "via": "인천 여성의광장 공지",
+   "url": "https://www.incheon.go.kr/wp/WP020101/3094773",
+   "posted": "2026-11-13",
+   "deadline": null,
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "공지 2027년 인천광역시 여성의광장 교육강사 공개모집 공고",
+   "org": "인천여성의광장",
+   "via": "인천 여성의광장 공지",
+   "url": "https://www.incheon.go.kr/wp/WP020101/3094725",
+   "posted": "2026-11-13",
+   "deadline": null,
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "(재공고)2027년도 인천광역시 여성복지관 사회교육강사 공개모집 공고",
+   "org": "인천여성복지관",
+   "via": "인천 여성복지관 알림",
+   "url": "https://www.incheon.go.kr/wwc/WC030101/3095099",
+   "posted": "2026-11-17",
+   "deadline": null,
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "추가(공고)2027년도 인천광역시 여성복지관 사회교육강사 공개 모집-여성복(양장)기능사",
+   "org": "인천여성복지관",
+   "via": "인천 여성복지관 알림",
+   "url": "https://www.incheon.go.kr/wwc/WC030101/3094495",
+   "posted": "2026-11-11",
+   "deadline": null,
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "(공고)2027년도 인천광역시 여성복지관 사회교육강사 공개 모집",
+   "org": "인천여성복지관",
+   "via": "인천 여성복지관 알림",
+   "url": "https://www.incheon.go.kr/wwc/WC030101/3092923",
+   "posted": "2026-10-30",
+   "deadline": null,
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "2026년 제4기 사회교육 강의 폐강 안내(한식조리기능사(야간), 바리스타커피2급과 핸드드립(주말),나는 초보요리사)",
+   "org": "인천여성복지관",
+   "via": "인천 여성복지관 알림",
+   "url": "https://www.incheon.go.kr/wwc/WC030101/3090677",
+   "posted": "2026-10-12",
+   "deadline": null,
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
   }
  ]
 }
