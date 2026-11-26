@@ -348,7 +348,7 @@ def parse_zighang(src):
                     "via": src["name"],
                     "url": f"https://zighang.com/recruitment/{c['id']}",
                     "posted": (c.get("createdAt") or "")[:10] or None,
-                    "deadline": (c.get("endDate") or "")[:10] or None,
+                    "deadline": to_date(c.get("endDate")).isoformat() if to_date(c.get("endDate")) else None,
                 })
             if len(content) < 100:
                 break
@@ -455,11 +455,11 @@ def main():
             del db[pid]
 
     urgent = sorted(
-        [p for p in db.values() if p.get("deadline") and 0 <= (to_date(p["deadline"]) - TODAY).days <= URGENT_DAYS],
+        [p for p in db.values() if to_date(p.get("deadline")) and 0 <= (to_date(p["deadline"]) - TODAY).days <= URGENT_DAYS],
         key=lambda p: p["deadline"],
     )
     new.sort(key=lambda p: (not p["mine"], p.get("deadline") or "9999"))
-    mine = [p for p in db.values() if p["mine"] and (not p.get("deadline") or to_date(p["deadline"]) >= TODAY)]
+    mine = [p for p in db.values() if p["mine"] and (not to_date(p.get("deadline")) or to_date(p["deadline"]) >= TODAY)]
 
     ok = sum(s["ok"] for s in status)
     title = f"[인천 강사공고] {TODAY.month}/{TODAY.day}({WEEK[TODAY.weekday()]}) 신규 {len(new)}건 · 마감임박 {len(urgent)}건"
