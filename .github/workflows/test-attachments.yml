@@ -14,10 +14,19 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install -r requirements.txt
       - run: |
-          python scripts/attachments.py --test \
-            "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389234" \
-            "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389551" \
-            "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389373" \
-            > test-result.txt 2>&1 || true
+          python - <<'PY' > test-result.txt 2>&1 || true
+          import sys; sys.path.insert(0,'scripts')
+          import attachments as A, json, re
+          d=json.load(open('data/postings.json'))
+          urls=[p['url'] for p in d.values() if 'ice.go.kr' in p['url']][:4]
+          s=A.new_session()
+          for u in urls:
+              r=s.get(u,timeout=30)
+              t=r.text
+              print('URL',u,'status',r.status_code,'len',len(t),'goFileDown',t.count('goFileDown'),'final',r.url)
+              m=re.search(r'<title>(.*?)</title>',t,re.S); print(' title',m and m.group(1).strip()[:80])
+              i=t.find('첨부'); print(' around 첨부:', re.sub(r'\s+',' ',t[i-200:i+600]) if i>=0 else 'none')
+              print(' body head:', re.sub(r'\s+',' ',t[:600]))
+          PY
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add test-result.txt && git commit -m "시험 결과" && git push

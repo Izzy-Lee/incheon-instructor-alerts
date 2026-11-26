@@ -1,24 +1,23 @@
 """⭐지원예정 공고의 첨부파일(공고문·지원서)을 받아 구글드라이브에 저장한다.
 
-표시 목록은 Apps Script 웹앱(MARKS_API)에서 읽고, 받은 파일은 같은 웹앱으로 올린다.
-웹앱이 드라이브 「강사지원DB/공고첨부/<공고>」 폴더에 저장하고 시트에 기록한다.
-
-환경변수
-  MARKS_API     Apps Script 웹앱 주소 (없으면 docs/config.js 에서 읽음)
-  UPLOAD_TOKEN  Apps Script setup 이 만든 업로드 비밀번호 (GitHub Secrets)
+표시 목록은 Apps Script 웹앱(docs/config.js 의 MARKS_API)에서 읽는다.
+받은 파일은 저장소 inbox/ 에 두고, Apps Script 가 10분마다 가져가
+드라이브 「강사지원DB/공고첨부/<공고>」 폴더에 저장한다. (비밀번호·토큰 필요 없음)
 
 시험용: python scripts/attachments.py --test <공고주소> [...]  → 찾은 첨부만 출력, 업로드 안 함
 """
 from __future__ import annotations
 
-import base64
+import hashlib
 import json
 import mimetypes
 import os
 import re
+import shutil
 import sys
 import time
 import unicodedata
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlparse
 
@@ -33,7 +32,7 @@ UA = (
 )
 EXT_RE = re.compile(r"\.(hwpx?|hwtx|pdf|docx?|xlsx?|zip|jpe?g|png|pptx?|txt|odt)(?![A-Za-z0-9])", re.I)
 MAX_TRIES = 3
-MAX_BATCH = 20 * 1024 * 1024  # 한 번에 올릴 최대 크기(원본 기준)
+KST = timezone(timedelta(hours=9))
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -88,6 +87,16 @@ def link_name(a) -> str:
 
 # ---------- 사이트별 첨부 찾기: [{name, method, url, data}] ----------
 def find_files(s, url, depth=0):
+    """첨부 찾기. 교육청 등은 가끔 첨부 없는 페이지를 주므로 못 찾으면 몇 번 다시 읽는다."""
+    for attempt in range(4):
+        found = _find_files(s, url, depth)
+        if found or depth:
+            return found
+        time.sleep(3 + attempt * 3)
+    return found
+
+
+def _find_files(s, url, depth=0):
     host = urlparse(url).netloc
     html = page(s, url)
     soup = BeautifulSoup(html, "html.parser")
@@ -98,7 +107,7 @@ def find_files(s, url, depth=0):
         for a in soup.select("a[href]"):
             h = a["href"]
             if "gojobs.go.kr/apmView" in h or "ice.go.kr/ice/na/ntt/selectNttInfo" in h:
-                return find_files(s, urljoin(url, h), depth + 1)
+                return _find_files(s, urljoin(url, h), depth + 1)
 
     # 인천광역시교육청: goFileDown('키') → /comm/nttFileDownload.do?fileKey=키 (GET 으로 받아야 함, POST 는 403)
     if "ice.go.kr" in host:
@@ -189,7 +198,10 @@ def download(s, f, referer):
     return {"name": name, "mime": mime, "bytes": body}
 
 
-# ---------- 표시 목록·업로드 ----------
+# ---------- 표시 목록·받은 파일 보관 ----------
+INBOX = ROOT / "inbox"
+
+
 def api_url():
     if os.environ.get("MARKS_API"):
         return os.environ["MARKS_API"]
@@ -206,93 +218,83 @@ def key_of(title: str) -> str:
     return t.lower()
 
 
-def post(api, payload):
-    r = requests.post(api, data=json.dumps(payload, ensure_ascii=False).encode(), headers={"Content-Type": "text/plain;charset=utf-8"}, timeout=120)
-    r.raise_for_status()
-    res = r.json()
-    if not res.get("ok"):
-        raise RuntimeError(f"웹앱 오류: {res}")
-    return res
-
-
 def folder_name(m):
     t = re.sub(r"\s+", " ", m.get("title") or "").strip()
-    parts = [str(m.get("deadline") or "").strip(), (m.get("org") or "").strip()]
-    head = " ".join(p for p in parts if p)
+    head = " ".join(p for p in [str(m.get("deadline") or "").strip(), (m.get("org") or "").strip()] if p)
     return (f"{head} - {t}" if head else t)[:120]
 
 
 def run():
-    api = api_url()
-    token = os.environ.get("UPLOAD_TOKEN", "")
-    if not token:
-        raise SystemExit("UPLOAD_TOKEN 이 없어요 (GitHub Secrets)")
-    marks = requests.get(api, params={"action": "marks"}, timeout=60).json()["marks"]
+    """⭐공고 첨부를 받아 inbox/<id>/ 에 두고 inbox/index.json 에 적는다.
+    Apps Script 가 10분마다 index.json 을 읽어 드라이브로 옮기고 시트에 '저장됨'을 적으면,
+    다음 실행 때 여기서 inbox 를 비운다."""
+    marks = requests.get(api_url(), params={"action": "marks"}, timeout=60).json()["marks"]
     postings = json.loads((ROOT / "data" / "postings.json").read_text(encoding="utf-8"))
     by_key = {key_of(p["title"]): p for p in postings.values()}
+    INBOX.mkdir(exist_ok=True)
+    idx_path = INBOX / "index.json"
+    index = json.loads(idx_path.read_text(encoding="utf-8")) if idx_path.exists() else {}
 
-    todo = [(k, m) for k, m in marks.items() if m.get("state") == "plan" and not m.get("saved") and int(m.get("tries") or 0) < MAX_TRIES]
-    print(f"지원예정 {sum(m.get('state') == 'plan' for m in marks.values())}건 · 받을 것 {len(todo)}건")
-    summary = ["## 첨부 자동 저장", "", "| 공고 | 결과 |", "|---|---|"]
-    for k, m in todo:
+    # 드라이브에 옮겨졌거나 표시가 풀린 것은 비우기
+    for iid in list(index):
+        m = marks.get(index[iid]["key"])
+        if not m or m.get("state") != "plan" or m.get("saved"):
+            shutil.rmtree(INBOX / iid, ignore_errors=True)
+            del index[iid]
+
+    summary = ["## 첨부 받기", "", "| 공고 | 결과 |", "|---|---|"]
+    for k, m in marks.items():
+        if m.get("state") != "plan" or m.get("saved"):
+            continue
+        iid = hashlib.sha1(k.encode()).hexdigest()[:12]
+        old = index.get(iid, {})
+        if old.get("status") == "ready" or int(old.get("tries") or 0) >= MAX_TRIES:
+            continue  # 드라이브로 옮겨지길 기다리는 중이거나, 3번 실패해서 포기
         p = by_key.get(k, {})
         m = {**{x: p.get(x) for x in ("title", "url", "org", "deadline")}, **{x: v for x, v in m.items() if v}}
         title = m.get("title") or k
-        if not m.get("url"):
-            post(api, {"action": "result", "token": token, "key": k, "note": "공고 주소를 못 찾음", "done": True})
-            summary.append(f"| {title} | 주소 없음 |")
-            continue
-        s = new_session()
+        entry = {"key": k, "title": title, "url": m.get("url") or "", "folderName": folder_name(m),
+                 "tries": int(old.get("tries") or 0) + 1, "at": datetime.now(KST).strftime("%Y-%m-%d %H:%M")}
         try:
+            if not m.get("url"):
+                raise RuntimeError("공고 주소를 못 찾음")
+            s = new_session()
             found = find_files(s, m["url"])
             files, errors = [], []
             for f in found:
                 try:
                     files.append(download(s, f, m["url"]))
                 except Exception as e:  # noqa: BLE001
-                    errors.append(f"{f['name'] or f['url']}: {e}")
+                    errors.append(f"{f['name'] or '파일'}: {str(e)[:120]}")
             if not files:
-                note = "첨부파일 없음" if not found else "다운로드 실패: " + "; ".join(errors)[:300]
-                post(api, {"action": "result", "token": token, "key": k, "note": note, "done": False})
-                summary.append(f"| {title} | {note} |")
-                continue
-            # 이름 겹치면 번호 붙이기
-            names = {}
-            for f in files:
-                n = f["name"]
-                if n in names:
-                    names[n] += 1
-                    stem, dot, ext = n.rpartition(".")
-                    f["name"] = f"{stem} ({names[n]}).{ext}" if dot else f"{n} ({names[n]})"
-                else:
-                    names[n] = 1
-            batch, size, saved = [], 0, []
-            def flush():
-                if batch:
-                    res = post(api, {"action": "upload", "token": token, "key": k, "url": m["url"], "folderName": folder_name(m),
-                                     "files": [{"name": f["name"], "mime": f["mime"], "b64": base64.b64encode(f["bytes"]).decode()} for f in batch]})
-                    saved.extend(res.get("saved", []))
-            for f in files:
-                if batch and size + len(f["bytes"]) > MAX_BATCH:
-                    flush()
-                    batch, size = [], 0
-                batch.append(f)
-                size += len(f["bytes"])
-            flush()
-            summary.append(f"| {title} | {len(saved)}개 저장{' (일부 실패 ' + str(len(errors)) + ')' if errors else ''} |")
-            print(f"저장: {title} → {saved}")
+                raise RuntimeError("첨부파일을 못 찾음" if not found else "다운로드 실패 — " + "; ".join(errors))
+            d = INBOX / iid
+            shutil.rmtree(d, ignore_errors=True)
+            d.mkdir(parents=True)
+            entry["files"], used = [], set()
+            for n, f in enumerate(files):
+                name = f["name"]
+                stem, dot, ext = name.rpartition(".")
+                i = 2
+                while name in used:
+                    name = f"{stem} ({i}).{ext}" if dot else f"{f['name']} ({i})"
+                    i += 1
+                used.add(name)
+                stored = f"{n + 1}{'.' + re.sub(r'[^A-Za-z0-9]', '', ext)[:5] if dot else ''}"
+                (d / stored).write_bytes(f["bytes"])
+                entry["files"].append({"stored": stored, "name": name})
+            entry.update(status="ready", note=("일부 실패: " + "; ".join(errors))[:300] if errors else "")
+            summary.append(f"| {title} | {len(files)}개 받음{' (일부 실패)' if errors else ''} |")
         except Exception as e:  # noqa: BLE001
-            msg = f"{type(e).__name__}: {str(e)[:200]}"
-            print(f"실패: {title} — {msg}")
-            try:
-                post(api, {"action": "result", "token": token, "key": k, "note": msg, "done": False})
-            except Exception:  # noqa: BLE001
-                pass
-            summary.append(f"| {title} | 실패: {msg} |")
+            entry.update(status="failed", note=f"{str(e)[:300]}")
+            summary.append(f"| {title} | 실패 {entry['tries']}/{MAX_TRIES}: {entry['note'][:120]} |")
+        index[iid] = entry
+        print(f"{entry['status']}: {title} {entry.get('note', '')}")
         time.sleep(1)
 
+    idx_path.write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
     if len(summary) == 4:
-        summary.append("| (받을 공고 없음) | |")
+        summary.append("| (새로 받을 공고 없음) | |")
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         Path(os.environ["GITHUB_STEP_SUMMARY"]).write_text("\n".join(summary) + "\n", encoding="utf-8")
     print("\n".join(summary))
