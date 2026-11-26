@@ -100,8 +100,9 @@ def tidy_title(t: str) -> str:
     if m and m.start() > 12:
         t = t[: m.start()]
     w = t.split()
-    for i in range(len(w) // 2, 2, -1):  # 'A B C A B' 처럼 제목이 두 번 붙은 경우
-        if " ".join(w[:i]).startswith(" ".join(w[i:])):
+    for i in range(3, len(w) // 2 + 1):  # 'A B C A B' 처럼 제목이 두 번 붙은 경우
+        a, b = " ".join(w[:i]), " ".join(w[i:])
+        if a.startswith(b) or b.startswith(a):
             t = " ".join(w[:i])
             break
     t = re.sub(r"[\s\[(]+$", "", t.strip())
