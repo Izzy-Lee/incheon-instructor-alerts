@@ -384,7 +384,52 @@ def parse_zighang(src):
     return out
 
 
-PARSERS = {"zighang": parse_zighang, "eminwon": parse_eminwon, "platform": parse_platform, "links": parse_links, "gojobs": parse_gojobs, "ice": parse_ice, "rss": parse_rss}
+def parse_neulbom(src):
+    """늘봄허브 '학교별 요청 공고' (지역 필터, 모집기간 ±1~2달)."""
+    base = "https://neulbomhub.kosac.re.kr/hmpg/prpb/papr/"
+    out = []
+    for rgn in src.get("regions", ["R1200"]):
+        data = {
+            "miv_pageNo": 1, "miv_pageSize": 100, "searchkey": "prrg", "scType": "PG1", "recmnt_month": 0,
+            "recmnt_bgng": (TODAY - timedelta(days=30)).isoformat(), "recmnt_end": (TODAY + timedelta(days=90)).isoformat(),
+            "list_prgrm_status": "Y", "list_prgrm_status_ALL": "Y", "list_oper_rgn_lclsf_cd": rgn, "page_size_sel": 100,
+        }
+        r = session.post(base + "paprListPgng.do", data=data, timeout=20,
+                         headers={"X-Requested-With": "XMLHttpRequest", "Referer": base + "paprListPage.do"})
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        seen = set()
+        for a in soup.find_all("a", onclick=re.compile(r"paprDetail")):
+            m = re.search(r"paprDetail\('(\w+)',\s*'(\w+)'\)", a.get("onclick", ""))
+            if not m or m[2] in seen:
+                continue
+            seen.add(m[2])
+            card = a
+            for _ in range(5):
+                if card.parent is None or len(card.get_text(" ")) > 250:
+                    break
+                card = card.parent
+            txt = clean(card.get_text(" "))
+            if "모집마감" in txt:
+                continue
+            title = clean(a.get_text(" ")) or txt[:60]
+            school = re.search(r"학교명\s*(\S+)", txt)
+            area = re.search(r"지역\s*(\S+\s?\S*?)\s+학교명", txt)
+            kind = re.search(r"분류명\s*(\S+)", txt)
+            rng = RANGE_RE.search(txt)
+            out.append({
+                "title": f"[늘봄 {kind[1] if kind else '프로그램'}] {title}",
+                "org": (school[1] if school else "") + (f" ({area[1]})" if area else ""),
+                "kind": "늘봄 강사 요청",
+                "via": src["name"],
+                "url": base + "paprDetail.do?" + urlencode({"prgrm_pbanc_mng_no": m[2]}),
+                "posted": to_date(rng[1]).isoformat() if rng and to_date(rng[1]) else None,
+                "deadline": to_date(rng[2]).isoformat() if rng and to_date(rng[2]) else None,
+            })
+    return out
+
+
+PARSERS = {"neulbom": parse_neulbom, "zighang": parse_zighang, "eminwon": parse_eminwon, "platform": parse_platform, "links": parse_links, "gojobs": parse_gojobs, "ice": parse_ice, "rss": parse_rss}
 
 
 # ---------- 분류 ----------
