@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26 17:51",
+ "updated": "2026-11-26 17:57",
  "status": [
   {
    "name": "인천관광공사 공지사항",
    "ok": true,
    "total": 10,
-   "hits": 4
+   "hits": 2
   },
   {
    "name": "인천콘텐츠코리아랩 공지",
@@ -17,7 +17,7 @@
    "name": "인천테크노파크 지원사업",
    "ok": true,
    "total": 10,
-   "hits": 3
+   "hits": 2
   },
   {
    "name": "드림파크문화재단 알림마당",
@@ -29,37 +29,37 @@
    "name": "인천관광기업지원센터 공지",
    "ok": true,
    "total": 14,
-   "hits": 2
+   "hits": 1
   },
   {
    "name": "K-Startup 모집중 공고",
    "ok": true,
    "total": 38,
-   "hits": 14
+   "hits": 1
   },
   {
    "name": "인천문화재단 재단소식",
    "ok": true,
    "total": 19,
-   "hits": 12
+   "hits": 8
   },
   {
    "name": "인천문화재단 지원사업 공고",
    "ok": true,
    "total": 14,
-   "hits": 8
+   "hits": 4
   },
   {
    "name": "인천문화재단 타 기관 지원사업",
    "ok": true,
    "total": 10,
-   "hits": 5
+   "hits": 4
   },
   {
    "name": "미추홀구립도서관 공지",
    "ok": true,
    "total": 10,
-   "hits": 3
+   "hits": 0
   }
  ],
  "postings": [
@@ -77,6 +77,18 @@
   },
   {
    "title": "2026년 중앙부처 및 지자체 창업지원사업 통합공고 2026년 중앙부처 및 지자체 창업지원사업 통합공고 창업진흥원 조회 339,584",
+   "org": "K-Startup",
+   "via": "K-Startup 모집중 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+   "posted": "2026-12-31",
+   "deadline": "2026-12-31",
+   "category": "여성·소상공인·기업",
+   "mine": false,
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "2026년 중앙부처 및 지자체 창업지원사업 통합공고 2026년 중앙부처 및 지자체 창업지원사업 통합공고 창업진흥원 조회 339,588",
    "org": "K-Startup",
    "via": "K-Startup 모집중 공고",
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
