@@ -23,6 +23,8 @@
   .item { display:flex; gap:12px; align-items:flex-start; border-bottom:1px solid var(--line); padding:14px 2px 14px 10px; border-left:4px solid transparent; }
   .item.plan { border-left-color:var(--pink2); background:#fff8f9; }
   .item.applied { border-left-color:#2e8b57; background:#f4fbf6; }
+  .item.hold { border-left-color:#c9a227; background:#fdfaf0; }
+  .act.holdOn { background:#c9a227; border-color:#c9a227; color:#fff; font-weight:700; }
   .act.doneOn { background:#2e8b57; border-color:#2e8b57; color:#fff; font-weight:700; }
   .item.hidden { opacity:.55; }
   .body { flex:1; min-width:0; }
@@ -54,6 +56,7 @@
   <div class="tabs" id="tabs">
     <button class="tab on" data-v="open">공고<b id="nOpen"></b></button>
     <button class="tab" data-v="plan">⭐ 지원예정<b id="nPlan"></b></button>
+    <button class="tab" data-v="hold">⏸ 지원보류<b id="nHold"></b></button>
     <button class="tab" data-v="applied">✅ 지원완료<b id="nApplied"></b></button>
     <button class="tab" data-v="hidden">숨긴 공고<b id="nHidden"></b></button>
   </div>
@@ -120,7 +123,7 @@ async function syncMarks() {
 function addGhosts() {
   const have = new Set(all.map(keyOf));
   Object.entries(marks).forEach(([k, m]) => {
-    if ((m.state === 'applied' || m.state === 'plan') && !have.has(k) && m.title)
+    if (['plan', 'applied', 'hold'].includes(m.state) && !have.has(k) && m.title)
       all.push({title: m.title, url: m.url || '#', org: m.org || '', deadline: m.deadline || '', category: '지난 공고', first_seen: '-', via: '기록', ghost: true});
   });
 }
@@ -137,11 +140,11 @@ function setMark(p, state) {
   else delete marks[k];
   saveMarks(); pushMark(k);
   lastUndo = () => { if (prev) marks[k] = prev; else delete marks[k]; saveMarks(); pushMark(k); render(); };
-  toast(state === 'plan' ? (prev?.state === 'applied' ? '지원예정으로 되돌렸어요' : API ? '지원예정에 넣었어요 · 첨부는 1시간 안에 드라이브로 저장돼요' : '지원예정에 넣었어요') : state === 'applied' ? '지원완료로 옮겼어요 ✅' : state === 'hidden' ? '숨겼어요' : '표시를 지웠어요', true);
+  toast(state === 'plan' ? (prev?.state === 'applied' || prev?.state === 'hold' ? '지원예정으로 되돌렸어요' : API ? '지원예정에 넣었어요 · 첨부는 1시간 안에 드라이브로 저장돼요' : '지원예정에 넣었어요') : state === 'applied' ? '지원완료로 옮겼어요 ✅' : state === 'hold' ? '지원보류로 옮겼어요 ⏸ (첨부는 그대로 저장돼요)' : state === 'hidden' ? '숨겼어요' : '표시를 지웠어요', true);
   render();
 }
 function fileInfo(m) {
-  if (!m || (m.state !== 'plan' && m.state !== 'applied') || !API) return '';
+  if (!m || !['plan', 'applied', 'hold'].includes(m.state) || !API) return '';
   if (m.folder) return ` · <a class="drv" href="${esc(m.folder)}" target="_blank" rel="noopener">📁 드라이브에 저장됨</a>`;
   if (m.saved === '첨부 없음') return ' · 첨부파일 없음';
   if (m.note && (m.tries || 0) >= 6) return ` · 첨부 저장 실패 (${esc(m.note)})`;
@@ -156,19 +159,20 @@ function stateOf(p) { return marks[keyOf(p)]?.state || ''; }
 
 function render() {
   const q = $('#q').value.trim();
-  const counts = {open: 0, plan: 0, applied: 0, hidden: 0};
+  const counts = {open: 0, plan: 0, applied: 0, hold: 0, hidden: 0};
   all.forEach(p => { const s = stateOf(p);
-    if (s === 'hidden') counts.hidden++; else if (s === 'applied') counts.applied++; else if (!p.ghost) { counts.open++; if (s === 'plan') counts.plan++; } else if (s === 'plan') counts.plan++; });
-  $('#nOpen').textContent = counts.open; $('#nPlan').textContent = counts.plan; $('#nApplied').textContent = counts.applied; $('#nHidden').textContent = counts.hidden;
+    if (s === 'hidden') counts.hidden++; else if (s === 'applied') counts.applied++; else if (s === 'hold') counts.hold++; else if (!p.ghost) { counts.open++; if (s === 'plan') counts.plan++; } else if (s === 'plan') counts.plan++; });
+  $('#nOpen').textContent = counts.open; $('#nPlan').textContent = counts.plan; $('#nApplied').textContent = counts.applied; $('#nHold').textContent = counts.hold; $('#nHidden').textContent = counts.hidden;
 
   const rows = all.filter(p => {
     const s = stateOf(p);
-    if (view === 'open' && (s === 'hidden' || s === 'applied' || p.ghost)) return false;
+    if (view === 'open' && (s === 'hidden' || s === 'applied' || s === 'hold' || p.ghost)) return false;
     if (view === 'plan' && s !== 'plan') return false;
     if (view === 'applied' && s !== 'applied') return false;
+    if (view === 'hold' && s !== 'hold') return false;
     if (view === 'hidden' && s !== 'hidden') return false;
     if (cat !== '전체' && (cat === '내 분야' ? !p.mine : p.category !== cat)) return false;
-    if (hide && view !== 'plan' && view !== 'applied' && p.deadline && dday(p.deadline) === '마감') return false;
+    if (hide && !['plan', 'applied', 'hold'].includes(view) && p.deadline && dday(p.deadline) === '마감') return false;
     return !q || (p.title + p.org + p.via + p.category + (p.kind || '')).includes(q);
   });
   if (view === 'open') rows.sort((a, b) => (stateOf(b) === 'plan') - (stateOf(a) === 'plan'));
@@ -179,19 +183,23 @@ function render() {
       <div class="body">
         <span class="tag ${p.mine ? 'mine' : ''}">${esc(p.category)}</span>
         <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>
-        <div class="meta">${esc(p.org)}${p.kind ? ' · ' + esc(p.kind) : ''} · 마감 ${esc(p.deadline || '미기재')} <span class="dd">${dday(p.deadline)}</span> · 처음 본 날 ${esc(p.first_seen)} · ${esc(p.via)}${s && marks[keyOf(p)]?.at ? (s === 'applied' ? ' · 지원한 날 ' : ' · 표시한 날 ') + esc(marks[keyOf(p)].at) : ''}${fileInfo(marks[keyOf(p)])}</div>
+        <div class="meta">${esc(p.org)}${p.kind ? ' · ' + esc(p.kind) : ''} · 마감 ${esc(p.deadline || '미기재')} <span class="dd">${dday(p.deadline)}</span> · 처음 본 날 ${esc(p.first_seen)} · ${esc(p.via)}${s && marks[keyOf(p)]?.at ? (s === 'applied' ? ' · 지원한 날 ' : s === 'hold' ? ' · 보류한 날 ' : ' · 표시한 날 ') + esc(marks[keyOf(p)].at) : ''}${fileInfo(marks[keyOf(p)])}</div>
       </div>
       <div class="acts">
         ${s === 'hidden'
           ? `<button class="act" data-a="">다시 보기</button>`
           : s === 'applied'
           ? `<button class="act doneOn" data-a="plan" title="누르면 지원예정으로 되돌려요">✅ 지원완료</button>`
+          : s === 'hold'
+          ? `<button class="act holdOn" data-a="plan" title="누르면 지원예정으로 되돌려요">⏸ 지원보류</button>
+             <button class="act" data-a="hidden">숨기기</button>`
           : `<button class="act ${s === 'plan' ? 'planOn' : ''}" data-a="${s === 'plan' ? '' : 'plan'}">${s === 'plan' ? '★ 지원예정' : '☆ 지원예정'}</button>
-             ${s === 'plan' ? `<button class="act" data-a="applied">✅ 지원완료</button>` : ''}
+             ${s === 'plan' ? `<button class="act" data-a="applied">✅ 지원완료</button>
+             <button class="act" data-a="hold" title="일정이 겹치는 등 잠시 미뤄 둘 때">⏸ 지원보류</button>` : ''}
              <button class="act" data-a="hidden">숨기기</button>`}
       </div>
     </div>`;
-  }).join('') : `<div class="empty">${view === 'plan' ? '지원예정으로 표시한 공고가 없어요. 공고 옆 ☆ 지원예정을 눌러 보세요.' : view === 'applied' ? '지원완료한 공고가 없어요. ⭐ 지원예정 공고에서 ✅ 지원완료를 눌러 보세요.' : view === 'hidden' ? '숨긴 공고가 없어요.' : '조건에 맞는 공고가 없어요.'}</div>`;
+  }).join('') : `<div class="empty">${view === 'plan' ? '지원예정으로 표시한 공고가 없어요. 공고 옆 ☆ 지원예정을 눌러 보세요.' : view === 'applied' ? '지원완료한 공고가 없어요. ⭐ 지원예정 공고에서 ✅ 지원완료를 눌러 보세요.' : view === 'hold' ? '보류한 공고가 없어요. 일정이 겹치면 ⭐ 지원예정 공고에서 ⏸ 지원보류를 눌러 보세요.' : view === 'hidden' ? '숨긴 공고가 없어요.' : '조건에 맞는 공고가 없어요.'}</div>`;
 }
 
 $('#list').addEventListener('click', e => {

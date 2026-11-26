@@ -243,13 +243,13 @@ def run():
     # 드라이브에 옮겨졌거나 표시가 풀린 것은 비우기
     for iid in list(index):
         m = marks.get(index[iid]["key"])
-        if not m or m.get("state") not in ("plan", "applied") or m.get("saved"):
+        if not m or m.get("state") not in ("plan", "applied", "hold") or m.get("saved"):
             shutil.rmtree(INBOX / iid, ignore_errors=True)
             del index[iid]
 
     summary = ["## 첨부 받기", "", "| 공고 | 결과 |", "|---|---|"]
     for k, m in marks.items():
-        if m.get("state") not in ("plan", "applied") or m.get("saved"):
+        if m.get("state") not in ("plan", "applied", "hold") or m.get("saved"):
             continue
         iid = hashlib.sha1(k.encode()).hexdigest()[:12]
         old = index.get(iid, {})
