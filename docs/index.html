@@ -101,6 +101,7 @@ async function syncMarks() {
     const server = d.marks || {};
     let first = false; try { first = !localStorage.getItem(SYNCED); } catch (e) {}
     if (first) {
+      try { if (Object.keys(marks).length) localStorage.setItem(KEY + '-backup', JSON.stringify(marks)); } catch (e) {}
       const up = Object.keys(marks).filter(k => !server[k]);
       if (up.length) { await post({action: 'marks', items: up.map(k => payload(k, marks[k]))}); up.forEach(k => server[k] = marks[k]); }
       try { localStorage.setItem(SYNCED, '1'); } catch (e) {}
