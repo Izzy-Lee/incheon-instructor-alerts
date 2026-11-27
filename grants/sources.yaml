@@ -4,30 +4,35 @@
   org: 인천관광공사
   type: links
   url: https://www.ito.or.kr/main/board/notice.jsp
+  history: https://www.ito.or.kr/main/bbs/bbsMsgList.do?bcd=notice&pgno={page}   # 예고 캘린더용 지난 글 페이지
 
 - id: inckl
   name: 인천콘텐츠코리아랩 공지
   org: 인천콘텐츠코리아랩
   type: links
   url: https://www.inckl.or.kr/user/board/list.do?board_id=notice
+  history: https://www.inckl.or.kr/user/board/list.do?board_id=notice&page={page}   # 예고 캘린더용 지난 글 페이지
 
 - id: itp
   name: 인천테크노파크 지원사업
   org: 인천테크노파크
   type: links
   url: https://www.itp.or.kr/intro.asp?tmid=13
+  history: https://www.itp.or.kr/intro.asp?tmid=13&PageNum={page}   # 예고 캘린더용 지난 글 페이지
 
 - id: dreampark
   name: 드림파크문화재단 알림마당
   org: 드림파크문화재단
   type: links
   url: https://www.dreamparkcf.com/sub/board.php?mn=notice&fn=board&md=l&zest_bn=hana_board_19&bn=hana_board_19&page=1
+  history: https://www.dreamparkcf.com/sub/board.php?mn=notice&fn=board&md=l&zest_bn=hana_board_19&bn=hana_board_19&page={page}   # 예고 캘린더용 지난 글 페이지
 
 - id: tourbiz
   name: 인천관광기업지원센터 공지
   org: 인천관광기업지원센터
   type: links
   url: https://tourbiz.ito.or.kr/info/notice
+  history: https://tourbiz.ito.or.kr/info/notice?pageIndex={page}   # 예고 캘린더용 지난 글 페이지
 
 - id: kstartup
   name: K-Startup 모집중 공고
@@ -46,6 +51,7 @@
   org: 인천문화재단
   type: links
   url: https://ifac.or.kr/bbs/list.do?key=m2501152808232
+  history: https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex={page}   # 예고 캘린더용 지난 글 페이지
 
 - id: ifac-support
   name: 인천문화재단 지원사업 공고
@@ -53,6 +59,7 @@
   org: 인천문화재단
   type: links
   url: https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255
+  history: https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex={page}   # 예고 캘린더용 지난 글 페이지
 
 - id: ifac-other
   name: 인천문화재단 타 기관 지원사업
@@ -60,6 +67,7 @@
   org: 인천 문화기관
   type: links
   url: https://ifac.or.kr/bbs/list.do?key=m2501152808367
+  history: https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex={page}   # 예고 캘린더용 지난 글 페이지
 
 - id: michu-lib
   name: 미추홀구립도서관 공지

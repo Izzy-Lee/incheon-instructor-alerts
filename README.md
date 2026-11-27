@@ -30,3 +30,11 @@
 - 목록: https://izzy-lee.github.io/incheon-instructor-alerts/grants.html
 - 알림: Issues 탭의 「지원사업」 라벨
 - 고칠 파일: `grants/sources.yaml`(사이트), `grants/keywords.yaml`(걸러내기·분야)
+
+## 지원사업 예고 캘린더
+
+올해 실제 공고(지원사업 게시판의 지난 13개월 글)와 K-Startup 「중앙부처 및 지자체 창업지원사업 통합공고」 표의 공고시기로 다가올 1년의 공고를 예고해요.
+- 구글 캘린더 구독 주소: https://artable.me/incheon-instructor-alerts/forecast.ics (구글 캘린더 → 다른 캘린더 + → URL로 추가)
+- 🔮 예고(작년 기준 추정) · 🗓 계획(올해 통합공고) · ✅ 공고 떴음 · ⏰ 마감
+- 예고일 10일 전~25일 후에는 그 게시판을 3시간마다 확인해요 (`.github/workflows/watch.yml`).
+- 새 해 통합공고가 올라오면 자동으로 받아 계획을 바꿔요.

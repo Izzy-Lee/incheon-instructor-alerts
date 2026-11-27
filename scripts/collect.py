@@ -483,6 +483,9 @@ PROFILE = PROFILES[os.environ.get("PROFILE", "instructors")]
 
 def main():
     sources = load_yaml(PROFILE["sources"])
+    only = [x for x in os.environ.get("ONLY_SOURCES", "").split(",") if x]
+    if only:  # 예고 기간 집중 확인: 해당 게시판만
+        sources = [x for x in sources if x["id"] in only]
     kw = load_yaml(PROFILE["keywords"])
     db_path = ROOT / PROFILE["db"]
     db = json.loads(db_path.read_text(encoding="utf-8")) if db_path.exists() else {}

@@ -1,0 +1,66 @@
+name: 지원사업 예고 기간 집중 확인
+
+# 예고 캘린더에서 '지금쯤 뜰 것' 같은 사업이 있으면, 그 게시판만 3시간마다 확인한다.
+# (예고일 10일 전 ~ 25일 후까지, 공고가 뜨면 자동으로 멈춤)
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 지금 집중 확인할 게시판
+        id: w
+        run: |
+          ids=$(python3 -c "import json;print(','.join(json.load(open('docs/forecast.json')).get('watch',[])))" 2>/dev/null || true)
+          echo "ids=$ids" >> "$GITHUB_OUTPUT"
+          echo "집중 확인: ${ids:-없음}"
+
+      - uses: actions/setup-python@v5
+        if: steps.w.outputs.ids != ''
+        with:
+          python-version: "3.12"
+
+      - name: 해당 게시판만 수집 + 예고 갱신
+        if: steps.w.outputs.ids != ''
+        env:
+          PROFILE: grants
+          ONLY_SOURCES: ${{ steps.w.outputs.ids }}
+        run: |
+          pip install -r requirements.txt
+          python scripts/collect.py
+          python scripts/forecast.py
+
+      - name: 결과 저장
+        if: steps.w.outputs.ids != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs/grants.json docs/forecast.ics docs/forecast.json
+          git diff --cached --quiet || git commit -m "예고 기간 집중 확인 $(TZ=Asia/Seoul date '+%F %H:%M')"
+          for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done
+          exit 1
+
+      - name: 새 공고가 있으면 이슈로 알림
+        if: steps.w.outputs.ids != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -f out/grants/should_post ] || [ "$(cat out/grants/should_post)" != "yes" ]; then echo "새 공고 없음"; exit 0; fi
+          if ! grep -q "### 🆕 신규 공고" out/grants/issue.md || grep -A2 "### 🆕 신규 공고" out/grants/issue.md | grep -q "^없음"; then echo "신규 없음(마감임박만)"; exit 0; fi
+          gh label create "지원사업" --color 1A1A1A 2>/dev/null || true
+          gh issue create --title "$(cat out/grants/issue_title.txt) (예고 기간 집중 확인)" \
+            --body "$(cat out/grants/issue.md)" --label "지원사업" --assignee "${{ github.repository_owner }}"
