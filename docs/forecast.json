@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 21:55",
+ "updated": "2026-11-27 22:00",
  "watch": [
   "itp"
  ],
@@ -295,6 +295,30 @@
    "status": "예고"
   },
   {
+   "key": "콘텐츠투자연계창업도약",
+   "kind": "plan",
+   "name": "콘텐츠 투자 연계 창업도약",
+   "org": "한국콘텐츠 진흥원 (기업육성팀)",
+   "date": "2027-01-01",
+   "plan_months": "1~3월",
+   "category": "디자인·상품·콘텐츠",
+   "mine": true,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "콘텐츠 투자 연계 창업도약",
+     "date": "’26.1~3월",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "문화체육 관광부 (문화산업 정책과) / 한국콘텐츠 진흥원 (기업육성팀)",
+     "who": "콘텐츠 스타트업 (창업 7년 이하)",
+     "what": "①사업화 자금 ②컨설팅·멘토링 ③후속투자유치 지원",
+     "source_id": "kstartup"
+    }
+   ],
+   "status": "예고",
+   "who": "콘텐츠 스타트업 (창업 7년 이하)"
+  },
+  {
    "key": "인천수봉문화회관기획공연기획전시인천수봉문화회관",
    "kind": "history",
    "name": "인천수봉문화회관 기획공연 & 기획전시 공모 인천수봉문화회관",
@@ -409,6 +433,198 @@
     }
    ],
    "status": "예고"
+  },
+  {
+   "key": "제품화allinone팩",
+   "kind": "plan",
+   "name": "제품화 ALL-In- One 팩",
+   "org": "창업진흥원 (지역전략실)",
+   "date": "2027-02-01",
+   "plan_months": "2월",
+   "category": "여성·소상공인·기업",
+   "mine": false,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "제품화 ALL-In- One 팩",
+     "date": "’26.2월 (예정)",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "중소벤처 기업부 (창업생태계과) / 창업진흥원 (지역전략실)",
+     "who": "초도양산을 희망하는 7년 미만의 제조창업기업",
+     "what": "제조창업기업의 설계 개선, 시제품 제작, 시금형, 초도 양산, 시험‧인증 등 전 과정을 통합 지원",
+     "source_id": "kstartup"
+    }
+   ],
+   "status": "예고",
+   "who": "초도양산을 희망하는 7년 미만의 제조창업기업"
+  },
+  {
+   "key": "액셀러레이터연계지원",
+   "kind": "plan",
+   "name": "액셀러레이터 연 계지원",
+   "org": "한국콘텐츠 진흥원 (기업육성팀)",
+   "date": "2027-02-01",
+   "plan_months": "2~3월",
+   "category": "디자인·상품·콘텐츠",
+   "mine": true,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "액셀러레이터 연 계지원",
+     "date": "’26.2~3월",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "문화체육 관광부 (문화산업 정책과) / 한국콘텐츠 진흥원 (기업육성팀)",
+     "who": "민간 콘텐츠 액셀러레 이터 및 콘텐츠 분야 스타트업",
+     "what": "①사업화 자금 ②컨설팅·멘토링",
+     "source_id": "kstartup"
+    }
+   ],
+   "status": "예고",
+   "who": "민간 콘텐츠 액셀러레 이터 및 콘텐츠 분야 스타트업"
+  },
+  {
+   "key": "관광오픈이노베이션프로그램",
+   "kind": "plan",
+   "name": "관광 오픈이노베 이션 프로그램",
+   "org": "한국관광공사 (관광기업창업팀)",
+   "date": "2027-02-01",
+   "plan_months": "2월",
+   "category": "관광·판로·마케팅",
+   "mine": true,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "관광 오픈이노베 이션 프로그램",
+     "date": "’25.2월",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "문화체육 관광부 (관광산업 정책과) / 한국관광공사 (관광기업창업팀)",
+     "who": "관광 분야 창업기업",
+     "what": "①사업화 자금 ◯2기술개발(R&D) ◯3행사·네트워크",
+     "source_id": "kstartup"
+    }
+   ],
+   "status": "예고",
+   "who": "관광 분야 창업기업"
+  },
+  {
+   "key": "스타트업해외전시회지원",
+   "kind": "plan",
+   "name": "스타트업 해외 전시회 지원",
+   "org": "창업진흥원 (글로벌협력실)",
+   "date": "2027-02-01",
+   "plan_months": "2월",
+   "category": "예술·창작·교육",
+   "mine": true,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "스타트업 해외 전시회 지원",
+     "date": "’26.2월 (미정)",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "중소벤처 기업부 (글로벌 창업팀) / 창업진흥원 (글로벌협력실)",
+     "who": "7년 이내 창업기업 중 각 전시회별 지원요건을 충족 하는 자",
+     "what": "①해외전시회 부 스 임차 ②전시회 참가비 ③사전교육 ④비즈니스 매칭 지원 등",
+     "source_id": "kstartup"
+    }
+   ],
+   "status": "예고",
+   "who": "7년 이내 창업기업 중 각 전시회별 지원요건을 충족 하는 자"
+  },
+  {
+   "key": "디지털혁신기업글로벌성장바우처지원사업",
+   "kind": "plan",
+   "name": "디지털 혁신기업 글로벌 성장 바우 처 지원 사업",
+   "org": "정보통신 산업진흥원 (글로벌창업팀)",
+   "date": "2027-02-01",
+   "plan_months": "2월",
+   "category": "여성·소상공인·기업",
+   "mine": false,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "디지털 혁신기업 글로벌 성장 바우 처 지원 사업",
+     "date": "’26.2월",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "과학기술 정보통신부 (정보통신 산업기반과) / 정보통신 산업진흥원 (글로벌창업팀)",
+     "who": "국내 디지털 혁신기업(창 업·벤처·중소)",
+     "what": "①제품 개발·고도화 ②지역 실증",
+     "source_id": "kstartup"
+    }
+   ],
+   "status": "예고",
+   "who": "국내 디지털 혁신기업(창 업·벤처·중소)"
+  },
+  {
+   "key": "기업수요맞춤형기술개발사업",
+   "kind": "plan",
+   "name": "기업수요 맞춤형 기술개발사업",
+   "org": "인천 테크노파크",
+   "date": "2027-02-01",
+   "plan_months": "2~3월",
+   "category": "여성·소상공인·기업",
+   "mine": false,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "기업수요 맞춤형 기술개발사업",
+     "date": "‘26.2~ 3월 (예정)",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "인천광역시 (창업벤처과) / 인천 테크노파크",
+     "who": "연 매출액 120억원 이하의 관내 제조 벤처기업",
+     "what": "①기술개발R&D ②사업화자금",
+     "source_id": "itp"
+    }
+   ],
+   "status": "예고",
+   "who": "연 매출액 120억원 이하의 관내 제조 벤처기업"
+  },
+  {
+   "key": "창업카페운영",
+   "kind": "plan",
+   "name": "창업카페 운영",
+   "org": "인천 테크노파크",
+   "date": "2027-02-01",
+   "plan_months": "2~3월",
+   "category": "여성·소상공인·기업",
+   "mine": false,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "창업카페 운영",
+     "date": "’26.2 ~3월",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "인천광역시 (창업 벤처과) / 인천 테크노파크",
+     "who": "창업에 관심있는 인천시민",
+     "what": "①창업교육 ②시설·공간",
+     "source_id": "itp"
+    }
+   ],
+   "status": "예고",
+   "who": "창업에 관심있는 인천시민"
+  },
+  {
+   "key": "i스타트업유니콘드림사업",
+   "kind": "plan",
+   "name": "I-스타트업 유니콘 드림사업",
+   "org": "인천테크노파크",
+   "date": "2027-02-01",
+   "plan_months": "2월",
+   "category": "기타",
+   "mine": false,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "I-스타트업 유니콘 드림사업",
+     "date": "‘26.2월",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "인천광역시 (창업벤처과) / 인천테크노파크",
+     "who": "관내 창업 7년이내 인천시 6대 전략 사업분야 기업",
+     "what": "①사업화 자금 ②글로벌 인프라 ③해외진출 ④투자유치 등",
+     "source_id": "itp"
+    }
+   ],
+   "status": "예고",
+   "who": "관내 창업 7년이내 인천시 6대 전략 사업분야 기업"
   },
   {
    "key": "교육청연계인천바로알기현장체험학습참여체험공방",
@@ -737,6 +953,126 @@
     }
    ],
    "status": "예고"
+  },
+  {
+   "key": "글로벌액셀러레이팅지원사업",
+   "kind": "plan",
+   "name": "글로벌 액셀러 레이팅 지원사업",
+   "org": "창업진흥원 (글로벌전략실)",
+   "date": "2027-03-01",
+   "plan_months": "3월",
+   "category": "관광·판로·마케팅",
+   "mine": true,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "글로벌 액셀러 레이팅 지원사업",
+     "date": "‘26.3월",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "중소벤처 기업부 (글로벌 창업팀) / 창업진흥원 (글로벌전략실)",
+     "who": "해외진출을 희망하는 7년이내 창업기업",
+     "what": "①해외 액셀러레 이팅 프로그램 ②해외진출자금",
+     "source_id": "kstartup"
+    }
+   ],
+   "status": "예고",
+   "who": "해외진출을 희망하는 7년이내 창업기업"
+  },
+  {
+   "key": "k스타트업센터사업",
+   "kind": "plan",
+   "name": "K-스타트업 센터 사업",
+   "org": "창업진흥원 (글로벌전략실), 중소벤처기업 진흥공단 (글로벌협력처)",
+   "date": "2027-03-01",
+   "plan_months": "3월",
+   "category": "여성·소상공인·기업",
+   "mine": false,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "K-스타트업 센터 사업",
+     "date": "‘26.3월",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "중소벤처 기업부 (글로벌 창업팀) / 창업진흥원 (글로벌전략실), 중소벤처기업 진흥공단 (글로벌협력처)",
+     "who": "국내·외 투자유치 또는 현지매출(수출) 실적이 있는 7년이내 창업기업",
+     "what": "①사업화 ②멘토링‧컨설 팅·교육 ③행사‧네트워크 ④글로벌 진출 지원",
+     "source_id": "kstartup"
+    }
+   ],
+   "status": "예고",
+   "who": "국내·외 투자유치 또는 현지매출(수출) 실적이 있는 7년이내 창업기업"
+  },
+  {
+   "key": "tryout실증제품시범구매지원",
+   "kind": "plan",
+   "name": "TRYOUT 실증제품 시범구매 지원",
+   "org": "인천테크노파크 (스타트업파 크센터)",
+   "date": "2027-03-01",
+   "plan_months": "3월",
+   "category": "기타",
+   "mine": false,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "TRYOUT 실증제품 시범구매 지원",
+     "date": "’26.3월",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "인천광역시 (경제자유 구역청 혁신성장 도시과) / 인천테크노파크 (스타트업파 크센터)",
+     "who": "창업 7년이내 기업",
+     "what": "①사업화 ④멘토링‧컨설팅· 교육",
+     "source_id": "itp"
+    }
+   ],
+   "status": "예고",
+   "who": "창업 7년이내 기업"
+  },
+  {
+   "key": "민간주도스타트업육성지원사업",
+   "kind": "plan",
+   "name": "민간주도 스타 트업 육성 지원사업",
+   "org": "인천테크노 파크",
+   "date": "2027-03-01",
+   "plan_months": "3~4월",
+   "category": "기타",
+   "mine": false,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "민간주도 스타 트업 육성 지원사업",
+     "date": "’26.3~4 월",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "인천광역시 (창업벤처과) / 인천테크노 파크",
+     "who": "민간AC협의회, 창업 7년 이내 기업(인천소재)",
+     "what": "멘토링·컨설팅",
+     "source_id": "kstartup"
+    }
+   ],
+   "status": "예고",
+   "who": "민간AC협의회, 창업 7년 이내 기업(인천소재)"
+  },
+  {
+   "key": "지피지기투자유치지원사업",
+   "kind": "plan",
+   "name": "지피지기 투자유치 지원사업",
+   "org": "인천테크노 파크",
+   "date": "2027-03-01",
+   "plan_months": "3~4월",
+   "category": "기타",
+   "mine": false,
+   "basis": [
+    {
+     "type": "2026 통합공고 계획 → 다음 해 같은 시기로 추정",
+     "title": "지피지기 투자유치 지원사업",
+     "date": "’26.3~4 월",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
+     "via": "인천광역시 (창업벤처과) / 인천테크노 파크",
+     "who": "창업 7년 이내 기업(인천소재)",
+     "what": "멘토링·컨설팅",
+     "source_id": "kstartup"
+    }
+   ],
+   "status": "예고",
+   "who": "창업 7년 이내 기업(인천소재)"
   },
   {
    "key": "해외단체관광객유치인센티브지원사업",
