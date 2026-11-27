@@ -167,8 +167,15 @@ def load_plan():
             soup = collect.BeautifulSoup(html, "html.parser")
             pdf_link = None
             for a in soup.select("a[href*='/afile/fileDownload/']"):
-                label = collect.clean((a.find_parent(["li", "div", "p"]) or a).get_text(" "))
-                if "공고문" in label and ".pdf" in label.lower():
+                node, label = a, ""
+                for _ in range(5):
+                    node = node.parent
+                    if node is None:
+                        break
+                    label = collect.clean(node.get_text(" "))
+                    if ".pdf" in label.lower() or ".hwp" in label.lower():
+                        break
+                if "공고문" in label and ".pdf" in label.lower() and label.lower().count(".pdf") == 1:
                     pdf_link = a["href"]
                     break
             if not pdf_link:
@@ -221,6 +228,20 @@ def timing_months(timing: str, plan_year: int):
     return year, m1, max(m1, m2)
 
 
+FORECAST_NEED = re.compile(r"모집|공모|지원사업|참여기업|참가기업|셀러|입주|공급업체|참가자|운영기관|운영단체|기획자")
+FORECAST_SKIP = ["견적", "수의", "임대", "심사위원", "위원 후보", "선정", "간담회", "설명회 개최", "특강", "강좌", "워크숍",
+                 "사례공유", "공연팀", "공연단체", "음악회", "합창단", "단원", "콘서트", "사진 공모", "영상 공모", "펜타포트",
+                 "고용", "경영안정", "융자", "이음카드", "스크랩", "수장고", "공사", "심의일정", "사전 질의", "홍보단",
+                 "서포터즈", "자원봉사", "수상자", "SNS", "의견 수렴", "참여자 모집", "수강생", "관람", "체험객", "청년",
+                 "포상관광", "컨벤션", "기업회의", "마이스", "MICE", "이사(", "감사(", "대표이사", "노무사", "정보보호",
+                 "사이버보안", "블록체인", "의료", "푸드트럭", "정부포상", "연구장비", "연구조직", "회계검증", "중복지원",
+                 "교육생", "취업", "재창업", "인터뷰 심의", "어린이 모집"]
+
+
+def forecast_worthy(title: str) -> bool:
+    return bool(FORECAST_NEED.search(title)) and not any(x in title for x in FORECAST_SKIP)
+
+
 # ---------- 예고 만들기 ----------
 def build(kw, history, plan, current):
     events = {}
@@ -228,6 +249,8 @@ def build(kw, history, plan, current):
 
     # 1) 올해 실제 공고 → 1년 뒤 예고
     for it in history:
+        if not forecast_worthy(it["title"]):
+            continue
         cat = collect.classify({**it, "extra": ""}, kw)
         if not cat or cat.get("drop"):
             continue
