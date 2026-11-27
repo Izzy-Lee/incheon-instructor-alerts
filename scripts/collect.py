@@ -429,7 +429,79 @@ def parse_neulbom(src):
     return out
 
 
-PARSERS = {"neulbom": parse_neulbom, "zighang": parse_zighang, "eminwon": parse_eminwon, "platform": parse_platform, "links": parse_links, "gojobs": parse_gojobs, "ice": parse_ice, "rss": parse_rss}
+def parse_g2b(src):
+    """나라장터(g2b.go.kr) 입찰공고 목록: 공고명 검색어별로 올해 게시분 조회 (로그인 없이 보는 공개 목록)."""
+    import html as _html
+    base = "https://www.g2b.go.kr"
+    s = requests.Session()
+    s.headers.update({"User-Agent": session.headers.get("User-Agent", "Mozilla/5.0"), "Accept-Language": "ko-KR,ko;q=0.9"})
+    s.get(base + "/", timeout=30)  # 익명 세션 쿠키 받기
+    hdr = {
+        "Content-Type": "application/json;charset=UTF-8", "Accept": "application/json",
+        "Origin": base, "Referer": base + "/",
+        "Menu-Info": '{"menuNo":"01175","menuCangVal":"PNPE001_01","bsneClsfCd":"%EC%97%85130026","scrnNo":"00941"}',
+        "Target-Id": "btnS0004", "submissionid": "mf_wfm_container_tacBidPbancLst_contents_tab2_body_sbmPbancBidPbancLst", "Usr-Id": "",
+    }
+    region = re.compile(src.get("region_re", "인천"))
+    anywhere = re.compile(src.get("nationwide_re", "$^"))
+    kinds = set(src.get("kinds", ["물품", "일반용역"]))
+    start = src.get("from", f"{TODAY.year}0101")
+    out, seen = [], set()
+    for kw in src["keywords"]:
+        for page in range(src.get("pages", 3)):
+            body = {"dlBidPbancLstM": {
+                "untyBidPbancNo": "", "bidPbancNo": "", "bidPbancOrd": "", "prcmBsneUntyNoOrd": "",
+                "prcmBsneSeCd": "0000 조070001 조070002 조070003 조070004 조070005 민079999",
+                "bidPbancNm": kw, "pbancPstgDt": "", "ldocNoVal": "", "bidPrspPrce": "", "ctrtDmndRcptNo": "", "dmstcOvrsSeCd": "",
+                "pbancKndCd": "공440002", "ctrtTyCd": "", "bidCtrtMthdCd": "", "scsbdMthdCd": "",
+                "fromBidDt": start, "toBidDt": TODAY.strftime("%Y%m%d"), "minBidPrspPrce": "", "maxBidPrspPrce": "",
+                "bsneAllYn": "Y", "frcpYn": "Y", "rsrvYn": "Y", "laseYn": "Y", "untyGrpGb": "", "dmstNm": "", "pbancPicNm": "",
+                "odnLmtLgdngCd": "", "odnLmtLgdngNm": "", "intpCd": "", "intpNm": "", "dtlsPrnmNo": "", "dtlsPrnmNm": "",
+                "slprRcptDdlnYn": "", "lcrtTyCd": "", "isMas": "", "isElpdt": "", "oderInstUntyGrpNo": "", "instSearchRangeYn": "",
+                "esdacYn": "", "infoSysCd": "정010029", "contxtSeCd": "콘010006", "bidDateType": "R", "brcoOrgnCd": "", "deptOrgnCd": "",
+                "isShop": "", "srchTy": "0", "cangParmVal": "", "currentPage": str(page + 1), "recordCountPerPage": "100",
+                "startIndex": page * 100 + 1, "endIndex": page * 100 + 100}}
+            r = s.post(base + "/pn/pnp/pnpe/BidPbac/selectBidPbacScrollTypeList.do",
+                       data=json.dumps(body, ensure_ascii=False).encode("utf-8"), headers=hdr, timeout=40)
+            r.raise_for_status()
+            rows = r.json().get("result") or []
+            for x in rows:
+                no, ordn = x.get("bidPbancUntyNo") or x.get("untyBidPbancNo"), x.get("bidPbancUntyOrd") or "000"
+                if not no or no in seen:
+                    continue
+                seen.add(no)
+                if x.get("prcmBsneSeCdNm") not in kinds:
+                    continue
+                title = clean(_html.unescape(x.get("bidPbancNm") or ""))
+                org = _html.unescape(x.get("dmstNm") or x.get("oderInstUntyGrpNm") or "").strip()
+                place = org + " " + _html.unescape(x.get("oderInstUntyGrpNm") or "")
+                local = bool(region.search(place))
+                if not local and not anywhere.search(title):
+                    continue
+                dt = _html.unescape(x.get("pbancPstgDt") or "")
+                ds = re.findall(r"(\d{4})/(\d{2})/(\d{2})", dt)
+                posted = "-".join(ds[0]) if ds else None
+                deadline = "-".join(ds[1]) if len(ds) > 1 else None
+                price = x.get("prspPrce") or x.get("alotBgtAmt")
+                won = f"{int(float(price)) // 10000:,}만원" if price and str(price).replace(".", "").isdigit() and float(price) > 0 else ""
+                out.append({
+                    "title": title,
+                    "org": org,
+                    "kind": " · ".join(v for v in [x.get("prcmBsneSeCdNm"), won, "인천·근교" if local else "전국", x.get("pbancSttsNm") if x.get("pbancSttsNm") != "등록공고" else ""] if v),
+                    "via": src["name"],
+                    "url": f"{base}/link/PNPE027_01/single/?bidPbancNo={no}&bidPbancOrd={ordn}",
+                    "posted": posted,
+                    "deadline": deadline,
+                    "extra": org,
+                })
+            if len(rows) < 100:
+                break
+            time.sleep(0.5)
+        time.sleep(0.5)
+    return out
+
+
+PARSERS = {"g2b": parse_g2b, "neulbom": parse_neulbom, "zighang": parse_zighang, "eminwon": parse_eminwon, "platform": parse_platform, "links": parse_links, "gojobs": parse_gojobs, "ice": parse_ice, "rss": parse_rss}
 
 
 # ---------- 분류 ----------
@@ -443,6 +515,8 @@ def classify(item, kw):
         return None
     hay = t + " " + item.get("org", "")
     for c in kw["categories"]:
+        if c.get("need") and not any(n in hay + " " + kind for n in c["need"]):
+            continue
         if not c["words"] or any(w in hay for w in c["words"]):
             return None if c.get("drop") else c
     return kw["categories"][-1]
@@ -477,6 +551,9 @@ PROFILES = {
     "grants": dict(sources="grants/sources.yaml", keywords="grants/keywords.yaml", db="data/grants.json", reports="reports/grants",
                    page_data="docs/grants.json", out="out/grants", prefix="[지원사업 공고]",
                    heading="인천 지원사업·공모 일일 요약", mine_label="⭐ 잘 맞는 분야"),
+    "bids": dict(sources="bids/sources.yaml", keywords="bids/keywords.yaml", db="data/bids.json", reports="reports/bids",
+                 page_data="docs/bids.json", out="out/bids", prefix="[나라장터 입찰]",
+                 heading="나라장터 입찰공고 일일 요약 (할 만한 일)", mine_label="⭐ 인천·근교 + 내 분야"),
 }
 PROFILE = PROFILES[os.environ.get("PROFILE", "instructors")]
 

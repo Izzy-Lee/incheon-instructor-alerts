@@ -249,7 +249,7 @@ def run():
 
     summary = ["## 첨부 받기", "", "| 공고 | 결과 |", "|---|---|"]
     for k, m in marks.items():
-        if k.startswith("g:"):  # 지원사업 페이지 표시는 강사지원DB 첨부 저장 대상이 아님
+        if k.startswith(("g:", "b:")):  # 지원사업·나라장터 페이지 표시는 강사지원DB 첨부 저장 대상이 아님
             continue
         if m.get("state") not in ("plan", "applied", "hold") or m.get("saved"):
             continue

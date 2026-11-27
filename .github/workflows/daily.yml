@@ -37,6 +37,12 @@ jobs:
           PROFILE: grants
         run: python scripts/collect.py
 
+      - name: 나라장터 입찰공고 수집
+        continue-on-error: true
+        env:
+          PROFILE: bids
+        run: python scripts/collect.py
+
       - name: 지원사업 예고 캘린더
         continue-on-error: true
         run: python scripts/forecast.py
@@ -45,7 +51,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data reports docs/data.json docs/grants.json docs/forecast.ics docs/forecast.json
+          git add data reports docs/data.json docs/grants.json docs/bids.json docs/forecast.ics docs/forecast.json
           git diff --cached --quiet || git commit -m "공고 업데이트 $(TZ=Asia/Seoul date +%F)"
           for i in 1 2 3; do git pull --rebase --autostash -q && git push && exit 0; sleep 5; done
           exit 1
@@ -79,4 +85,20 @@ jobs:
             --title "$(cat out/grants/issue_title.txt)" \
             --body "$BODY" \
             --label "지원사업" \
+            --assignee "${{ github.repository_owner }}"
+
+      - name: 나라장터 이슈로 알림
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -f out/bids/should_post ] || [ "$(cat out/bids/should_post)" != "yes" ]; then echo "새 입찰공고 없음"; exit 0; fi
+          gh label create "나라장터" --color 2F5BEA --description "나라장터 입찰공고 일일 요약" 2>/dev/null || true
+          BODY="$(cat out/bids/issue.md)
+
+          전체 목록: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/bids.html"
+          gh issue create \
+            --title "$(cat out/bids/issue_title.txt)" \
+            --body "$BODY" \
+            --label "나라장터" \
             --assignee "${{ github.repository_owner }}"
