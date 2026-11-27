@@ -1,0 +1,28 @@
+name: 계획 자료 받기 (예고 캘린더용)
+
+on:
+  workflow_dispatch:
+    inputs:
+      pbanc_sn:
+        description: "K-Startup 공고 번호(pbancSn), 여러 개는 띄어쓰기"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/fetch_kstartup_files.py ${{ github.event.inputs.pbanc_sn }}
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add plans
+          git diff --cached --quiet || git commit -m "계획 자료 받기 ${{ github.event.inputs.pbanc_sn }}"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
