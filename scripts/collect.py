@@ -472,6 +472,8 @@ def parse_g2b(src):
                 seen.add(no)
                 if x.get("prcmBsneSeCdNm") not in kinds:
                     continue
+                if "취소" in (x.get("pbancSttsNm") or ""):
+                    continue
                 title = clean(_html.unescape(x.get("bidPbancNm") or ""))
                 org = _html.unescape(x.get("dmstNm") or x.get("oderInstUntyGrpNm") or "").strip()
                 place = org + " " + _html.unescape(x.get("oderInstUntyGrpNm") or "")
