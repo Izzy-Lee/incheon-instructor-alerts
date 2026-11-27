@@ -1,120 +1,9 @@
 {
- "updated": "2026-11-27 21:48",
+ "updated": "2026-11-27 21:55",
  "watch": [
-  "ifac-notice",
-  "ifac-other",
-  "ito",
   "itp"
  ],
  "events": [
-  {
-   "key": "아트t인천원데이아트투어",
-   "kind": "history",
-   "name": "「아트·T 인천」 원데이 아트투어 참여자 모집 공고",
-   "org": "인천문화재단",
-   "date": "2026-11-03",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 「아트·T 인천」 원데이 아트투어 참여자 모집 공고",
-     "date": "2026-11-02",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=2",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2025 「아트·T 인천」 원데이 아트투어 참여자 모집 공고",
-     "date": "2025-11-03",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=27",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "공상주단체육성지원사업운영의견수렴간담회",
-   "kind": "history",
-   "name": "공연장상주단체 육성지원사업 운영 의견 수렴 간담회 안내",
-   "org": "인천문화재단",
-   "date": "2026-11-05",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 공연장상주단체 육성지원사업 운영 의견 수렴 간담회 안내",
-     "date": "2025-11-05",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=26",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2026년 공연장상주단체 육성지원사업 운영 의견 수렴 간담회 안내",
-     "date": "2025-11-05",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=8",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
-    }
-   ],
-   "status": "공고 떴음",
-   "actual": {
-    "title": "2027 공연장상주단체 육성지원사업 공모 공고",
-    "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232",
-    "deadline": null,
-    "found": "2026-11-26"
-   }
-  },
-  {
-   "key": "예술인역량강화교육",
-   "kind": "history",
-   "name": "예술인 역량강화 4분기 교육 신청 안내",
-   "org": "인천문화재단",
-   "date": "2026-11-05",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2025 예술인 역량강화 4분기 교육 신청 안내",
-     "date": "2025-11-05",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=26",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "공고 떴음",
-   "actual": {
-    "title": "2026년 12월 예술인 역량강화 교육 참여자 모집 안내",
-    "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232",
-    "deadline": null,
-    "found": "2026-11-26"
-   }
-  },
-  {
-   "key": "인천섬의날페스타기념인천섬사진전",
-   "kind": "history",
-   "name": "인천 섬의 날 페스타 기념 인천 섬 사진 공모전 공고",
-   "org": "인천관광공사",
-   "date": "2026-11-06",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2025 인천 섬의 날 페스타 기념 인천 섬 사진 공모전 공고",
-     "date": "2025-11-06",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1011&bcd=notice&pgno=14",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
   {
    "key": "제조혁신센터스마트제조혁신지원사업통합",
    "kind": "history",
@@ -186,26 +75,6 @@
     "deadline": null,
     "found": "2026-11-26"
    }
-  },
-  {
-   "key": "우현상수상자선정",
-   "kind": "history",
-   "name": "우현상 수상자 선정 공고",
-   "org": "인천문화재단",
-   "date": "2026-11-14",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2025 우현상 수상자 선정 공고",
-     "date": "2025-11-14",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=26",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
   },
   {
    "key": "공상주단체육성지원사업참여공",
@@ -290,106 +159,6 @@
     "deadline": null,
     "found": "2026-11-26"
    }
-  },
-  {
-   "key": "인천대학교평생교육원감수성시리즈교육인천대학교평생교육원",
-   "kind": "history",
-   "name": "[인천대학교 평생교육원] 감수성 시리즈 교육 참여자 모집(~11.30) 인천대학교 평생교육원",
-   "org": "인천 문화기관",
-   "date": "2026-11-21",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[인천대학교 평생교육원] 감수성 시리즈 교육 참여자 모집(~11.30) 인천대학교 평생교육원",
-     "date": "2025-11-21",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=8",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "문화예술교육기록워크숍우리에겐아직남은숙제가있다",
-   "kind": "history",
-   "name": "문화예술교육 기록 워크숍 <우리에겐 아직 남은 숙제가 있다> 신청 안내",
-   "org": "인천문화재단",
-   "date": "2026-11-25",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2025 문화예술교육 기록 워크숍 <우리에겐 아직 남은 숙제가 있다> 신청 안내",
-     "date": "2025-11-25",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=25",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천문화예술교육단체운영사례공유회지원사업n년차그다음",
-   "kind": "history",
-   "name": "인천 문화예술교육 단체 운영 사례공유회 <지원사업 N년차, 그다음?> 신청 안내",
-   "org": "인천문화재단",
-   "date": "2026-11-25",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2025 인천 문화예술교육 단체 운영 사례공유회 <지원사업 N년차, 그다음?> 신청 안내",
-     "date": "2025-11-25",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=25",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "생애전환문화예술학교생애전환특강생애전환을위한다섯가지키워드",
-   "kind": "history",
-   "name": "생애전환 문화예술학교 생애전환 특강 <생애전환을 위한 다섯가지 키워드> 신청 안내",
-   "org": "인천문화재단",
-   "date": "2026-11-26",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2025 생애전환 문화예술학교 생애전환 특강 <생애전환을 위한 다섯가지 키워드> 신청 안내",
-     "date": "2025-11-26",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=25",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천미술은행개방형수장고조성공사건축기계소액수의견적제출",
-   "kind": "history",
-   "name": "인천미술은행 개방형 수장고 조성 공사(건축,기계) 소액수의 견적제출 공고(11/26~12/2)",
-   "org": "인천문화재단",
-   "date": "2026-11-26",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "인천미술은행 개방형 수장고 조성 공사(건축,기계) 소액수의 견적제출 공고(11/26~12/2)",
-     "date": "2025-11-26",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=25",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
   },
   {
    "key": "공상주단체육성지원사업",
@@ -526,26 +295,6 @@
    "status": "예고"
   },
   {
-   "key": "문화예술교육매개자역량강화과정오픈강의우리에겐여전히남은숙제가있다",
-   "kind": "history",
-   "name": "문화예술교육 매개자 역량강화 과정 - 오픈강의 <우리에겐 여전히 남은 숙제가 있다> 신청 안내",
-   "org": "인천문화재단",
-   "date": "2027-01-06",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 문화예술교육 매개자 역량강화 과정 - 오픈강의 <우리에겐 여전히 남은 숙제가 있다> 신청 안내",
-     "date": "2026-01-06",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천수봉문화회관기획공연기획전시인천수봉문화회관",
    "kind": "history",
    "name": "인천수봉문화회관 기획공연 & 기획전시 공모 인천수봉문화회관",
@@ -561,80 +310,6 @@
      "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=7",
      "via": "인천문화재단 타 기관 지원사업",
      "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천관광기업지원센터심사위원회심사위원후보자등록",
-   "kind": "history",
-   "name": "인천관광기업지원센터 심사위원회 심사위원 후보자 등록 공고",
-   "org": "인천관광기업지원센터",
-   "date": "2027-01-08",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천관광기업지원센터 심사위원회 심사위원 후보자 등록 공고",
-     "date": "2026-01-08",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=6",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "공상주단체육성지원사업선정",
-   "kind": "history",
-   "name": "공연장상주단체 육성지원사업 선정 공고",
-   "org": "인천문화재단",
-   "date": "2027-01-08",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 공연장상주단체 육성지원사업 선정 공고",
-     "date": "2026-01-08",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2026년 공연장상주단체 육성지원사업 선정 공고",
-     "date": "2026-01-08",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=7",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
-    }
-   ],
-   "status": "공고 떴음",
-   "actual": {
-    "title": "2027 공연장상주단체 육성지원사업 공모 공고",
-    "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232",
-    "deadline": null,
-    "found": "2026-11-26"
-   }
-  },
-  {
-   "key": "금융기관nh농협은행협업특별경영안정자금지원",
-   "kind": "history",
-   "name": "금융기관(NH농협은행) 협업 특별 경영안정자금 추가 지원 공고",
-   "org": "인천테크노파크",
-   "date": "2027-01-16",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "금융기관(NH농협은행) 협업 특별 경영안정자금 추가 지원 공고",
-     "date": "2026-01-16",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=5",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
     }
    ],
    "status": "예고"
@@ -668,94 +343,6 @@
    "status": "예고"
   },
   {
-   "key": "인천문화재단뉴스저작물이용및스크랩모니터링소액수의견적제출",
-   "kind": "history",
-   "name": "인천문화재단 뉴스 저작물 이용 및 스크랩 모니터링 소액수의 견적제출 공고(1/20~1/23)",
-   "org": "인천문화재단",
-   "date": "2027-01-19",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천문화재단 뉴스 저작물 이용 및 스크랩 모니터링 소액수의 견적제출 공고(1/20~1/23)",
-     "date": "2026-01-19",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천예술인이음카드매월115일",
-   "kind": "history",
-   "name": "인천예술인이음카드 신청 안내 (매월 1~15일 접수)",
-   "org": "인천문화재단",
-   "date": "2027-01-20",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "인천예술인이음카드 신청 안내 (매월 1~15일 접수)",
-     "date": "2026-01-20",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "인천예술인이음카드 신청 안내 (매월 1~15일 접수)",
-     "date": "2026-01-20",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=6",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천국악회관소통하는금요일국악렉쳐콘서트",
-   "kind": "history",
-   "name": "인천국악회관 소(통하는) 금(요일) 국악 렉쳐 콘서트",
-   "org": "인천 문화기관",
-   "date": "2027-01-20",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[공모안내] 2026 인천국악회관 소(통하는) 금(요일) 국악 렉쳐 콘서트",
-     "date": "2026-01-20",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=7",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "화도진음악회공연단체화도진문화원",
-   "kind": "history",
-   "name": "화도진음악회 공연단체 모집 화도진문화원",
-   "org": "인천 문화기관",
-   "date": "2027-01-20",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[공모안내] 2026 화도진음악회 공연단체 모집 화도진문화원",
-     "date": "2026-01-20",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=7",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "한국관광협회중앙회내나라여행박람회및홍보",
    "kind": "history",
    "name": "한국관광협회중앙회 「2026 내나라 여행박람회」 참여기업 모집 안내 및 홍보",
@@ -771,46 +358,6 @@
      "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=6",
      "via": "인천관광기업지원센터 공지",
      "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천대학교평생교육원무대예술전문인력양성과정인천대학교평생교육원",
-   "kind": "history",
-   "name": "[인천대학교 평생교육원] 무대예술 전문인력 양성과정 참여자 모집(~2.27) 인천대학교 평생교육원",
-   "org": "인천 문화기관",
-   "date": "2027-01-26",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[인천대학교 평생교육원] 무대예술 전문인력 양성과정 참여자 모집(~2.27) 인천대학교 평생교육원",
-     "date": "2026-01-26",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=7",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "트라이보울sns홍보단트라이보울로",
-   "kind": "history",
-   "name": "트라이보울 SNS 홍보단 [트라이보울로!] 모집 공고",
-   "org": "인천문화재단",
-   "date": "2027-01-27",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "트라이보울 SNS 홍보단 [트라이보울로!] 모집 공고",
-     "date": "2026-01-27",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
     }
    ],
    "status": "예고"
@@ -864,114 +411,6 @@
    "status": "예고"
   },
   {
-   "key": "상상플랫폼2층3관임대사업자",
-   "kind": "history",
-   "name": "[재공고] 상상플랫폼 2층 3관 임대사업자 모집 공고",
-   "org": "인천관광공사",
-   "date": "2027-01-30",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[재공고] 상상플랫폼 2층 3관 임대사업자 모집 공고",
-     "date": "2026-01-30",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1029&bcd=notice&pgno=12",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "상상플랫폼12층2관임대사업자",
-   "kind": "history",
-   "name": "[재공고] 상상플랫폼 1,2층 2관 임대사업자 모집 공고",
-   "org": "인천관광공사",
-   "date": "2027-01-30",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[재공고] 상상플랫폼 1,2층 2관 임대사업자 모집 공고",
-     "date": "2026-01-30",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1028&bcd=notice&pgno=12",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "상상플랫폼1층1관임대사업자",
-   "kind": "history",
-   "name": "[재공고] 상상플랫폼 1층 1관 임대사업자 모집 공고",
-   "org": "인천관광공사",
-   "date": "2027-01-30",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[재공고] 상상플랫폼 1층 1관 임대사업자 모집 공고",
-     "date": "2026-01-30",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1027&bcd=notice&pgno=12",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천문화재단예술창작지원사업심의일정",
-   "kind": "history",
-   "name": "인천문화재단 예술창작지원사업 공모 심의일정 안내",
-   "org": "인천문화재단",
-   "date": "2027-02-03",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천문화재단 예술창작지원사업 공모 심의일정 안내",
-     "date": "2026-02-03",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=21",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2026 인천문화재단 예술창작지원사업 공모 심의일정 안내",
-     "date": "2026-02-03",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=6",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "공연팀미추홀문화회관소소炤炤음악회공연팀",
-   "kind": "history",
-   "name": "미추홀문화회관 소소(炤炤)음악회 공연팀공모",
-   "org": "인천 문화기관",
-   "date": "2027-02-03",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[공연팀공모] 2026년도 미추홀문화회관 소소(炤炤)음악회 공연팀공모",
-     "date": "2026-02-03",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "교육청연계인천바로알기현장체험학습참여체험공방",
    "kind": "history",
    "name": "교육청 연계 인천바로알기 현장체험학습 참여 체험공방 모집공고",
@@ -985,114 +424,6 @@
      "title": "2026 교육청 연계 인천바로알기 현장체험학습 참여 체험공방 모집공고",
      "date": "2026-02-04",
      "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1033&bcd=notice&pgno=12",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천도심권문화관광해설사선발",
-   "kind": "history",
-   "name": "인천(도심권) 문화관광해설사 선발 공고",
-   "org": "인천관광공사",
-   "date": "2027-02-04",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천(도심권) 문화관광해설사 선발 공고",
-     "date": "2026-02-04",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1032&bcd=notice&pgno=12",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "정년퇴직자고용중소기업지원사업",
-   "kind": "history",
-   "name": "정년퇴직자 고용연장 중소기업 지원사업 참여기업 모집 공고",
-   "org": "인천테크노파크",
-   "date": "2027-02-05",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 정년퇴직자 고용연장 중소기업 지원사업 참여기업 모집 공고",
-     "date": "2026-02-05",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=5",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "컨벤션유치및개최지원정기",
-   "kind": "history",
-   "name": "「2026 컨벤션 유치 및 개최지원」 정기2차 공고",
-   "org": "인천관광공사",
-   "date": "2027-02-06",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "「2026 컨벤션 유치 및 개최지원」 정기2차 공고",
-     "date": "2026-07-01",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1110&bcd=notice&pgno=4",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    },
-    {
-     "type": "작년 공고",
-     "title": "「2026 컨벤션 유치 및 개최지원」 정기1차 공고",
-     "date": "2026-02-06",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1035&bcd=notice&pgno=11",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천펜타포트음악축제공동사업자질의",
-   "kind": "history",
-   "name": "「2026 인천펜타포트 음악축제 공동사업자 모집 공모」 사전 질의 안내",
-   "org": "인천관광공사",
-   "date": "2027-02-06",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "「2026 인천펜타포트 음악축제 공동사업자 모집 공모」 사전 질의 안내",
-     "date": "2026-02-06",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1037&bcd=notice&pgno=11",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천펜타포트음악축제공동사업자",
-   "kind": "history",
-   "name": "「2026 인천펜타포트 음악축제 공동사업자 모집 공모」 공고",
-   "org": "인천관광공사",
-   "date": "2027-02-06",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "「2026 인천펜타포트 음악축제 공동사업자 모집 공모」 공고",
-     "date": "2026-02-06",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1036&bcd=notice&pgno=11",
      "via": "인천관광공사 공지사항",
      "source_id": "ito"
     }
@@ -1148,26 +479,6 @@
    "status": "예고"
   },
   {
-   "key": "남동문화재단남동구립여성합창단ㆍ풍물단단원정기남동문화재단",
-   "kind": "history",
-   "name": "남동구립여성합창단ㆍ풍물단 단원 정기 모집 남동문화재단",
-   "org": "인천 문화기관",
-   "date": "2027-02-13",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[남동문화재단] 2026년 남동구립여성합창단ㆍ풍물단 단원 정기 모집 남동문화재단",
-     "date": "2026-02-13",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "부평특성화문화예술교육예술교육랩재부평구문화재단",
    "kind": "history",
    "name": "부평 특성화 문화예술교육 <예술교육랩> 공모 (재)부평구문화재단",
@@ -1208,26 +519,6 @@
    "status": "예고"
   },
   {
-   "key": "인천중소관광기업고용장려금지원사업",
-   "kind": "history",
-   "name": "「2026 인천 중소 관광기업 고용장려금 지원사업」 참여기업 모집",
-   "org": "인천관광공사",
-   "date": "2027-02-23",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "「2026 인천 중소 관광기업 고용장려금 지원사업」 참여기업 모집",
-     "date": "2026-02-23",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1044&bcd=notice&pgno=11",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천상회상생파트너스",
    "kind": "history",
    "name": "인천상회 상생 파트너스 모집 공고",
@@ -1252,26 +543,6 @@
     "deadline": "2026-12-31",
     "found": "2026-11-26"
    }
-  },
-  {
-   "key": "인천기업회의및포상관광지원",
-   "kind": "history",
-   "name": "「2026 인천 기업회의 및 포상관광 지원」 공고",
-   "org": "인천관광공사",
-   "date": "2027-02-23",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "「2026 인천 기업회의 및 포상관광 지원」 공고",
-     "date": "2026-02-23",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1042&bcd=notice&pgno=11",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
   },
   {
    "key": "인생동행재능나눔아카데미재능나눔및연계기관",
@@ -1408,34 +679,6 @@
    "status": "예고"
   },
   {
-   "key": "찾아가는문화공연요기조기음악회뮤직앰배서더",
-   "kind": "history",
-   "name": "찾아가는 문화공연 「요기조기 음악회」 뮤직 앰배서더 모집 공고",
-   "org": "인천문화재단",
-   "date": "2027-02-26",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 찾아가는 문화공연 「요기조기 음악회」 뮤직 앰배서더 모집 공고",
-     "date": "2026-02-26",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=20",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2026 찾아가는 문화공연 「요기조기 음악회」 뮤직 앰배서더 모집 공고",
-     "date": "2026-02-26",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=6",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천교육여행유치협의체및파트너사",
    "kind": "history",
    "name": "인천 교육여행 유치 협의체 및 파트너사 모집 공고",
@@ -1476,54 +719,6 @@
    "status": "예고"
   },
   {
-   "key": "인천중소기업연구조직설립지원사업",
-   "kind": "history",
-   "name": "인천 중소기업 연구조직 설립 지원사업 모집 공고",
-   "org": "인천테크노파크",
-   "date": "2027-02-27",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천 중소기업 연구조직 설립 지원사업 모집 공고",
-     "date": "2026-02-27",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=5",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천예술인법률상담지원상시",
-   "kind": "history",
-   "name": "인천예술인 법률상담 지원 안내 (상시 접수)",
-   "org": "인천문화재단",
-   "date": "2027-02-27",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천예술인 법률상담 지원 안내 (상시 접수)",
-     "date": "2026-02-27",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=20",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2026 인천예술인 법률상담 지원 안내 (상시 접수)",
-     "date": "2026-02-27",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=5",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "우리미술관인천광역시동구우리미술관레지던시입주작가인천광역시동구문화관광과",
    "kind": "history",
    "name": "인천광역시 동구 우리미술관 레지던시 입주작가 모집 인천광역시 동구 문화관광과",
@@ -1539,26 +734,6 @@
      "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6",
      "via": "인천문화재단 타 기관 지원사업",
      "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천웰니스관광지선정",
-   "kind": "history",
-   "name": "인천웰니스관광지 선정 모집 공고",
-   "org": "인천관광공사",
-   "date": "2027-03-03",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천웰니스관광지 선정 모집 공고",
-     "date": "2026-03-03",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1051&bcd=notice&pgno=10",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
     }
    ],
    "status": "예고"
@@ -1659,54 +834,6 @@
      "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1054&bcd=notice&pgno=10",
      "via": "인천관광공사 공지사항",
      "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천체류형관광사업심사위원후보자등록",
-   "kind": "history",
-   "name": "인천 체류형 관광 공모사업 심사위원 후보자 등록 공고",
-   "org": "인천관광공사",
-   "date": "2027-03-06",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천 체류형 관광 공모사업 심사위원 후보자 등록 공고",
-     "date": "2026-03-06",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1055&bcd=notice&pgno=10",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "예술창작지원사업집중지원최종선정",
-   "kind": "history",
-   "name": "예술창작지원사업 집중지원 최종 선정공고",
-   "org": "인천문화재단",
-   "date": "2027-03-06",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 예술창작지원사업 집중지원 최종 선정공고",
-     "date": "2026-03-06",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=19",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2026 예술창작지원사업 집중지원 최종 선정공고",
-     "date": "2026-03-06",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=5",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
     }
    ],
    "status": "예고"
@@ -1848,34 +975,6 @@
    "status": "예고"
   },
   {
-   "key": "인천아트플랫폼창작스튜디오프로젝트인터뷰심의",
-   "kind": "history",
-   "name": "인천아트플랫폼 <창작스튜디오 프로젝트> 공모 인터뷰 심의 대상자 공고",
-   "org": "인천문화재단",
-   "date": "2027-03-10",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천아트플랫폼 <창작스튜디오 프로젝트> 공모 인터뷰 심의 대상자 공고",
-     "date": "2026-03-10",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=19",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2026 인천아트플랫폼 <창작스튜디오 프로젝트> 공모 인터뷰 심의 대상자 공고",
-     "date": "2026-03-10",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=5",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천관광국내파트너회원사",
    "kind": "history",
    "name": "인천관광 국내파트너 회원사 모집 공고",
@@ -1889,26 +988,6 @@
      "title": "2026 인천관광 국내파트너 회원사 모집 공고",
      "date": "2026-03-13",
      "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1058&bcd=notice&pgno=9",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천생태관광마을선정및육성",
-   "kind": "history",
-   "name": "인천생태관광마을 선정 및 육성 모집 공고",
-   "org": "인천관광공사",
-   "date": "2027-03-16",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천생태관광마을 선정 및 육성 모집 공고",
-     "date": "2026-03-16",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1059&bcd=notice&pgno=9",
      "via": "인천관광공사 공지사항",
      "source_id": "ito"
     }
@@ -1936,26 +1015,6 @@
    "status": "예고"
   },
   {
-   "key": "인천관광상품디자인개발지원",
-   "kind": "history",
-   "name": "인천 관광상품 디자인 개발 지원 공고",
-   "org": "인천관광공사",
-   "date": "2027-03-19",
-   "category": "디자인·상품·콘텐츠",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천 관광상품 디자인 개발 지원 공고",
-     "date": "2026-03-19",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1062&bcd=notice&pgno=9",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천관광상품디자인개발지원48수18시까지",
    "kind": "history",
    "name": "인천 관광상품 디자인 개발 지원 공모(~4/8(수), 18시까지)",
@@ -1971,66 +1030,6 @@
      "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=5",
      "via": "인천관광기업지원센터 공지",
      "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "학산시민극단단원미추홀학산문화원",
-   "kind": "history",
-   "name": "학산시민극단 단원 모집 미추홀학산문화원",
-   "org": "인천 문화기관",
-   "date": "2027-03-19",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 학산시민극단 단원 모집 미추홀학산문화원",
-     "date": "2026-03-19",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "학산가족음악회공연단체공개학산생활문화센터마당",
-   "kind": "history",
-   "name": "학산가족음악회 공연 단체 공개 모집 학산생활문화센터 마당",
-   "org": "인천 문화기관",
-   "date": "2027-03-19",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 학산가족음악회 공연 단체 공개 모집 학산생활문화센터 마당",
-     "date": "2026-03-19",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천아트플랫폼유스테이지공연팀풀pool",
-   "kind": "history",
-   "name": "인천아트플랫폼 「유스테이지」 공연팀 풀(POOL) 모집 공고",
-   "org": "인천문화재단",
-   "date": "2027-03-20",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천아트플랫폼 「유스테이지」 공연팀 풀(POOL) 모집 공고",
-     "date": "2026-03-20",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=18",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
     }
    ],
    "status": "예고"
@@ -2079,152 +1078,6 @@
      "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=4",
      "via": "인천문화재단 지원사업 공고",
      "source_id": "ifac-support"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "26년센터지원사업중복지원기준",
-   "kind": "history",
-   "name": "📌26년 센터 지원사업 중복지원 기준 안내📌",
-   "org": "인천관광기업지원센터",
-   "date": "2027-03-24",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "📌26년 센터 지원사업 중복지원 기준 안내📌",
-     "date": "2026-03-24",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=7",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "원스톱메디컬지원서비스운영",
-   "kind": "history",
-   "name": "「2026년 원스톱메디컬지원서비스」 운영 공고",
-   "org": "인천관광공사",
-   "date": "2027-03-25",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "「2026년 원스톱메디컬지원서비스」 운영 공고",
-     "date": "2026-03-25",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1066&bcd=notice&pgno=8",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천mice환대서비스맞춤지원",
-   "kind": "history",
-   "name": "「2026 인천 MICE 환대서비스(맞춤지원)」 공고",
-   "org": "인천관광공사",
-   "date": "2027-03-25",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "「2026 인천 MICE 환대서비스(맞춤지원)」 공고",
-     "date": "2026-03-25",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1063&bcd=notice&pgno=9",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "4월예술인역량강화교육",
-   "kind": "history",
-   "name": "4월 예술인 역량강화 교육 참여자 모집 안내",
-   "org": "인천문화재단",
-   "date": "2027-03-25",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 4월 예술인 역량강화 교육 참여자 모집 안내",
-     "date": "2026-03-25",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=18",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "공고 떴음",
-   "actual": {
-    "title": "2026년 12월 예술인 역량강화 교육 참여자 모집 안내",
-    "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232",
-    "deadline": null,
-    "found": "2026-11-26"
-   }
-  },
-  {
-   "key": "인천창조경제혁신센터모두의창업프로젝트홍보",
-   "kind": "history",
-   "name": "인천창조경제혁신센터 「모두의 창업 프로젝트」 참여자 모집 홍보",
-   "org": "인천관광기업지원센터",
-   "date": "2027-03-26",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "인천창조경제혁신센터 「모두의 창업 프로젝트」 참여자 모집 홍보",
-     "date": "2026-03-26",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=4",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천섬아웃도어개최지원",
-   "kind": "history",
-   "name": "인천 섬 아웃도어 개최지원 공고",
-   "org": "인천관광공사",
-   "date": "2027-03-27",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천 섬 아웃도어 개최지원 공고",
-     "date": "2026-03-27",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1071&bcd=notice&pgno=8",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천섬도도하게살아보기파트너여행사선정",
-   "kind": "history",
-   "name": "인천 섬 도도하게 살아보기 파트너 여행사 선정 공고",
-   "org": "인천관광공사",
-   "date": "2027-03-27",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천 섬 도도하게 살아보기 파트너 여행사 선정 공고",
-     "date": "2026-03-27",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1070&bcd=notice&pgno=8",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
     }
    ],
    "status": "예고"
@@ -2310,46 +1163,6 @@
    "status": "예고"
   },
   {
-   "key": "공지드림파크벚꽃길산책행사푸드트럭영업자",
-   "kind": "history",
-   "name": "드림파크 벚꽃길 산책 행사 푸드트럭 영업자 모집 공고",
-   "org": "드림파크문화재단",
-   "date": "2027-03-31",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[공지]2026 드림파크 벚꽃길 산책 행사 푸드트럭 영업자 모집 공고",
-     "date": "2026-03-31",
-     "url": "https://www.dreamparkcf.com/sub/board.php?mn=notice&fn=board&md=v&zest_bn=hana_board_19&bn=hana_board_19&seq=173&page=1&field=&keyword=&s_category=",
-     "via": "드림파크문화재단 알림마당",
-     "source_id": "dreampark"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천도시공사백년이음기획전시붉은돌유리바다전시연계워크숍인천도시공사",
-   "kind": "history",
-   "name": "인천도시공사 백년이음 기획전시 《붉은 돌, 유리 바다》 전시 연계 워크숍 참여자 모집 인천도시공사",
-   "org": "인천 문화기관",
-   "date": "2027-03-31",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "인천도시공사 백년이음 기획전시 《붉은 돌, 유리 바다》 전시 연계 워크숍 참여자 모집 인천도시공사",
-     "date": "2026-03-31",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "상상플랫폼키즈마켓참여업체",
    "kind": "history",
    "name": "「2026 상상플랫폼 키즈마켓」 참여 업체 모집 공고",
@@ -2385,26 +1198,6 @@
      "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1075&bcd=notice&pgno=8",
      "via": "인천관광공사 공지사항",
      "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인공지능ai전문인력양성사업교육생",
-   "kind": "history",
-   "name": "인공지능(AI) 전문인력 양성사업 교육생 모집공고",
-   "org": "인천테크노파크",
-   "date": "2027-04-01",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인공지능(AI) 전문인력 양성사업 교육생 모집공고",
-     "date": "2026-04-01",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=4",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
     }
    ],
    "status": "예고"
@@ -2490,26 +1283,6 @@
    "status": "예고"
   },
   {
-   "key": "인천소상공인종합지원센터소상공인재도약컨설팅지원홍보35예산소진시까지",
-   "kind": "history",
-   "name": "인천소상공인종합지원센터 「2026년 소상공인 재도약 컨설팅 지원 공고」 홍보 (3/5~예산 소진시까지)",
-   "org": "인천관광기업지원센터",
-   "date": "2027-04-03",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "인천소상공인종합지원센터 「2026년 소상공인 재도약 컨설팅 지원 공고」 홍보 (3/5~예산 소진시까지)",
-     "date": "2026-04-03",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=5",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천1day힐링투어상품전",
    "kind": "history",
    "name": "「2026년 인천 1-Day 힐링투어 상품 공모전」 공고",
@@ -2525,34 +1298,6 @@
      "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1080&bcd=notice&pgno=7",
      "via": "인천관광공사 공지사항",
      "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천예술인창작공간임차료지원",
-   "kind": "history",
-   "name": "인천예술인 창작공간 임차료 지원 공고",
-   "org": "인천문화재단",
-   "date": "2027-04-09",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천예술인 창작공간 임차료 지원 공고",
-     "date": "2026-04-09",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=16",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2026 인천예술인 창작공간 임차료 지원 공고",
-     "date": "2026-04-09",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=4",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
     }
    ],
    "status": "예고"
@@ -2586,66 +1331,6 @@
    "status": "예고"
   },
   {
-   "key": "인천국내관광사업심사위원후보자등록",
-   "kind": "history",
-   "name": "인천 국내관광 공모사업 심사위원 후보자 등록 공고",
-   "org": "인천관광공사",
-   "date": "2027-04-10",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천 국내관광 공모사업 심사위원 후보자 등록 공고",
-     "date": "2026-04-10",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1083&bcd=notice&pgno=7",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "학교문화예술교육협력사업초등교급별프로그램",
-   "kind": "history",
-   "name": "학교문화예술교육 협력사업 <초등 교급별 프로그램> 신청 안내",
-   "org": "인천문화재단",
-   "date": "2027-04-13",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 학교문화예술교육 협력사업 <초등 교급별 프로그램> 신청 안내",
-     "date": "2026-04-13",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=16",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "5월예술인역량강화교육",
-   "kind": "history",
-   "name": "5월 예술인 역량강화 교육 참여자 모집 안내",
-   "org": "인천문화재단",
-   "date": "2027-04-14",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 5월 예술인 역량강화 교육 참여자 모집 안내",
-     "date": "2026-04-14",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=16",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천문화재단시민크리에이터inviewer",
    "kind": "history",
    "name": "인천문화재단 시민크리에이터 ‘In-Viewer’ 모집",
@@ -2661,66 +1346,6 @@
      "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=16",
      "via": "인천문화재단 재단소식",
      "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천대학교재도전성공패키지추경예비재창업자",
-   "kind": "history",
-   "name": "인천대학교 『2026년 재도전성공패키지(추경)』(예비)재창업자 모집",
-   "org": "인천관광기업지원센터",
-   "date": "2027-04-17",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "인천대학교 『2026년 재도전성공패키지(추경)』(예비)재창업자 모집",
-     "date": "2026-04-17",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=4",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천광역시교육청유물구입인천광역시교육청",
-   "kind": "history",
-   "name": "인천광역시교육청 유물 구입 공고 인천광역시교육청",
-   "org": "인천 문화기관",
-   "date": "2027-04-20",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천광역시교육청 유물 구입 공고 인천광역시교육청",
-     "date": "2026-04-20",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "법률고문위촉",
-   "kind": "history",
-   "name": "법률고문 위촉 공고",
-   "org": "인천관광공사",
-   "date": "2027-04-23",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "법률고문 위촉 공고",
-     "date": "2026-04-23",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1086&bcd=notice&pgno=7",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
     }
    ],
    "status": "예고"
@@ -2746,66 +1371,6 @@
    "status": "예고"
   },
   {
-   "key": "한국관광공사관광기업데이터ai활용지원사업홍보",
-   "kind": "history",
-   "name": "한국관광공사 「2026 관광기업 데이터·AI 활용 지원사업」 홍보",
-   "org": "인천관광기업지원센터",
-   "date": "2027-04-27",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "한국관광공사 「2026 관광기업 데이터·AI 활용 지원사업」 홍보",
-     "date": "2026-04-27",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=4",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천관광공사인천투어프렌즈홍보",
-   "kind": "history",
-   "name": "인천관광공사 「인천투어프렌즈 5기」 모집 홍보",
-   "org": "인천관광기업지원센터",
-   "date": "2027-04-27",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "인천관광공사 「인천투어프렌즈 5기」 모집 홍보",
-     "date": "2026-04-27",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=4",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "블록체인바우처지원사업공급기업",
-   "kind": "history",
-   "name": "블록체인 바우처 지원사업 공급기업 모집 공고",
-   "org": "인천테크노파크",
-   "date": "2027-04-28",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 블록체인 바우처 지원사업 공급기업 모집 공고",
-     "date": "2026-04-28",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=4",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천투어프렌즈",
    "kind": "history",
    "name": "「2026 인천투어프렌즈 5기」 모집 공고",
@@ -2819,26 +1384,6 @@
      "title": "「2026 인천투어프렌즈 5기」 모집 공고",
      "date": "2026-04-29",
      "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1092&bcd=notice&pgno=6",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천1day힐링투어운영",
-   "kind": "history",
-   "name": "인천 1-Day 힐링투어 운영 공고",
-   "org": "인천관광공사",
-   "date": "2027-04-29",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천 1-Day 힐링투어 운영 공고",
-     "date": "2026-04-29",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1091&bcd=notice&pgno=6",
      "via": "인천관광공사 공지사항",
      "source_id": "ito"
     }
@@ -2874,66 +1419,6 @@
    "status": "예고"
   },
   {
-   "key": "인천미술은행기획전시공존의정원흩어진점들이우리가될때연계프로그램",
-   "kind": "history",
-   "name": "인천미술은행 기획전시 <공존의 정원, 흩어진 점들이 우리가 될 때> 연계프로그램 참여자 모집",
-   "org": "인천문화재단",
-   "date": "2027-04-30",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "인천미술은행 기획전시 <공존의 정원, 흩어진 점들이 우리가 될 때> 연계프로그램 참여자 모집",
-     "date": "2026-04-30",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=14",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "한국근대문학관신흥동구시장관사문학교양강좌목요공방방석인문학참가자",
-   "kind": "history",
-   "name": "한국근대문학관 신흥동구시장관사 문학교양강좌 <목요공방>(4.30~5.5.), <방석인문학>(4.30.~5.7) 참가자 모집",
-   "org": "인천문화재단",
-   "date": "2027-04-30",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "한국근대문학관 신흥동구시장관사 문학교양강좌 <목요공방>(4.30~5.5.), <방석인문학>(4.30.~5.7) 참가자 모집",
-     "date": "2026-04-30",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=14",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "주민점검제운영",
-   "kind": "history",
-   "name": "주민점검신청제 운영",
-   "org": "인천관광공사",
-   "date": "2027-05-08",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "주민점검신청제 운영",
-     "date": "2026-05-08",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1097&bcd=notice&pgno=6",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천기업경영지원센터혁신기업육성프로젝트인천형퍼스트펭귄지원프로그램",
    "kind": "history",
    "name": "인천기업경영지원센터 혁신기업 육성 프로젝트 2026년「인천형 퍼스트펭귄 지원 프로그램」참여기업 모집 공고",
@@ -2946,46 +1431,6 @@
      "type": "작년 공고",
      "title": "인천기업경영지원센터 혁신기업 육성 프로젝트 2026년「인천형 퍼스트펭귄 지원 프로그램」참여기업 모집 공고",
      "date": "2026-05-11",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=3",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "중동수출중소기업긴급경영안정자금지원",
-   "kind": "history",
-   "name": "중동 수출 중소기업 긴급 경영안정자금 지원 공고",
-   "org": "인천테크노파크",
-   "date": "2027-05-13",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 중동 수출 중소기업 긴급 경영안정자금 지원 공고",
-     "date": "2026-05-13",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=4",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "aisns역량강화를위한인천관광맞춤형교육참가자",
-   "kind": "history",
-   "name": "AI·SNS 역량강화를 위한 인천관광 맞춤형 교육 참가자 모집",
-   "org": "인천관광기업지원센터",
-   "date": "2027-05-13",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "AI·SNS 역량강화를 위한 인천관광 맞춤형 교육 참가자 모집",
-     "date": "2026-05-13",
      "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=3",
      "via": "인천관광기업지원센터 공지",
      "source_id": "tourbiz"
@@ -3014,26 +1459,6 @@
    "status": "예고"
   },
   {
-   "key": "인천콘텐츠실증제작지원사업통합재",
-   "kind": "history",
-   "name": "인천 콘텐츠 실증 제작지원 사업 통합 재공고(연장)",
-   "org": "인천테크노파크",
-   "date": "2027-05-14",
-   "category": "디자인·상품·콘텐츠",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천 콘텐츠 실증 제작지원 사업 통합 재공고(연장)",
-     "date": "2026-05-14",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=3",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천관광맞춤형경영컨설팅",
    "kind": "history",
    "name": "「2026 하반기 인천관광 맞춤형 경영컨설팅」참여기업 모집 안내",
@@ -3057,46 +1482,6 @@
      "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=3",
      "via": "인천관광기업지원센터 공지",
      "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천문화재단시민크리에이터선정",
-   "kind": "history",
-   "name": "인천문화재단 시민크리에이터 선정 공고",
-   "org": "인천문화재단",
-   "date": "2027-05-15",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천문화재단 시민크리에이터 선정 공고",
-     "date": "2026-05-15",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=13",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "블록체인바우처지원사업수요기업",
-   "kind": "history",
-   "name": "블록체인 바우처 지원사업 수요기업 모집 공고",
-   "org": "인천테크노파크",
-   "date": "2027-05-18",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 블록체인 바우처 지원사업 수요기업 모집 공고",
-     "date": "2026-05-18",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=3",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
     }
    ],
    "status": "예고"
@@ -3202,26 +1587,6 @@
    "status": "예고"
   },
   {
-   "key": "글로벌실증파트너십지원사업과제선정통지",
-   "kind": "history",
-   "name": "글로벌 실증 파트너십 지원(재공고) 사업 과제 선정 통지",
-   "org": "인천테크노파크",
-   "date": "2027-05-21",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 글로벌 실증 파트너십 지원(재공고) 사업 과제 선정 통지",
-     "date": "2026-05-21",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=3",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천신용보증재단소상공인복합클러스터입주기관",
    "kind": "history",
    "name": "인천신용보증재단 「소상공인복합클러스터」 입주기관 모집",
@@ -3257,26 +1622,6 @@
      "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=3",
      "via": "인천관광기업지원센터 공지",
      "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천향교the다가감전통문화교감상상참여어린이",
-   "kind": "history",
-   "name": "인천향교 The 다가감, 전통문화교감(상상) 참여 어린이 모집",
-   "org": "인천 문화기관",
-   "date": "2027-05-30",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "인천향교 The 다가감, 전통문화교감(상상) 참여 어린이 모집",
-     "date": "2026-05-30",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=4",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
     }
    ],
    "status": "예고"
@@ -3330,26 +1675,6 @@
    "status": "예고"
   },
   {
-   "key": "6월예술인역량강화교육",
-   "kind": "history",
-   "name": "6월 예술인 역량강화 교육 참여자 모집 안내",
-   "org": "인천문화재단",
-   "date": "2027-06-04",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 6월 예술인 역량강화 교육 참여자 모집 안내",
-     "date": "2026-06-04",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=10",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "연수문화원전통문화예절학교참가자연수문화원",
    "kind": "history",
    "name": "'전통문화 예절학교' 참가자 모집 연수문화원",
@@ -3365,34 +1690,6 @@
      "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=4",
      "via": "인천문화재단 타 기관 지원사업",
      "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천예술인창작공간임차료지원선정",
-   "kind": "history",
-   "name": "인천예술인 창작공간 임차료 지원 선정 공고",
-   "org": "인천문화재단",
-   "date": "2027-06-05",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천예술인 창작공간 임차료 지원 선정 공고",
-     "date": "2026-06-05",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=10",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2026 인천예술인 창작공간 임차료 지원 선정 공고",
-     "date": "2026-06-05",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=2",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
     }
    ],
    "status": "예고"
@@ -3418,106 +1715,6 @@
    "status": "예고"
   },
   {
-   "key": "인천광역시중소기업육성자금지원기술전환기업자금지원신설",
-   "kind": "history",
-   "name": "「2026년 인천광역시 중소기업육성자금 지원 공고(7차)」기술전환기업자금 지원(신설)",
-   "org": "인천테크노파크",
-   "date": "2027-06-09",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "「2026년 인천광역시 중소기업육성자금 지원 공고(7차)」기술전환기업자금 지원(신설)",
-     "date": "2026-06-09",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=3",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천문화예술교육지원사업정산보고서회계검증기관",
-   "kind": "history",
-   "name": "인천 문화예술교육 지원사업 정산보고서 회계검증기관 공모 안내",
-   "org": "인천문화재단",
-   "date": "2027-06-10",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천 문화예술교육 지원사업 정산보고서 회계검증기관 공모 안내",
-     "date": "2026-06-10",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=10",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천섬아웃도어개최지원수정",
-   "kind": "history",
-   "name": "인천 섬 아웃도어 개최지원 수정공고",
-   "org": "인천관광공사",
-   "date": "2027-06-12",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천 섬 아웃도어 개최지원 수정공고",
-     "date": "2026-06-12",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1107&bcd=notice&pgno=5",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천관광온라인ai취업컨설팅참가자",
-   "kind": "history",
-   "name": "인천관광 온라인 AI 취업컨설팅 참가자 모집",
-   "org": "인천관광공사",
-   "date": "2027-06-15",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천관광 온라인 AI 취업컨설팅 참가자 모집",
-     "date": "2026-06-15",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1108&bcd=notice&pgno=5",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "온라인ai취업컨설팅참가자",
-   "kind": "history",
-   "name": "「온라인 AI 취업 컨설팅」참가자 모집 안내",
-   "org": "인천관광기업지원센터",
-   "date": "2027-06-15",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "「온라인 AI 취업 컨설팅」참가자 모집 안내",
-     "date": "2026-06-15",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=3",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천광역시관광서비스기반강화사업민간위탁기관홍보",
    "kind": "history",
    "name": "인천광역시 「2026년 관광서비스 기반 강화사업 민간위탁기관 공모」 홍보",
@@ -3533,34 +1730,6 @@
      "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=3",
      "via": "인천관광기업지원센터 공지",
      "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "쇼케이스기획지원사업최종선정",
-   "kind": "history",
-   "name": "쇼케이스 기획지원사업 최종 선정 공고",
-   "org": "인천문화재단",
-   "date": "2027-06-17",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 쇼케이스 기획지원사업 최종 선정 공고",
-     "date": "2026-06-17",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=10",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2026년 쇼케이스 기획지원사업 최종 선정 공고",
-     "date": "2026-06-17",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=2",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
     }
    ],
    "status": "예고"
@@ -3586,26 +1755,6 @@
    "status": "예고"
   },
   {
-   "key": "인천크루즈기항관광상품인센티브지원",
-   "kind": "history",
-   "name": "인천 크루즈 기항관광 상품 인센티브 지원 공고",
-   "org": "인천관광공사",
-   "date": "2027-06-23",
-   "category": "디자인·상품·콘텐츠",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천 크루즈 기항관광 상품 인센티브 지원 공고",
-     "date": "2026-06-23",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1109&bcd=notice&pgno=4",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천창조경제혁신센터빅웨이브biigwave글로벌싱가포르",
    "kind": "history",
    "name": "인천창조경제혁신센터 2026 빅웨이브(Biig WAVE) 글로벌(싱가포르) 참가기업 모집 안내",
@@ -3621,46 +1770,6 @@
      "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=3",
      "via": "인천관광기업지원센터 공지",
      "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천문화재단고문노무사",
-   "kind": "history",
-   "name": "인천문화재단 고문 노무사 공개모집 공고(6.25. ~ 7. 13.)",
-   "org": "인천문화재단",
-   "date": "2027-06-25",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천문화재단 고문 노무사 공개모집 공고(6.25. ~ 7. 13.)",
-     "date": "2026-06-25",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=9",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "국립인천해양박물관인천문화재단협력문화예술교육프로젝트해양문화예술교육프로그램",
-   "kind": "history",
-   "name": "국립인천해양박물관-인천문화재단 협력 문화예술교육 프로젝트, 2026년 해양 문화예술교육 프로그램 신청 안내",
-   "org": "인천문화재단",
-   "date": "2027-06-26",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "국립인천해양박물관-인천문화재단 협력 문화예술교육 프로젝트, 2026년 해양 문화예술교육 프로그램 신청 안내",
-     "date": "2026-06-26",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=9",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
     }
    ],
    "status": "예고"
@@ -3686,86 +1795,6 @@
    "status": "예고"
   },
   {
-   "key": "중소기업정보보호지원사업수요기업",
-   "kind": "history",
-   "name": "중소기업 정보보호 지원사업 수요기업 모집공고",
-   "org": "인천테크노파크",
-   "date": "2027-06-30",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 중소기업 정보보호 지원사업 수요기업 모집공고",
-     "date": "2026-06-30",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=2",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "남겨진문장들한하운육필원고전개최및특별강좌참가자",
-   "kind": "history",
-   "name": "<남겨진 문장들: 한하운 육필 원고전> 개최 및 특별강좌 참가자 모집(7.1.~7.21.)",
-   "org": "인천문화재단",
-   "date": "2027-07-01",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "<남겨진 문장들: 한하운 육필 원고전> 개최 및 특별강좌 참가자 모집(7.1.~7.21.)",
-     "date": "2026-07-01",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=9",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천의료관광코디네이터양성교육교육생",
-   "kind": "history",
-   "name": "「2026 인천 의료관광 코디네이터 양성 교육」 교육생 모집 공고",
-   "org": "인천관광공사",
-   "date": "2027-07-02",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "「2026 인천 의료관광 코디네이터 양성 교육」 교육생 모집 공고",
-     "date": "2026-07-02",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1114&bcd=notice&pgno=4",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "제물포웨이브파트너스선발",
-   "kind": "history",
-   "name": "제물포 웨이브 파트너스 선발 공고",
-   "org": "인천관광공사",
-   "date": "2027-07-02",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 제물포 웨이브 파트너스 선발 공고",
-     "date": "2026-07-02",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1113&bcd=notice&pgno=4",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "체크인강화당신만의강화라이프강화도체류형관광참가자",
    "kind": "history",
    "name": "「체크인 강화, 당신만의 강화 라이프」 강화도 체류형 관광 참가자 모집 공고",
@@ -3786,126 +1815,6 @@
    "status": "예고"
   },
   {
-   "key": "아트t인천참여예술인선정",
-   "kind": "history",
-   "name": "「아트·T 인천」 참여 예술인 공모 선정 공고",
-   "org": "인천문화재단",
-   "date": "2027-07-02",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 「아트·T 인천」 참여 예술인 공모 선정 공고",
-     "date": "2026-07-02",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=9",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "7월예술인역량강화교육",
-   "kind": "history",
-   "name": "7월 예술인 역량강화 교육 참여자 모집 안내",
-   "org": "인천문화재단",
-   "date": "2027-07-03",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 7월 예술인 역량강화 교육 참여자 모집 안내",
-     "date": "2026-07-03",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=9",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천youngmice리더썸머캠프",
-   "kind": "history",
-   "name": "인천 Young MICE 리더 썸머캠프 모집",
-   "org": "인천관광공사",
-   "date": "2027-07-07",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천 Young MICE 리더 썸머캠프 모집",
-     "date": "2026-07-07",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1115&bcd=notice&pgno=4",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천지역중소기업정보보호특화지원사업수요기업",
-   "kind": "history",
-   "name": "인천지역 중소기업 정보보호 특화지원사업 수요기업 모집공고",
-   "org": "인천테크노파크",
-   "date": "2027-07-07",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천지역 중소기업 정보보호 특화지원사업 수요기업 모집공고",
-     "date": "2026-07-07",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=2",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "정부혁신유공정부포상후보자",
-   "kind": "history",
-   "name": "정부혁신 유공 정부포상 후보자 공모",
-   "org": "인천관광공사",
-   "date": "2027-07-08",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "정부혁신 유공 정부포상 후보자 공모",
-     "date": "2026-07-08",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1116&bcd=notice&pgno=4",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "자동차사이버보안전문인력양성교육차참가자",
-   "kind": "history",
-   "name": "자동차 사이버보안 전문인력 양성 교육 (1회차) 참가자 모집",
-   "org": "인천테크노파크",
-   "date": "2027-07-09",
-   "category": "여성·소상공인·기업",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 자동차 사이버보안 전문인력 양성 교육 (1회차) 참가자 모집",
-     "date": "2026-07-09",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=2",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "산업현장연계형관광인력양성사업참여기업",
    "kind": "history",
    "name": "「2026 산업 현장 연계형 관광 인력 양성 사업」 참여 기업 모집",
@@ -3918,66 +1827,6 @@
      "type": "작년 공고",
      "title": "「2026 산업 현장 연계형 관광 인력 양성 사업」 참여 기업 모집",
      "date": "2026-07-14",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=2",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천아트플랫폼창작스튜디오프로젝트시민참여워크숍",
-   "kind": "history",
-   "name": "인천아트플랫폼 <창작스튜디오 프로젝트> 시민참여 워크숍 참여자 모집",
-   "org": "인천문화재단",
-   "date": "2027-07-14",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천아트플랫폼 <창작스튜디오 프로젝트> 시민참여 워크숍 참여자 모집",
-     "date": "2026-07-14",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "신규문화예술교육매개자역량강화워크숍",
-   "kind": "history",
-   "name": "신규 문화예술교육 매개자 역량강화 워크숍 참여자 모집 안내",
-   "org": "인천문화재단",
-   "date": "2027-07-15",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 신규 문화예술교육 매개자 역량강화 워크숍 참여자 모집 안내",
-     "date": "2026-07-15",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천중소관광기업고용장려금지원사업변경",
-   "kind": "history",
-   "name": "인천 중소 관광기업 고용장려금 지원사업 참여기업 모집 변경 공고",
-   "org": "인천관광기업지원센터",
-   "date": "2027-07-16",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천 중소 관광기업 고용장려금 지원사업 참여기업 모집 변경 공고",
-     "date": "2026-07-16",
      "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=2",
      "via": "인천관광기업지원센터 공지",
      "source_id": "tourbiz"
@@ -4006,46 +1855,6 @@
    "status": "예고"
   },
   {
-   "key": "인천아트플랫폼문화예술교육iap도슨트양성프로그램",
-   "kind": "history",
-   "name": "인천아트플랫폼 문화예술교육 <2026 IAP 도슨트 양성 프로그램> 참여자 모집",
-   "org": "인천문화재단",
-   "date": "2027-07-24",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천아트플랫폼 문화예술교육 <2026 IAP 도슨트 양성 프로그램> 참여자 모집",
-     "date": "2026-07-24",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "한국관광공사관광일자리페스타",
-   "kind": "history",
-   "name": "관광 일자리페스타 참가기업 모집 안내",
-   "org": "인천관광기업지원센터",
-   "date": "2027-07-27",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[한국관광공사] 2026 관광 일자리페스타 참가기업 모집 안내",
-     "date": "2026-07-27",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=2",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천개항장국가유산야행야행아카데미참가자",
    "kind": "history",
    "name": "인천개항장 국가유산 야행 야행 아카데미 참가자 모집 안내",
@@ -4066,26 +1875,6 @@
    "status": "예고"
   },
   {
-   "key": "인천섬의날연계인천섬사진",
-   "kind": "history",
-   "name": "제2회 인천 섬의 날 연계 인천 섬 사진 공모 공고",
-   "org": "인천관광공사",
-   "date": "2027-07-29",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 제2회 인천 섬의 날 연계 인천 섬 사진 공모 공고",
-     "date": "2026-07-29",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1119&bcd=notice&pgno=3",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "인천문화재단인천광역시교육청협력사업학교유휴공간레지던시입주예술가",
    "kind": "history",
    "name": "인천문화재단-인천광역시교육청 협력사업 <학교 유휴공간 레지던시> 입주예술가 모집 공고",
@@ -4099,86 +1888,6 @@
      "title": "2026 인천문화재단-인천광역시교육청 협력사업 <학교 유휴공간 레지던시> 입주예술가 모집 공고",
      "date": "2026-07-29",
      "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "콘텐츠기업지원센터글로벌실증파트너십지원사업과제선정통지",
-   "kind": "history",
-   "name": "글로벌 실증 파트너십 지원(추가모집) 사업 과제 선정 통지",
-   "org": "인천테크노파크",
-   "date": "2027-07-30",
-   "category": "디자인·상품·콘텐츠",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[콘텐츠기업지원센터]2026 글로벌 실증 파트너십 지원(추가모집) 사업 과제 선정 통지",
-     "date": "2026-07-30",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=2",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "한국관광공사관광일자리페스타홍보",
-   "kind": "history",
-   "name": "한국관광공사 「2026 관광 일자리페스타」 참가기업 모집 홍보",
-   "org": "인천관광기업지원센터",
-   "date": "2027-07-31",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "한국관광공사 「2026 관광 일자리페스타」 참가기업 모집 홍보",
-     "date": "2026-07-31",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=2",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "한국관광공사미래형관광인재양성교육복합리조트산업이해와현장실무체험교육생",
-   "kind": "history",
-   "name": "[한국관광공사] 미래형 관광인재 양성교육 '복합리조트 산업 이해와 현장 실무 체험' 교육생 모집",
-   "org": "인천관광기업지원센터",
-   "date": "2027-08-03",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[한국관광공사] 미래형 관광인재 양성교육 '복합리조트 산업 이해와 현장 실무 체험' 교육생 모집",
-     "date": "2026-08-03",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=2",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "8월예술인역량강화교육",
-   "kind": "history",
-   "name": "8월 예술인 역량강화 교육 참여자 모집 안내",
-   "org": "인천문화재단",
-   "date": "2027-08-03",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 8월 예술인 역량강화 교육 참여자 모집 안내",
-     "date": "2026-08-03",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=7",
      "via": "인천문화재단 재단소식",
      "source_id": "ifac-notice"
     }
@@ -4217,26 +1926,6 @@
     {
      "type": "작년 공고",
      "title": "[연수문화원] 캡컷 숏폼 영상전문가 2급 자격증과정 참가자 모집 연수문화원",
-     "date": "2026-08-04",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=3",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "문화예술교육매개자네트워크모닥참여재부평구문화재단",
-   "kind": "history",
-   "name": "문화예술교육 매개자 네트워크 「모닥」 참여 신청 (재)부평구문화재단",
-   "org": "인천 문화기관",
-   "date": "2027-08-04",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 문화예술교육 매개자 네트워크 「모닥」 참여 신청 (재)부평구문화재단",
      "date": "2026-08-04",
      "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=3",
      "via": "인천문화재단 타 기관 지원사업",
@@ -4306,106 +1995,6 @@
    "status": "예고"
   },
   {
-   "key": "인천연구장비공동활용지원사업수정",
-   "kind": "history",
-   "name": "인천 연구장비 공동활용 지원사업 모집 공고 (수정공고)",
-   "org": "인천테크노파크",
-   "date": "2027-08-10",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 인천 연구장비 공동활용 지원사업 모집 공고 (수정공고)",
-     "date": "2026-08-10",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=5",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "드림파크문화재단지역문예창작활동지원",
-   "kind": "history",
-   "name": "드림파크문화재단 지역문예창작활동 지원 공고",
-   "org": "드림파크문화재단",
-   "date": "2027-08-10",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 드림파크문화재단 지역문예창작활동 지원 공고",
-     "date": "2026-08-10",
-     "url": "https://www.dreamparkcf.com/sub/board.php?mn=notice&fn=board&md=v&zest_bn=hana_board_19&bn=hana_board_19&seq=177&page=1&field=&keyword=&s_category=",
-     "via": "드림파크문화재단 알림마당",
-     "source_id": "dreampark"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "aisns역량강화를위한인천관광맞춤형교육심화반참가자",
-   "kind": "history",
-   "name": "AI·SNS 역량강화를 위한 인천관광 맞춤형 교육(심화반) 참가자 모집",
-   "org": "인천관광기업지원센터",
-   "date": "2027-08-10",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "AI·SNS 역량강화를 위한 인천관광 맞춤형 교육(심화반) 참가자 모집",
-     "date": "2026-08-10",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=2",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "문화유산시설긴담모퉁이집신흥동시장관사911월문학교양강좌",
-   "kind": "history",
-   "name": "문화유산시설 긴담모퉁이집(신흥동시장관사) 9~11월 문학교양강좌 참여자 모집 공고",
-   "org": "인천문화재단",
-   "date": "2027-08-11",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "문화유산시설 긴담모퉁이집(신흥동시장관사) 9~11월 문학교양강좌 참여자 모집 공고",
-     "date": "2026-08-11",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=7",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "한국관광공사인천관광기업지원센터연계dx아카데미참가자",
-   "kind": "history",
-   "name": "[한국관광공사] 인천관광기업지원센터 연계 'DX 아카데미' 참가자 모집",
-   "org": "인천관광기업지원센터",
-   "date": "2027-08-12",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[한국관광공사] 인천관광기업지원센터 연계 'DX 아카데미' 참가자 모집",
-     "date": "2026-08-12",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=2",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "너의도시나의도시ep2싱가포르참가자8271400",
    "kind": "history",
    "name": "<너의 도시, 나의 도시> EP.2 싱가포르 참가자 모집 공고(~8/27, 14:00)",
@@ -4441,26 +2030,6 @@
      "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1126&bcd=notice&pgno=3",
      "via": "인천관광공사 공지사항",
      "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천관광공사인천관광열린혁신아이디어",
-   "kind": "history",
-   "name": "인천관광 열린혁신 아이디어 공모",
-   "org": "인천관광기업지원센터",
-   "date": "2027-08-18",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[인천관광공사] 2026 인천관광 열린혁신 아이디어 공모",
-     "date": "2026-08-18",
-     "url": "https://tourbiz.ito.or.kr/info/notice?pageIndex=2",
-     "via": "인천관광기업지원센터 공지",
-     "source_id": "tourbiz"
     }
    ],
    "status": "예고"
@@ -4521,86 +2090,6 @@
      "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=2",
      "via": "인천문화재단 타 기관 지원사업",
      "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "상상플랫폼cctv설치행정예고",
-   "kind": "history",
-   "name": "상상플랫폼 CCTV 설치 행정예고 공고",
-   "org": "인천관광공사",
-   "date": "2027-08-27",
-   "category": "관광·판로·마케팅",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "상상플랫폼 CCTV 설치 행정예고 공고",
-     "date": "2026-08-27",
-     "url": "https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1129&bcd=notice&pgno=3",
-     "via": "인천관광공사 공지사항",
-     "source_id": "ito"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천문화재단예술인간담회",
-   "kind": "history",
-   "name": "인천문화재단 예술인간담회 신청 안내",
-   "org": "인천문화재단",
-   "date": "2027-08-27",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 인천문화재단 예술인간담회 신청 안내",
-     "date": "2026-08-27",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=5",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "생애전환문화예술학교생활학교예술학교",
-   "kind": "history",
-   "name": "생애전환 문화예술학교 생활학교·예술학교 참여자 모집 공고",
-   "org": "인천문화재단",
-   "date": "2027-08-27",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 생애전환 문화예술학교 생활학교·예술학교 참여자 모집 공고",
-     "date": "2026-08-27",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=6",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "9월예술인역량강화교육",
-   "kind": "history",
-   "name": "9월 예술인 역량강화 교육 참여자 모집 안내",
-   "org": "인천문화재단",
-   "date": "2027-08-27",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 9월 예술인 역량강화 교육 참여자 모집 안내",
-     "date": "2026-08-27",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=6",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
     }
    ],
    "status": "예고"
@@ -4722,46 +2211,6 @@
    "status": "예고"
   },
   {
-   "key": "우현예술상추천",
-   "kind": "history",
-   "name": "제20회 우현예술상(2024~2025) 추천 공고",
-   "org": "인천문화재단",
-   "date": "2027-09-09",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "제20회 우현예술상(2024~2025) 추천 공고",
-     "date": "2026-09-09",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=5",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "한국근대문학관자료기증",
-   "kind": "history",
-   "name": "한국근대문학관 자료 기증 공고",
-   "org": "인천문화재단",
-   "date": "2027-09-15",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 한국근대문학관 자료 기증 공고",
-     "date": "2026-09-15",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=5",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "제물포인문로드참가자",
    "kind": "history",
    "name": "제물포 인문로드 참가자 모집 안내",
@@ -4797,106 +2246,6 @@
      "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=1",
      "via": "인천테크노파크 지원사업",
      "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "글로벌인아웃바운드법률상담무상지원오피스아워officehour추진",
-   "kind": "history",
-   "name": "글로벌 인·아웃바운드 법률상담 무상지원 '오피스아워(Office Hour)' 추진 공고",
-   "org": "인천테크노파크",
-   "date": "2027-09-21",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "글로벌 인·아웃바운드 법률상담 무상지원 '오피스아워(Office Hour)' 추진 공고",
-     "date": "2026-09-21",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=1",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "공지드림파크국화축제푸드트럭운영자",
-   "kind": "history",
-   "name": "[공지]「2026 드림파크 국화축제」푸드트럭 운영자 모집 공고",
-   "org": "드림파크문화재단",
-   "date": "2027-09-21",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[공지]「2026 드림파크 국화축제」푸드트럭 운영자 모집 공고",
-     "date": "2026-09-21",
-     "url": "https://www.dreamparkcf.com/sub/board.php?mn=notice&fn=board&md=v&zest_bn=hana_board_19&bn=hana_board_19&seq=179&page=1&field=&keyword=&s_category=",
-     "via": "드림파크문화재단 알림마당",
-     "source_id": "dreampark"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "재단법인인천문화재단감사비상임",
-   "kind": "history",
-   "name": "재단법인 인천문화재단 감사(비상임) 모집 공고(9.21.~10.6.)",
-   "org": "인천문화재단",
-   "date": "2027-09-21",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "재단법인 인천문화재단 감사(비상임) 모집 공고(9.21.~10.6.)",
-     "date": "2026-09-21",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=4",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "재단법인인천문화재단근로자이사비상임",
-   "kind": "history",
-   "name": "재단법인 인천문화재단 근로자 이사(비상임) 모집 공고(9.21.~10.6.)",
-   "org": "인천문화재단",
-   "date": "2027-09-21",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "재단법인 인천문화재단 근로자 이사(비상임) 모집 공고(9.21.~10.6.)",
-     "date": "2026-09-21",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=4",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "재단법인인천문화재단이사비상임",
-   "kind": "history",
-   "name": "재단법인 인천문화재단 이사(비상임) 모집 공고(9.21.~10.6.)",
-   "org": "인천문화재단",
-   "date": "2027-09-21",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "재단법인 인천문화재단 이사(비상임) 모집 공고(9.21.~10.6.)",
-     "date": "2026-09-21",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=4",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
     }
    ],
    "status": "예고"
@@ -4942,26 +2291,6 @@
    "status": "예고"
   },
   {
-   "key": "10월예술인역량강화교육",
-   "kind": "history",
-   "name": "10월 예술인 역량강화 교육 참여자 모집 안내",
-   "org": "인천문화재단",
-   "date": "2027-09-29",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 10월 예술인 역량강화 교육 참여자 모집 안내",
-     "date": "2026-09-29",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=4",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "남동소래아트홀갤러리화ㆍ소전시공간지원사업남동문화재단",
    "kind": "history",
    "name": "남동소래아트홀 갤러리 화ㆍ소 전시공간지원사업 모집공고 남동문화재단",
@@ -4973,26 +2302,6 @@
     {
      "type": "작년 공고",
      "title": "2026 남동소래아트홀 갤러리 화ㆍ소 전시공간지원사업 모집공고 남동문화재단",
-     "date": "2026-09-29",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=2",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "생생국가유산개항장시간을걷다제물포문화원",
-   "kind": "history",
-   "name": "[2026 생생국가유산] 개항장, 시간을 걷다 참여자 모집 제물포문화원",
-   "org": "인천 문화기관",
-   "date": "2027-09-29",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[2026 생생국가유산] 개항장, 시간을 걷다 참여자 모집 제물포문화원",
      "date": "2026-09-29",
      "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=2",
      "via": "인천문화재단 타 기관 지원사업",
@@ -5022,126 +2331,6 @@
    "status": "예고"
   },
   {
-   "key": "문화예술교육매개자역량강화오랜만입니다별빛살롱참여",
-   "kind": "history",
-   "name": "문화예술교육 매개자 역량강화 '오랜만입니다. 별빛살롱' 참여 신청 안내",
-   "org": "인천문화재단",
-   "date": "2027-10-01",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026 문화예술교육 매개자 역량강화 '오랜만입니다. 별빛살롱' 참여 신청 안내",
-     "date": "2026-10-01",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=3",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "인천문화재단예술지원사업환류간담회",
-   "kind": "history",
-   "name": "인천문화재단 예술지원사업 환류 간담회 신청 안내",
-   "org": "인천문화재단",
-   "date": "2027-10-13",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "인천문화재단 예술지원사업 환류 간담회 신청 안내",
-     "date": "2026-10-13",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=3",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "긴담모퉁이집제물포정원사연계워크숍①꽃과정원이야기일반",
-   "kind": "history",
-   "name": "긴담모퉁이집 제물포 정원사 연계 워크숍① <꽃과 정원 이야기> 일반 접수 안내",
-   "org": "인천문화재단",
-   "date": "2027-10-15",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "긴담모퉁이집 제물포 정원사 연계 워크숍① <꽃과 정원 이야기> 일반 접수 안내",
-     "date": "2026-10-15",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=3",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "환경디자인센터산다락복합문화센터문화예술프로그램",
-   "kind": "history",
-   "name": "산다락 복합문화센터 문화예술 프로그램 신청 안내(~10/23)",
-   "org": "인천테크노파크",
-   "date": "2027-10-16",
-   "category": "디자인·상품·콘텐츠",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "[환경디자인센터] 2026 산다락 복합문화센터 문화예술 프로그램 신청 안내(~10/23)",
-     "date": "2026-10-16",
-     "url": "https://www.itp.or.kr/intro.asp?tmid=13&PageNum=1",
-     "via": "인천테크노파크 지원사업",
-     "source_id": "itp"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "찾아가는예술인권리보호교육한국예술인복지재단",
-   "kind": "history",
-   "name": "「찾아가는 예술인 권리보호 교육」신청 안내 한국예술인복지재단",
-   "org": "인천 문화기관",
-   "date": "2027-10-23",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2025년「찾아가는 예술인 권리보호 교육」신청 안내 한국예술인복지재단",
-     "date": "2025-10-23",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=8",
-     "via": "인천문화재단 타 기관 지원사업",
-     "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "재단법인인천문화재단대표이사상임",
-   "kind": "history",
-   "name": "재단법인 인천문화재단 대표이사(상임) 모집 공고 (10. 24. ~ 11. 7.)",
-   "org": "인천문화재단",
-   "date": "2027-10-24",
-   "category": "기타",
-   "mine": false,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "재단법인 인천문화재단 대표이사(상임) 모집 공고 (10. 24. ~ 11. 7.)",
-     "date": "2025-10-24",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=27",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
    "key": "해외우수플랫폼초청문화예술공연전시지원kartsonthego개최",
    "kind": "history",
    "name": "<해외우수플랫폼 초청 문화예술공연전시 지원(K-arts on the GO)> 2026년 제1차 공모 개최",
@@ -5157,26 +2346,6 @@
      "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=8",
      "via": "인천문화재단 타 기관 지원사업",
      "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "11월예술인역량강화교육",
-   "kind": "history",
-   "name": "11월 예술인 역량강화 교육 참여자 모집 안내",
-   "org": "인천문화재단",
-   "date": "2027-11-03",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 11월 예술인 역량강화 교육 참여자 모집 안내",
-     "date": "2026-11-03",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=1",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
     }
    ],
    "status": "예고"
@@ -5305,54 +2474,6 @@
      "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=1",
      "via": "인천문화재단 타 기관 지원사업",
      "source_id": "ifac-other"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "12월예술인역량강화교육",
-   "kind": "history",
-   "name": "12월 예술인 역량강화 교육 참여자 모집 안내",
-   "org": "인천문화재단",
-   "date": "2027-11-17",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2026년 12월 예술인 역량강화 교육 참여자 모집 안내",
-     "date": "2026-11-17",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=1",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    }
-   ],
-   "status": "예고"
-  },
-  {
-   "key": "공상주단체육성지원사업참여공및공연단체일정",
-   "kind": "history",
-   "name": "공연장상주단체 육성지원사업 참여공연장 모집 연장 및 공연단체 공모 일정 사전 안내",
-   "org": "인천문화재단",
-   "date": "2027-11-17",
-   "category": "예술·창작·교육",
-   "mine": true,
-   "basis": [
-    {
-     "type": "작년 공고",
-     "title": "2027년 공연장상주단체 육성지원사업 참여공연장 모집 연장 및 공연단체 공모 일정 사전 안내",
-     "date": "2026-11-17",
-     "url": "https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=1",
-     "via": "인천문화재단 재단소식",
-     "source_id": "ifac-notice"
-    },
-    {
-     "type": "작년 공고",
-     "title": "2027년 공연장상주단체 육성지원사업 참여공연장 모집 연장 및 공연단체 공모 일정 사전 안내",
-     "date": "2026-11-17",
-     "url": "https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=1",
-     "via": "인천문화재단 지원사업 공고",
-     "source_id": "ifac-support"
     }
    ],
    "status": "예고"

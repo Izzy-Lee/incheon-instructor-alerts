@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 21:44",
+ "updated": "2026-11-27 21:51",
  "status": [
   {
    "name": "인천일자리플랫폼 공공채용",
@@ -9,9 +9,8 @@
   },
   {
    "name": "인천광역시교육청 채용공고",
-   "ok": true,
-   "total": 0,
-   "hits": 0
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.ice.go.kr/error.html"
   },
   {
    "name": "나라일터",
@@ -130,8 +129,8 @@
   {
    "name": "인천사회복지사협회 구인정보",
    "ok": true,
-   "total": 21,
-   "hits": 1
+   "total": 0,
+   "hits": 0
   },
   {
    "name": "미추홀구 고시공고",
