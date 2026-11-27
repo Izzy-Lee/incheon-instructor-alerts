@@ -1,0 +1,4024 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//artable//grants-forecast//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:지원사업 예고 (아트에이블)
+X-WR-TIMEZONE:Asia/Seoul
+X-WR-CALDESC:올해 공고와 통합공고 계획으로 만든 인천 지
+ 원사업 예고. 공고가 뜨면 ✅로 바뀝니다.
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:97597509ffcf4f2f@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:🔮 예고 「아트·T 인천」 원데이 아트투어 참여
+ 자 모집 공고
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026 「아트·T 인천」 원데이 아트투어 
+ 참여자 모집 공고 (2026-11-02) https://ifac.or.kr/bbs/list.do?key=
+ m2501152808232&pageIndex=2\n- 작년 공고: 2025 「아트·T 인천」
+  원데이 아트투어 참여자 모집 공고 (2025-11-03) https://ifa
+ c.or.kr/bbs/list.do?key=m2501152808232&pageIndex=27
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:dc9e30156bc68a18@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:✅⭐ 공고 떴음: 공연장상주단체 육성지원사업 
+ 운영 의견 수렴 간담회 안내
+DESCRIPTION:공고가 떴어요: 2027 공연장상주단체 육성지원
+ 사업 공모 공고\nhttps://ifac.or.kr/bbs/list.do?key=m2501152808232\
+ n\n[예고 근거]\n- 작년 공고: 2026년 공연장상주단체 육
+ 성지원사업 운영 의견 수렴 간담회 안내 (2025-11-05) https
+ ://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=26\n- 작년 공
+ 고: 2026년 공연장상주단체 육성지원사업 운영 의견 수
+ 렴 간담회 안내 (2025-11-05) https://ifac.or.kr/artsSupProjects/sup
+ Projects/list.do?key=m2501143953255&pageIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232
+END:VEVENT
+BEGIN:VEVENT
+UID:4694521abf9dafe5@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:✅⭐ 공고 떴음: 예술인 역량강화 4분기 교육 신
+ 청 안내
+DESCRIPTION:공고가 떴어요: 2026년 12월 예술인 역량강화 교
+ 육 참여자 모집 안내\nhttps://ifac.or.kr/bbs/list.do?key=m2501152
+ 808232\n\n[예고 근거]\n- 작년 공고: 2025 예술인 역량강화 
+ 4분기 교육 신청 안내 (2025-11-05) https://ifac.or.kr/bbs/list.do
+ ?key=m2501152808232&pageIndex=26
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232
+END:VEVENT
+BEGIN:VEVENT
+UID:7ef979a0279ca742@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:🔮 예고⭐ 인천 섬의 날 페스타 기념 인천 섬 사
+ 진 공모전 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2025 인천 섬의 날 페스타 
+ 기념 인천 섬 사진 공모전 공고 (2025-11-06) https://www.ito.o
+ r.kr/main/bbs/bbsMsgDetail.do?msg_seq=1011&bcd=notice&pgno=14
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1011&bcd=notic
+ e&pgno=14
+END:VEVENT
+BEGIN:VEVENT
+UID:16f0ce18447c6127@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:🔮 예고 스마트 제조혁신 지원사업 통합공고
+DESCRIPTION:인천테크노파크 · 기타\n\n이 시기쯤 공고가 
+ 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[
+ 근거]\n- 작년 공고: [제조혁신센터] 2026년 스마트 제조
+ 혁신 지원사업 통합공고 (2025-11-11) https://www.itp.or.kr/intr
+ o.asp?tmid=13&PageNum=6
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=6
+END:VEVENT
+BEGIN:VEVENT
+UID:d3407901d45d4258@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:✅⭐ 공고 떴음: 인천관광기업지원센터 입주기업
+  모집(수정)
+DESCRIPTION:공고가 떴어요: 2027년 인천관광기업지원센터 
+ 입주기업 모집 공고\nhttps://www.ito.or.kr/main/bbs/bbsMsgDetail.
+ do?msg_seq=1149&bcd=notice\n\n[예고 근거]\n- 작년 공고: 2026년 
+ 인천관광기업지원센터 입주기업 모집(수정) (2025-11-11) 
+ https://tourbiz.ito.or.kr/info/notice?pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1149&bcd=notic
+ e
+END:VEVENT
+BEGIN:VEVENT
+UID:34acf117dca33397@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:✅⭐ 공고 떴음: 인천관광기업지원센터 신규 입
+ 주기업 모집
+DESCRIPTION:공고가 떴어요: 2027년 인천관광기업지원센터 
+ 입주기업 모집 공고\nhttps://www.ito.or.kr/main/bbs/bbsMsgDetail.
+ do?msg_seq=1149&bcd=notice\n\n[예고 근거]\n- 작년 공고: 2026년 
+ 인천관광기업지원센터 신규 입주기업 모집 (2025-11-12) h
+ ttps://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1013&bcd=notice&pg
+ no=13
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1149&bcd=notic
+ e
+END:VEVENT
+BEGIN:VEVENT
+UID:36134e1d08e17270@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:🔮 예고 우현상 수상자 선정 공고
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2025 우현상 수상자 선정 공고 (2025-11-14) 
+ https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=26
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=26
+END:VEVENT
+BEGIN:VEVENT
+UID:ad5c550f8d3a4953@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:✅⭐ 공고 떴음: 공연장상주단체 육성지원사업 
+ 참여 공연장 모집 공고
+DESCRIPTION:공고가 떴어요: 2027 공연장상주단체 육성지원
+ 사업 공모 공고\nhttps://ifac.or.kr/bbs/list.do?key=m2501152808232\
+ n\n[예고 근거]\n- 작년 공고: 2027 공연장상주단체 육성
+ 지원사업 참여 공연장 모집 공고 (2026-11-03) https://ifac.or
+ .kr/bbs/list.do?key=m2501152808232&pageIndex=1\n- 작년 공고: 2026 
+ 공연장상주단체 육성지원사업 참여 공연장 모집 공고 
+ (2025-11-17) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex
+ =26\n- 작년 공고: 2027 공연장상주단체 육성지원사업 참
+ 여 공연장 모집 공고 (2026-11-03) https://ifac.or.kr/artsSupProje
+ cts/supProjects/list.do?key=m2501143953255&pageIndex=1\n- 작년 공고:
+  2026 공연장상주단체 육성지원사업 참여 공연장 모집 
+ 공고 (2025-11-17) https://ifac.or.kr/artsSupProjects/supProjects/list.
+ do?key=m2501143953255&pageIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232
+END:VEVENT
+BEGIN:VEVENT
+UID:04a8766e7f99b769@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:✅⭐ 공고 떴음: 예술창작지원사업 공모(설명회 1
+ 1.26. / 접수 12. 4. ~ 12. 26.)
+DESCRIPTION:공고가 떴어요: 2027 예술창작지원사업 공모 공
+ 고 (설명회 11.27. / 접수 12.1.~23.)\nhttps://ifac.or.kr/bbs/list.d
+ o?key=m2501152808232\n\n[예고 근거]\n- 작년 공고: 2026 예술창
+ 작지원사업 공모(설명회 11.26. / 접수 12. 4. ~ 12. 26.) (2025
+ -11-21) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=26\n
+ - 작년 공고: 2026 예술창작지원사업 공모(설명회 11.26. /
+  접수 12. 4. ~ 12. 26.) (2025-11-21) https://ifac.or.kr/artsSupProject
+ s/supProjects/list.do?key=m2501143953255&pageIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232
+END:VEVENT
+BEGIN:VEVENT
+UID:a4f81a59956d6d46@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:🔮 예고 [인천대학교 평생교육원] 감수성 시리즈
+  교육 참여자 모집(~11.30) 인천대학교 평생교육원
+DESCRIPTION:인천 문화기관 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: [인천대학교 평생교
+ 육원] 감수성 시리즈 교육 참여자 모집(~11.30) 인천대학
+ 교 평생교육원 (2025-11-21) https://ifac.or.kr/bbs/list.do?key=m250
+ 1152808367&pageIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=8
+END:VEVENT
+BEGIN:VEVENT
+UID:b123b78308106e3e@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:🔮 예고⭐ 문화예술교육 기록 워크숍 <우리에겐 
+ 아직 남은 숙제가 있다> 신청 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2025 문화예술교육 기록 워크
+ 숍 <우리에겐 아직 남은 숙제가 있다> 신청 안내 (2025-11
+ -25) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=25
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=25
+END:VEVENT
+BEGIN:VEVENT
+UID:9528d8c333a54665@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:🔮 예고⭐ 인천 문화예술교육 단체 운영 사례공
+ 유회 <지원사업 N년차\, 그다음?> 신청 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2025 인천 문화예술교육 단체
+  운영 사례공유회 <지원사업 N년차\, 그다음?> 신청 안
+ 내 (2025-11-25) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageI
+ ndex=25
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=25
+END:VEVENT
+BEGIN:VEVENT
+UID:f2f90d7c2e737702@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:🔮 예고⭐ 생애전환 문화예술학교 생애전환 특
+ 강 <생애전환을 위한 다섯가지 키워드> 신청 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2025 생애전환 문화예술학교 
+ 생애전환 특강 <생애전환을 위한 다섯가지 키워드> 신
+ 청 안내 (2025-11-26) https://ifac.or.kr/bbs/list.do?key=m250115280823
+ 2&pageIndex=25
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=25
+END:VEVENT
+BEGIN:VEVENT
+UID:9dc04effcec05224@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:🔮 예고⭐ 인천미술은행 개방형 수장고 조성 공
+ 사(건축\,기계) 소액수의 견적제출 공고(11/26~12/2)
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 인천미술은행 개방형 수장
+ 고 조성 공사(건축\,기계) 소액수의 견적제출 공고(11/26
+ ~12/2) (2025-11-26) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pa
+ geIndex=25
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=25
+END:VEVENT
+BEGIN:VEVENT
+UID:33f257895efc8a4d@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:✅⭐ 공고 떴음: 공연장상주단체 육성지원사업 
+ 공모 공고
+DESCRIPTION:공고가 떴어요: 2027 공연장상주단체 육성지원
+ 사업 공모 공고\nhttps://ifac.or.kr/bbs/list.do?key=m2501152808232\
+ n\n[예고 근거]\n- 작년 공고: 2027 공연장상주단체 육성
+ 지원사업 공모 공고 (2026-11-23) https://ifac.or.kr/bbs/list.do?k
+ ey=m2501152808232&pageIndex=1\n- 작년 공고: 2026 공연장상주단
+ 체 육성지원사업 공모 (2025-11-27) https://ifac.or.kr/bbs/list.d
+ o?key=m2501152808232&pageIndex=25\n- 작년 공고: 2027 공연장상주
+ 단체 육성지원사업 공모 공고 (2026-11-23) https://ifac.or.kr/
+ artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=1\n- 
+ 작년 공고: 2026 공연장상주단체 육성지원사업 공모 (202
+ 5-11-27) https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m250
+ 1143953255&pageIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232
+END:VEVENT
+BEGIN:VEVENT
+UID:b1b4a09a6d35351b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:🔮 예고 한국근대문학관 2026년 <신바람 동네책방
+  책담회> 참여서점 모집 공고 (2.2. ~ 2.23.)
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 한국근대문학관 2026년 <신바람 동네책
+ 방 책담회> 참여서점 모집 공고 (2.2. ~ 2.23.) (2026-01-30) ht
+ tps://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=21\n- 작년 
+ 공고: 한국근대문학관 <신바람 동네책방 책담회> 참여 
+ 서점 모집 공고 (2025-12-11) https://ifac.or.kr/bbs/list.do?key=m25
+ 01152808232&pageIndex=24\n- 작년 공고: 한국근대문학관 2026년
+  <신바람 동네책방 책담회> 참여서점 모집 공고 (2.2. ~ 2
+ .23.) (2026-01-30) https://ifac.or.kr/artsSupProjects/supProjects/list.d
+ o?key=m2501143953255&pageIndex=6\n- 작년 공고: 한국근대문학관
+  <신바람 동네책방 책담회> 참여 서점 모집 공고 (2025-12
+ -11) https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143
+ 953255&pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=21
+END:VEVENT
+BEGIN:VEVENT
+UID:c6f22aa1d02fa161@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:🔮 예고⭐ 학교문화예술교육 협력사업 <초등 교
+ 급별 프로그램> 기획자 모집 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2025 학교문화예술교육 협력
+ 사업 <초등 교급별 프로그램> 기획자 모집 공고 (2025-12-
+ 12) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=24
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=24
+END:VEVENT
+BEGIN:VEVENT
+UID:8cf486d094d72675@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:🔮 예고⭐ 송도컨벤시아 전시회 개최지원사업 
+ 모집공고
+DESCRIPTION:인천관광공사 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026년 송도컨벤시아 전시회 
+ 개최지원사업 모집공고 (2025-12-22) https://www.ito.or.kr/main/
+ bbs/bbsMsgDetail.do?msg_seq=1026&bcd=notice&pgno=12
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1026&bcd=notic
+ e&pgno=12
+END:VEVENT
+BEGIN:VEVENT
+UID:e091ef7f711d909b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:🔮 예고⭐ 문화예술교육 매개자 역량강화 과정 -
+  오픈강의 <우리에겐 여전히 남은 숙제가 있다> 신청 
+ 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 문화예술교육 매개자 역
+ 량강화 과정 - 오픈강의 <우리에겐 여전히 남은 숙제가
+  있다> 신청 안내 (2026-01-06) https://ifac.or.kr/bbs/list.do?key=m
+ 2501152808232&pageIndex=22
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22
+END:VEVENT
+BEGIN:VEVENT
+UID:da13467a431fe4c8@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:🔮 예고⭐ 인천수봉문화회관 기획공연 & 기획전
+ 시 공모 인천수봉문화회관
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [공모안내] 2026년도 인천
+ 수봉문화회관 기획공연 & 기획전시 공모 인천수봉문화
+ 회관 (2026-01-07) https://ifac.or.kr/bbs/list.do?key=m2501152808367&pa
+ geIndex=7
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=7
+END:VEVENT
+BEGIN:VEVENT
+UID:12c3b8f2ef7e2205@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:🔮 예고⭐ 인천관광기업지원센터 심사위원회 심
+ 사위원 후보자 등록 공고
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인천관광
+ 기업지원센터 심사위원회 심사위원 후보자 등록 공고 
+ (2026-01-08) https://tourbiz.ito.or.kr/info/notice?pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:d25623f25425ffe6@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:✅⭐ 공고 떴음: 공연장상주단체 육성지원사업 
+ 선정 공고
+DESCRIPTION:공고가 떴어요: 2027 공연장상주단체 육성지원
+ 사업 공모 공고\nhttps://ifac.or.kr/bbs/list.do?key=m2501152808232\
+ n\n[예고 근거]\n- 작년 공고: 2026년 공연장상주단체 육
+ 성지원사업 선정 공고 (2026-01-08) https://ifac.or.kr/bbs/list.d
+ o?key=m2501152808232&pageIndex=22\n- 작년 공고: 2026년 공연장상
+ 주단체 육성지원사업 선정 공고 (2026-01-08) https://ifac.or.
+ kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232
+END:VEVENT
+BEGIN:VEVENT
+UID:15454ab48c1fb6a4@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:🔮 예고 금융기관(NH농협은행) 협업 특별 경영안
+ 정자금 추가 지원 공고
+DESCRIPTION:인천테크노파크 · 기타\n\n이 시기쯤 공고가 
+ 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[
+ 근거]\n- 작년 공고: 금융기관(NH농협은행) 협업 특별 경
+ 영안정자금 추가 지원 공고 (2026-01-16) https://www.itp.or.kr/
+ intro.asp?tmid=13&PageNum=5
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=5
+END:VEVENT
+BEGIN:VEVENT
+UID:9bf651ee23dd70de@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:🔮 예고 시민문화활동 시민X 기획운영 단체 공모
+ (~2/6 17:59)
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026 시민문화활동 시민X 기획운영 단체 
+ 공모(~2/6 17:59) (2026-01-16) https://ifac.or.kr/bbs/list.do?key=m2501
+ 152808232&pageIndex=22\n- 작년 공고: 2026 시민문화활동 시민X
+  기획운영 단체 공모(~2/6 17:59) (2026-01-16) https://ifac.or.kr/
+ artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22
+END:VEVENT
+BEGIN:VEVENT
+UID:7dea7949f921df2b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:🔮 예고 인천문화재단 뉴스 저작물 이용 및 스크
+ 랩 모니터링 소액수의 견적제출 공고(1/20~1/23)
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026 인천문화재단 뉴스 저작물 이용 및 
+ 스크랩 모니터링 소액수의 견적제출 공고(1/20~1/23) (2026
+ -01-19) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22
+END:VEVENT
+BEGIN:VEVENT
+UID:9e1ef6d570f63bc5@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:🔮 예고⭐ 인천예술인이음카드 신청 안내 (매월 
+ 1~15일 접수)
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 인천예술인이음카드 신청 
+ 안내 (매월 1~15일 접수) (2026-01-20) https://ifac.or.kr/bbs/list.
+ do?key=m2501152808232&pageIndex=22\n- 작년 공고: 인천예술인이
+ 음카드 신청 안내 (매월 1~15일 접수) (2026-01-20) https://ifa
+ c.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex
+ =6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22
+END:VEVENT
+BEGIN:VEVENT
+UID:5024ae42203552e1@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:🔮 예고 인천국악회관 소(통하는) 금(요일) 국악 
+ 렉쳐 콘서트
+DESCRIPTION:인천 문화기관 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: [공모안내] 2026 인천국악회관 소(통하는
+ ) 금(요일) 국악 렉쳐 콘서트 (2026-01-20) https://ifac.or.kr/bb
+ s/list.do?key=m2501152808367&pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=7
+END:VEVENT
+BEGIN:VEVENT
+UID:2adfa9ceee0f306b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:🔮 예고⭐ 화도진음악회 공연단체 모집 화도진
+ 문화원
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [공모안내] 2026 화도진음
+ 악회 공연단체 모집 화도진문화원 (2026-01-20) https://ifac.
+ or.kr/bbs/list.do?key=m2501152808367&pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=7
+END:VEVENT
+BEGIN:VEVENT
+UID:b65472f7f837b02c@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:🔮 예고⭐ 한국관광협회중앙회 「2026 내나라 여
+ 행박람회」 참여기업 모집 안내 및 홍보
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 한국관광협회중
+ 앙회 「2026 내나라 여행박람회」 참여기업 모집 안내 
+ 및 홍보 (2026-01-22) https://tourbiz.ito.or.kr/info/notice?pageIndex=
+ 6
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:cf49c6ff86143392@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:🔮 예고⭐ [인천대학교 평생교육원] 무대예술 전
+ 문인력 양성과정 참여자 모집(~2.27) 인천대학교 평생교
+ 육원
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [인천대학교 평생교육원] 
+ 무대예술 전문인력 양성과정 참여자 모집(~2.27) 인천대
+ 학교 평생교육원 (2026-01-26) https://ifac.or.kr/bbs/list.do?key=m
+ 2501152808367&pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=7
+END:VEVENT
+BEGIN:VEVENT
+UID:2e1bfe30a83cb66b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:🔮 예고⭐ 트라이보울 SNS 홍보단 [트라이보울로!
+ ] 모집 공고
+DESCRIPTION:인천문화재단 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 트라이보울 SNS 홍보단 [트
+ 라이보울로!] 모집 공고 (2026-01-27) https://ifac.or.kr/bbs/list
+ .do?key=m2501152808232&pageIndex=22
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22
+END:VEVENT
+BEGIN:VEVENT
+UID:5823b2bcd257f703@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:🔮 예고⭐ 인천아트플랫폼 창작스튜디오 프로젝
+ 트 공모
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천아트플랫폼 창작스
+ 튜디오 프로젝트 공모 (2026-01-28) https://ifac.or.kr/bbs/list.d
+ o?key=m2501152808232&pageIndex=22\n- 작년 공고: 2026 인천아트플
+ 랫폼 창작스튜디오 프로젝트 공모 (2026-01-28) https://ifac.
+ or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=22
+END:VEVENT
+BEGIN:VEVENT
+UID:576853c793786799@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:🔮 예고⭐ 인천시민디자인단 모집공고 인천테크
+ 노파크
+DESCRIPTION:인천 문화기관 · 디자인·상품·콘텐츠\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: [모집공고]2026 인천시
+ 민디자인단 모집공고 인천테크노파크 (2026-01-28) https://
+ ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=7
+END:VEVENT
+BEGIN:VEVENT
+UID:fb71bfed45b5bcbf@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:🔮 예고⭐ [재공고] 상상플랫폼 2층 3관 임대사업
+ 자 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [재공고] 상상플랫폼 2층 3
+ 관 임대사업자 모집 공고 (2026-01-30) https://www.ito.or.kr/mai
+ n/bbs/bbsMsgDetail.do?msg_seq=1029&bcd=notice&pgno=12
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1029&bcd=notic
+ e&pgno=12
+END:VEVENT
+BEGIN:VEVENT
+UID:f566da5259d3e646@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:🔮 예고⭐ [재공고] 상상플랫폼 1\,2층 2관 임대사
+ 업자 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [재공고] 상상플랫폼 1\,2
+ 층 2관 임대사업자 모집 공고 (2026-01-30) https://www.ito.or.k
+ r/main/bbs/bbsMsgDetail.do?msg_seq=1028&bcd=notice&pgno=12
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1028&bcd=notic
+ e&pgno=12
+END:VEVENT
+BEGIN:VEVENT
+UID:dffd58c9018e3f22@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:🔮 예고⭐ [재공고] 상상플랫폼 1층 1관 임대사업
+ 자 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [재공고] 상상플랫폼 1층 1
+ 관 임대사업자 모집 공고 (2026-01-30) https://www.ito.or.kr/mai
+ n/bbs/bbsMsgDetail.do?msg_seq=1027&bcd=notice&pgno=12
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1027&bcd=notic
+ e&pgno=12
+END:VEVENT
+BEGIN:VEVENT
+UID:bead3a0393355015@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:🔮 예고⭐ 인천문화재단 예술창작지원사업 공모
+  심의일정 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천문화재단 예술창작
+ 지원사업 공모 심의일정 안내 (2026-02-03) https://ifac.or.kr/
+ bbs/list.do?key=m2501152808232&pageIndex=21\n- 작년 공고: 2026 인
+ 천문화재단 예술창작지원사업 공모 심의일정 안내 (202
+ 6-02-03) https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m250
+ 1143953255&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=21
+END:VEVENT
+BEGIN:VEVENT
+UID:509ad291077f737a@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:🔮 예고⭐ 미추홀문화회관 소소(炤炤)음악회 공
+ 연팀공모
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [공연팀공모] 2026년도 미
+ 추홀문화회관 소소(炤炤)음악회 공연팀공모 (2026-02-03) 
+ https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:76861f244eccb974@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:🔮 예고⭐ 교육청 연계 인천바로알기 현장체험
+ 학습 참여 체험공방 모집공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 교육청 연계 인천바로
+ 알기 현장체험학습 참여 체험공방 모집공고 (2026-02-04) 
+ https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1033&bcd=notice&p
+ gno=12
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1033&bcd=notic
+ e&pgno=12
+END:VEVENT
+BEGIN:VEVENT
+UID:5973c00c49fcc963@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:🔮 예고⭐ 인천(도심권) 문화관광해설사 선발 공
+ 고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 인천(도심권) 문화
+ 관광해설사 선발 공고 (2026-02-04) https://www.ito.or.kr/main/bb
+ s/bbsMsgDetail.do?msg_seq=1032&bcd=notice&pgno=12
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1032&bcd=notic
+ e&pgno=12
+END:VEVENT
+BEGIN:VEVENT
+UID:9df4d54ad775546a@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:🔮 예고 정년퇴직자 고용연장 중소기업 지원사
+ 업 참여기업 모집 공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026 정년퇴직자 고용
+ 연장 중소기업 지원사업 참여기업 모집 공고 (2026-02-05)
+  https://www.itp.or.kr/intro.asp?tmid=13&PageNum=5
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=5
+END:VEVENT
+BEGIN:VEVENT
+UID:e8eb6f643d4cf761@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:🔮 예고⭐ 「2026 컨벤션 유치 및 개최지원」 정
+ 기2차 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 컨벤션 유치 및 개
+ 최지원」 정기2차 공고 (2026-07-01) https://www.ito.or.kr/main/b
+ bs/bbsMsgDetail.do?msg_seq=1110&bcd=notice&pgno=4\n- 작년 공고: 「2
+ 026 컨벤션 유치 및 개최지원」 정기1차 공고 (2026-02-06) 
+ https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1035&bcd=notice&p
+ gno=11
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1110&bcd=notic
+ e&pgno=4
+END:VEVENT
+BEGIN:VEVENT
+UID:730b70f1e2e2efde@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:🔮 예고⭐ 「2026 인천펜타포트 음악축제 공동사
+ 업자 모집 공모」 사전 질의 안내
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 인천펜타포트 음악
+ 축제 공동사업자 모집 공모」 사전 질의 안내 (2026-02-06
+ ) https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1037&bcd=notice
+ &pgno=11
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1037&bcd=notic
+ e&pgno=11
+END:VEVENT
+BEGIN:VEVENT
+UID:0a4124e038cf24d6@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:🔮 예고⭐ 「2026 인천펜타포트 음악축제 공동사
+ 업자 모집 공모」 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 인천펜타포트 음악
+ 축제 공동사업자 모집 공모」 공고 (2026-02-06) https://www.
+ ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1036&bcd=notice&pgno=11
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1036&bcd=notic
+ e&pgno=11
+END:VEVENT
+BEGIN:VEVENT
+UID:37dc4c5c5bb522e0@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:🔮 예고⭐ 인천 문화예술교육 지원사업 통합 공
+ 모(온라인사업설명회 2.12. /접수 2.19.~3.5.)
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천 문화예술교육 지원
+ 사업 통합 공모(온라인사업설명회 2.12. /접수 2.19.~3.5.) 
+ (2026-02-09) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex
+ =21\n- 작년 공고: 2026 인천 문화예술교육 지원사업 통합
+  공모(온라인사업설명회 2.12. /접수 2.19.~3.5.) (2026-02-09) 
+ https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m250114395325
+ 5&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=21
+END:VEVENT
+BEGIN:VEVENT
+UID:731ad98532e2f259@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:🔮 예고⭐ 남동구 문화예술활동 지원사업
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [남동문화재단] 2026년 남
+ 동구 문화예술활동 지원사업 (2026-02-13) https://ifac.or.kr/b
+ bs/list.do?key=m2501152808367&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:d7f73691b943b6dc@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:🔮 예고 남동구립여성합창단ㆍ풍물단 단원 정기
+  모집 남동문화재단
+DESCRIPTION:인천 문화기관 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: [남동문화재단] 2026년
+  남동구립여성합창단ㆍ풍물단 단원 정기 모집 남동문
+ 화재단 (2026-02-13) https://ifac.or.kr/bbs/list.do?key=m2501152808367
+ &pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:f7f3a86fd5edac8d@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:🔮 예고⭐ 부평 특성화 문화예술교육 <예술교육
+ 랩> 공모 (재)부평구문화재단
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 부평 특성화 문화예술
+ 교육 <예술교육랩> 공모 (재)부평구문화재단 (2026-02-19) 
+ https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:41f809f31b460349@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:🔮 예고⭐ 문화예술교육 지원사업 예술누림 [예
+ 술가 프로그램 제안서 등록] 안내 한국문화예술교육진
+ 흥원
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [한국문화예술교육진흥원
+ ] 2026 문화예술교육 지원사업 예술누림 [예술가 프로그
+ 램 제안서 등록] 안내 한국문화예술교육진흥원 (2026-02-
+ 20) https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:c5a0e87855c0a640@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:🔮 예고⭐ 「2026 인천 중소 관광기업 고용장려금
+  지원사업」 참여기업 모집
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 인천 중소 관광기업
+  고용장려금 지원사업」 참여기업 모집 (2026-02-23) https:
+ //www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1044&bcd=notice&pgno=11
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1044&bcd=notic
+ e&pgno=11
+END:VEVENT
+BEGIN:VEVENT
+UID:5441e7406fdc56ff@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:✅⭐ 공고 떴음: 인천상회 상생 파트너스 모집 공
+ 고
+DESCRIPTION:공고가 떴어요: 2026년 인천상회 상생 파트너스
+  모집(2.23.~ 상시모집)\nhttps://tourbiz.ito.or.kr/info/notice\n\n[
+ 예고 근거]\n- 작년 공고: 2026년 인천상회 상생 파트너
+ 스 모집 공고 (2026-02-23) https://www.ito.or.kr/main/bbs/bbsMsgDeta
+ il.do?msg_seq=1043&bcd=notice&pgno=11
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice
+END:VEVENT
+BEGIN:VEVENT
+UID:5441e7406fdc56ff-dl@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:⏰⭐ 마감: 인천상회 상생 파트너스 모집 공고
+DESCRIPTION:공고가 떴어요: 2026년 인천상회 상생 파트너스
+  모집(2.23.~ 상시모집)\nhttps://tourbiz.ito.or.kr/info/notice\n\n[
+ 예고 근거]\n- 작년 공고: 2026년 인천상회 상생 파트너
+ 스 모집 공고 (2026-02-23) https://www.ito.or.kr/main/bbs/bbsMsgDeta
+ il.do?msg_seq=1043&bcd=notice&pgno=11
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice
+END:VEVENT
+BEGIN:VEVENT
+UID:dcf0390cadff4dc1@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:🔮 예고⭐ 「2026 인천 기업회의 및 포상관광 지
+ 원」 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 인천 기업회의 및 
+ 포상관광 지원」 공고 (2026-02-23) https://www.ito.or.kr/main/bb
+ s/bbsMsgDetail.do?msg_seq=1042&bcd=notice&pgno=11
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1042&bcd=notic
+ e&pgno=11
+END:VEVENT
+BEGIN:VEVENT
+UID:97740c45f6d0165f@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:🔮 예고 인생동행 재능나눔 아카데미 재능나눔 
+ 참여자 및 연계기관 모집 공고
+DESCRIPTION:인천테크노파크 · 기타\n\n이 시기쯤 공고가 
+ 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[
+ 근거]\n- 작년 공고: 인생동행 재능나눔 아카데미 재능
+ 나눔 참여자 및 연계기관 모집 공고 (2026-02-23) https://www
+ .itp.or.kr/intro.asp?tmid=13&PageNum=5
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=5
+END:VEVENT
+BEGIN:VEVENT
+UID:3bbd1ba89bbc9158@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:✅⭐ 공고 떴음: 인천상회 상생 파트너스 모집(2.2
+ 3.~ 상시모집)
+DESCRIPTION:공고가 떴어요: 2026년 인천상회 상생 파트너스
+  모집(2.23.~ 상시모집)\nhttps://tourbiz.ito.or.kr/info/notice\n\n[
+ 예고 근거]\n- 작년 공고: 2026년 인천상회 상생 파트너
+ 스 모집(2.23.~ 상시모집) (2026-02-23) https://tourbiz.ito.or.kr/i
+ nfo/notice?pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice
+END:VEVENT
+BEGIN:VEVENT
+UID:3bbd1ba89bbc9158-dl@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:⏰⭐ 마감: 인천상회 상생 파트너스 모집(2.23.~ 상
+ 시모집)
+DESCRIPTION:공고가 떴어요: 2026년 인천상회 상생 파트너스
+  모집(2.23.~ 상시모집)\nhttps://tourbiz.ito.or.kr/info/notice\n\n[
+ 예고 근거]\n- 작년 공고: 2026년 인천상회 상생 파트너
+ 스 모집(2.23.~ 상시모집) (2026-02-23) https://tourbiz.ito.or.kr/i
+ nfo/notice?pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice
+END:VEVENT
+BEGIN:VEVENT
+UID:49117d780047bdfd@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:🔮 예고⭐ 「2026년도 인천광역시 인천사랑기부
+ 제 답례품 공급업체 공개모집」 공고 홍보
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 「2026년도 인천
+ 광역시 인천사랑기부제 답례품 공급업체 공개모집」 
+ 공고 홍보 (2026-02-23) https://tourbiz.ito.or.kr/info/notice?pageInd
+ ex=6
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:12fb781c8fc4707c@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:🔮 예고⭐ 길 위의 인문학 · 지혜학교 / 모두의 
+ 인문학 운영기관 공모 한국문화예술교육진흥원
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [한국문화예술교육진흥원
+ ] 2026 길 위의 인문학 · 지혜학교 / 모두의 인문학 운영
+ 기관 공모 한국문화예술교육진흥원 (2026-02-25) https://ifa
+ c.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:c7b084fb507a51a3@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:🔮 예고⭐ 생애주기별 문화예술교육 지원사업 
+ 「꿈다락 문화예술학교」 운영기관 공모 안내 한국문
+ 화예술교육진흥원
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [한국문화예술교육진흥원
+ ] 2026 생애주기별 문화예술교육 지원사업 「꿈다락 문
+ 화예술학교」 운영기관 공모 안내 한국문화예술교육
+ 진흥원 (2026-02-25) https://ifac.or.kr/bbs/list.do?key=m2501152808367
+ &pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:8007dfe616c74c80@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:🔮 예고⭐ 인천 관광기업 AX·DX 지원사업 모집 공
+ 고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천 관광기업 AX·DX 
+ 지원사업 모집 공고 (2026-02-28) https://www.ito.or.kr/main/bbs/b
+ bsMsgDetail.do?msg_seq=1048&bcd=notice&pgno=10\n- 작년 공고: 「2026
+  인천 관광기업 AX·DX 지원사업」모집 공고 (2026-02-26) ht
+ tps://tourbiz.ito.or.kr/info/notice?pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1048&bcd=notic
+ e&pgno=10
+END:VEVENT
+BEGIN:VEVENT
+UID:5bfb7267e7d72be8@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:🔮 예고⭐ 찾아가는 문화공연 「요기조기 음악
+ 회」 뮤직 앰배서더 모집 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 찾아가는 문화공연 「요
+ 기조기 음악회」 뮤직 앰배서더 모집 공고 (2026-02-26) ht
+ tps://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=20\n- 작년 
+ 공고: 2026 찾아가는 문화공연 「요기조기 음악회」 뮤
+ 직 앰배서더 모집 공고 (2026-02-26) https://ifac.or.kr/artsSupPr
+ ojects/supProjects/list.do?key=m2501143953255&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=20
+END:VEVENT
+BEGIN:VEVENT
+UID:1b849c0721596675@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:🔮 예고⭐ 인천 교육여행 유치 협의체 및 파트너
+ 사 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천 교육여행 유치 
+ 협의체 및 파트너사 모집 공고 (2026-02-27) https://www.ito.or
+ .kr/main/bbs/bbsMsgDetail.do?msg_seq=1047&bcd=notice&pgno=10
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1047&bcd=notic
+ e&pgno=10
+END:VEVENT
+BEGIN:VEVENT
+UID:91f738ca1c85037a@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:🔮 예고⭐ 수요자 맞춤형 인천 교육여행 지원사
+ 업 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 수요자 맞춤형 인천
+  교육여행 지원사업 공고 (2026-02-27) https://www.ito.or.kr/mai
+ n/bbs/bbsMsgDetail.do?msg_seq=1046&bcd=notice&pgno=10
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1046&bcd=notic
+ e&pgno=10
+END:VEVENT
+BEGIN:VEVENT
+UID:7474fc4e2b372a2b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:🔮 예고 인천 중소기업 연구조직 설립 지원사업 
+ 모집 공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인천 중소기업 
+ 연구조직 설립 지원사업 모집 공고 (2026-02-27) https://www.
+ itp.or.kr/intro.asp?tmid=13&PageNum=5
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=5
+END:VEVENT
+BEGIN:VEVENT
+UID:6344d1c2807a08bb@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:🔮 예고⭐ 인천예술인 법률상담 지원 안내 (상시
+  접수)
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천예술인 법률상담 지
+ 원 안내 (상시 접수) (2026-02-27) https://ifac.or.kr/bbs/list.do?k
+ ey=m2501152808232&pageIndex=20\n- 작년 공고: 2026 인천예술인 
+ 법률상담 지원 안내 (상시 접수) (2026-02-27) https://ifac.or.
+ kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=20
+END:VEVENT
+BEGIN:VEVENT
+UID:106d56498447b3b4@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:🔮 예고⭐ 인천광역시 동구 우리미술관 레지던
+ 시 입주작가 모집 인천광역시 동구 문화관광과
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [우리미술관] 2026년 인천
+ 광역시 동구 우리미술관 레지던시 입주작가 모집 인천
+ 광역시 동구 문화관광과 (2026-02-27) https://ifac.or.kr/bbs/lis
+ t.do?key=m2501152808367&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:3fe6b95378040019@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:🔮 예고⭐ 인천웰니스관광지 선정 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 인천웰니스관광지 
+ 선정 모집 공고 (2026-03-03) https://www.ito.or.kr/main/bbs/bbsMsgD
+ etail.do?msg_seq=1051&bcd=notice&pgno=10
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1051&bcd=notic
+ e&pgno=10
+END:VEVENT
+BEGIN:VEVENT
+UID:a71850bb20dfc71f@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:🔮 예고⭐ 해외 단체관광객 유치 인센티브 지원
+ 사업 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 해외 단체관광객 유
+ 치 인센티브 지원사업 공고 (2026-03-03) https://www.ito.or.kr/
+ main/bbs/bbsMsgDetail.do?msg_seq=1050&bcd=notice&pgno=10
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1050&bcd=notic
+ e&pgno=10
+END:VEVENT
+BEGIN:VEVENT
+UID:ae381bd8277c7d3a@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:🔮 예고⭐ [2026년 원스톱메디컬지원서비스] 컨시
+ 어지 운영 업체 선발 공모 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [2026년 원스톱메디컬지원
+ 서비스] 컨시어지 운영 업체 선발 공모 공고 (2026-03-03) 
+ https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1049&bcd=notice&p
+ gno=10
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1049&bcd=notic
+ e&pgno=10
+END:VEVENT
+BEGIN:VEVENT
+UID:e6c4033f821e371a@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:🔮 예고⭐ 인천광역시 국내관광객 유치 인센티
+ 브 지원사업 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천광역시 국내관광
+ 객 유치 인센티브 지원사업 공고 (2026-03-04) https://www.ito
+ .or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1053&bcd=notice&pgno=10
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1053&bcd=notic
+ e&pgno=10
+END:VEVENT
+BEGIN:VEVENT
+UID:9cec83a5f20abd83@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:🔮 예고⭐ 인천 관광스타트업 공모
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 인천 관광스타트업 
+ 공모 (2026-03-04) https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_s
+ eq=1052&bcd=notice&pgno=10
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1052&bcd=notic
+ e&pgno=10
+END:VEVENT
+BEGIN:VEVENT
+UID:98cb3b4a6a0702d1@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:🔮 예고⭐ 인천 우수 체류형 관광상품 공모 공고
+DESCRIPTION:인천관광공사 · 디자인·상품·콘텐츠\n\n이 시
+ 기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바
+ 뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인천 우수 체류형
+  관광상품 공모 공고 (2026-03-05) https://www.ito.or.kr/main/bbs/
+ bbsMsgDetail.do?msg_seq=1054&bcd=notice&pgno=10
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1054&bcd=notic
+ e&pgno=10
+END:VEVENT
+BEGIN:VEVENT
+UID:0d8f5841ce138748@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:🔮 예고⭐ 인천 체류형 관광 공모사업 심사위원 
+ 후보자 등록 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 인천 체류형 관광 
+ 공모사업 심사위원 후보자 등록 공고 (2026-03-06) https://w
+ ww.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1055&bcd=notice&pgno=10
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1055&bcd=notic
+ e&pgno=10
+END:VEVENT
+BEGIN:VEVENT
+UID:8cc5dfbae2d41ff5@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:🔮 예고⭐ 예술창작지원사업 집중지원 최종 선
+ 정공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 예술창작지원사업 집중
+ 지원 최종 선정공고 (2026-03-06) https://ifac.or.kr/bbs/list.do?k
+ ey=m2501152808232&pageIndex=19\n- 작년 공고: 2026 예술창작지원
+ 사업 집중지원 최종 선정공고 (2026-03-06) https://ifac.or.kr/
+ artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=19
+END:VEVENT
+BEGIN:VEVENT
+UID:9ea5825612df1a99@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:🔮 예고⭐ 부평문화사랑방 <공연(기획)공모> 모
+ 집 공고 (재)부평구문화재단
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 부평문화사랑방 <공연
+ (기획)공모> 모집 공고 (재)부평구문화재단 (2026-03-06) ht
+ tps://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:40ebc4782a2f5902@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:🔮 예고 생활문화동아리 지원 공모
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026 생활문화동아리 지원 공모 (2026-03-09
+ ) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=19\n- 작
+ 년 공고: 2026 생활문화동아리 지원 공모 (2026-03-09) https:
+ //ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&page
+ Index=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=19
+END:VEVENT
+BEGIN:VEVENT
+UID:344dc527020804b5@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:🔮 예고⭐ 인천아트플랫폼 <예술가 강사 양성 프
+ 로그램> 참여 예술가 공모
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천아트플랫폼 <예술가
+  강사 양성 프로그램> 참여 예술가 공모 (2026-03-09) https:
+ //ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=20\n- 작년 공
+ 고: 2026 인천아트플랫폼 <예술가 강사 양성 프로그램> 
+ 참여 예술가 공모 (2026-03-09) https://ifac.or.kr/artsSupProjects/
+ supProjects/list.do?key=m2501143953255&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=20
+END:VEVENT
+BEGIN:VEVENT
+UID:c54f5a5ce5c7ed72@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:🔮 예고⭐ 「2026 인천관광 상생이노베이션」 참
+ 여기업 모집
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 인천관광 상생이노
+ 베이션」 참여기업 모집 (2026-03-10) https://www.ito.or.kr/main
+ /bbs/bbsMsgDetail.do?msg_seq=1057&bcd=notice&pgno=9
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1057&bcd=notic
+ e&pgno=9
+END:VEVENT
+BEGIN:VEVENT
+UID:e29b160a102ca17c@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:🔮 예고⭐ 「인천 섬 지역상생 캠프」 협력기관 
+ 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 「인천 섬 지역상생
+  캠프」 협력기관 모집 공고 (2026-03-10) https://www.ito.or.kr
+ /main/bbs/bbsMsgDetail.do?msg_seq=1056&bcd=notice&pgno=9
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1056&bcd=notic
+ e&pgno=9
+END:VEVENT
+BEGIN:VEVENT
+UID:4c4cace69ba0d6e1@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:🔮 예고⭐ 인천관광 상생이노베이션 참여기업 
+ 모집 [~ 4/9(목)\, 18시까지]
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 2026 인천관광 상
+ 생이노베이션 참여기업 모집 [~ 4/9(목)\, 18시까지] (2026-
+ 03-10) https://tourbiz.ito.or.kr/info/notice?pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:c1dc25bf1097bd99@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:🔮 예고⭐ 인천아트플랫폼 <창작스튜디오 프로
+ 젝트> 공모 인터뷰 심의 대상자 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천아트플랫폼 <창작스
+ 튜디오 프로젝트> 공모 인터뷰 심의 대상자 공고 (2026-0
+ 3-10) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=19\n- 
+ 작년 공고: 2026 인천아트플랫폼 <창작스튜디오 프로젝
+ 트> 공모 인터뷰 심의 대상자 공고 (2026-03-10) https://ifac.
+ or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=19
+END:VEVENT
+BEGIN:VEVENT
+UID:09089ff138d0de6c@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:🔮 예고⭐ 인천관광 국내파트너 회원사 모집 공
+ 고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천관광 국내파트너 
+ 회원사 모집 공고 (2026-03-13) https://www.ito.or.kr/main/bbs/bbsM
+ sgDetail.do?msg_seq=1058&bcd=notice&pgno=9
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1058&bcd=notic
+ e&pgno=9
+END:VEVENT
+BEGIN:VEVENT
+UID:d0ea4634bf79e9cc@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:🔮 예고⭐ 인천생태관광마을 선정 및 육성 모집 
+ 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천생태관광마을 선
+ 정 및 육성 모집 공고 (2026-03-16) https://www.ito.or.kr/main/bbs
+ /bbsMsgDetail.do?msg_seq=1059&bcd=notice&pgno=9
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1059&bcd=notic
+ e&pgno=9
+END:VEVENT
+BEGIN:VEVENT
+UID:ca25d951a14fe3f9@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:🔮 예고⭐ 유니버설디자인리빙랩 시설투어 프로
+ 그램 참여모집
+DESCRIPTION:인천테크노파크 · 디자인·상품·콘텐츠\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 유니버설디자
+ 인리빙랩 시설투어 프로그램 참여모집 (2026-03-17) https:/
+ /www.itp.or.kr/intro.asp?tmid=13&PageNum=4
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=4
+END:VEVENT
+BEGIN:VEVENT
+UID:168791290028666e@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:🔮 예고⭐ 인천 관광상품 디자인 개발 지원 공고
+DESCRIPTION:인천관광공사 · 디자인·상품·콘텐츠\n\n이 시
+ 기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바
+ 뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인천 관광상품 디
+ 자인 개발 지원 공고 (2026-03-19) https://www.ito.or.kr/main/bbs/
+ bbsMsgDetail.do?msg_seq=1062&bcd=notice&pgno=9
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1062&bcd=notic
+ e&pgno=9
+END:VEVENT
+BEGIN:VEVENT
+UID:737ceaace579712a@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:🔮 예고⭐ 인천 관광상품 디자인 개발 지원 공모
+ (~4/8(수)\, 18시까지)
+DESCRIPTION:인천관광기업지원센터 · 디자인·상품·콘텐
+ 츠\n\n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨
+ 면 ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인천 
+ 관광상품 디자인 개발 지원 공모(~4/8(수)\, 18시까지) (20
+ 26-03-19) https://tourbiz.ito.or.kr/info/notice?pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:e2fd9137e1818855@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:🔮 예고 학산시민극단 단원 모집 미추홀학산문
+ 화원
+DESCRIPTION:인천 문화기관 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026 학산시민극단 단원 모집 미추홀학
+ 산문화원 (2026-03-19) https://ifac.or.kr/bbs/list.do?key=m2501152808
+ 367&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:152c18e19c571159@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:🔮 예고⭐ 학산가족음악회 공연 단체 공개 모집 
+ 학산생활문화센터 마당
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 학산가족음악회 공연 
+ 단체 공개 모집 학산생활문화센터 마당 (2026-03-19) https:
+ //ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:c7d865cf3deb7027@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:🔮 예고⭐ 인천아트플랫폼 「유스테이지」 공연
+ 팀 풀(POOL) 모집 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천아트플랫폼 「유스
+ 테이지」 공연팀 풀(POOL) 모집 공고 (2026-03-20) https://ifac
+ .or.kr/bbs/list.do?key=m2501152808232&pageIndex=18
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=18
+END:VEVENT
+BEGIN:VEVENT
+UID:078fe8ef6eb3c9c2@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:🔮 예고 글로벌 법률자문 바우처 프로그램 지원
+ 기업 모집 공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 글로벌 법률자
+ 문 바우처 프로그램 지원기업 모집 공고 (2026-03-23) https
+ ://www.itp.or.kr/intro.asp?tmid=13&PageNum=4
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=4
+END:VEVENT
+BEGIN:VEVENT
+UID:7b0be3329e80c9bc@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:🔮 예고 쇼케이스 기획지원사업 공모
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026년 쇼케이스 기획지원사업 공모 (2026
+ -03-23) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=18\n
+ - 작년 공고: 2026년 쇼케이스 기획지원사업 공모 (2026-03
+ -23) https://ifac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143
+ 953255&pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=18
+END:VEVENT
+BEGIN:VEVENT
+UID:f2b684fdfc7c0739@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:🔮 예고⭐ 📌26년 센터 지원사업 중복지원 기준 
+ 안내📌
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 📌26년 센터 지
+ 원사업 중복지원 기준 안내📌 (2026-03-24) https://tourbiz.it
+ o.or.kr/info/notice?pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=7
+END:VEVENT
+BEGIN:VEVENT
+UID:27b1c3876bc734d5@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:🔮 예고⭐ 「2026년 원스톱메디컬지원서비스」 
+ 운영 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026년 원스톱메디컬지
+ 원서비스」 운영 공고 (2026-03-25) https://www.ito.or.kr/main/bb
+ s/bbsMsgDetail.do?msg_seq=1066&bcd=notice&pgno=8
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1066&bcd=notic
+ e&pgno=8
+END:VEVENT
+BEGIN:VEVENT
+UID:1b03440da749108c@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:🔮 예고⭐ 「2026 인천 MICE 환대서비스(맞춤지원)
+ 」 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 인천 MICE 환대서비
+ 스(맞춤지원)」 공고 (2026-03-25) https://www.ito.or.kr/main/bbs/
+ bbsMsgDetail.do?msg_seq=1063&bcd=notice&pgno=9
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1063&bcd=notic
+ e&pgno=9
+END:VEVENT
+BEGIN:VEVENT
+UID:757ef8432c9821df@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:✅⭐ 공고 떴음: 4월 예술인 역량강화 교육 참여
+ 자 모집 안내
+DESCRIPTION:공고가 떴어요: 2026년 12월 예술인 역량강화 교
+ 육 참여자 모집 안내\nhttps://ifac.or.kr/bbs/list.do?key=m2501152
+ 808232\n\n[예고 근거]\n- 작년 공고: 2026년 4월 예술인 역
+ 량강화 교육 참여자 모집 안내 (2026-03-25) https://ifac.or.kr
+ /bbs/list.do?key=m2501152808232&pageIndex=18
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232
+END:VEVENT
+BEGIN:VEVENT
+UID:eb8b10a656e0168e@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:🔮 예고⭐ 인천창조경제혁신센터 「모두의 창업
+  프로젝트」 참여자 모집 홍보
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 인천창조경제혁
+ 신센터 「모두의 창업 프로젝트」 참여자 모집 홍보 (2
+ 026-03-26) https://tourbiz.ito.or.kr/info/notice?pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:1a34fc6c69c7476d@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:🔮 예고⭐ 인천 섬 아웃도어 개최지원 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천 섬 아웃도어 개
+ 최지원 공고 (2026-03-27) https://www.ito.or.kr/main/bbs/bbsMsgDetai
+ l.do?msg_seq=1071&bcd=notice&pgno=8
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1071&bcd=notic
+ e&pgno=8
+END:VEVENT
+BEGIN:VEVENT
+UID:3c1cc1862d56b460@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:🔮 예고⭐ 인천 섬 도도하게 살아보기 파트너 여
+ 행사 선정 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천 섬 도도하게 살
+ 아보기 파트너 여행사 선정 공고 (2026-03-27) https://www.ito
+ .or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1070&bcd=notice&pgno=8
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1070&bcd=notic
+ e&pgno=8
+END:VEVENT
+BEGIN:VEVENT
+UID:5b988b343b42c616@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:🔮 예고 찾아가는 누리장터 참여가맹점 모집 안
+ 내
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026년 찾아가는 누리장터 참여가맹점 
+ 모집 안내 (2026-03-30) https://ifac.or.kr/bbs/list.do?key=m250115280
+ 8232&pageIndex=17
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=17
+END:VEVENT
+BEGIN:VEVENT
+UID:751ae3b5f749d847@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:🔮 예고⭐ 중국·대만 해외거점사무소 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 중국·대만 해외거점
+ 사무소 모집 공고 (2026-03-31) https://www.ito.or.kr/main/bbs/bbsM
+ sgDetail.do?msg_seq=1074&bcd=notice&pgno=8
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1074&bcd=notic
+ e&pgno=8
+END:VEVENT
+BEGIN:VEVENT
+UID:e479db023279a055@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:🔮 예고⭐ 인천 원도심 관광 콘텐츠 공모
+DESCRIPTION:인천관광공사 · 디자인·상품·콘텐츠\n\n이 시
+ 기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바
+ 뀝니다.\n\n[근거]\n- 작년 공고: 2026 인천 원도심 관광 
+ 콘텐츠 공모 (2026-03-31) https://www.ito.or.kr/main/bbs/bbsMsgDetai
+ l.do?msg_seq=1073&bcd=notice&pgno=8
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1073&bcd=notic
+ e&pgno=8
+END:VEVENT
+BEGIN:VEVENT
+UID:9f2c8649cc4e898a@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:🔮 예고⭐ 인천 반려동물 동반 관광 콘텐츠 공모
+DESCRIPTION:인천관광공사 · 디자인·상품·콘텐츠\n\n이 시
+ 기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바
+ 뀝니다.\n\n[근거]\n- 작년 공고: 2026 인천 반려동물 동반
+  관광 콘텐츠 공모 (2026-03-31) https://www.ito.or.kr/main/bbs/bbs
+ MsgDetail.do?msg_seq=1072&bcd=notice&pgno=8
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1072&bcd=notic
+ e&pgno=8
+END:VEVENT
+BEGIN:VEVENT
+UID:a527d931282551a1@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:🔮 예고 드림파크 벚꽃길 산책 행사 푸드트럭 영
+ 업자 모집 공고
+DESCRIPTION:드림파크문화재단 · 기타\n\n이 시기쯤 공고가
+  뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[
+ 근거]\n- 작년 공고: [공지]2026 드림파크 벚꽃길 산책 행
+ 사 푸드트럭 영업자 모집 공고 (2026-03-31) https://www.dreamp
+ arkcf.com/sub/board.php?mn=notice&fn=board&md=v&zest_bn=hana_board_19&bn
+ =hana_board_19&seq=173&page=1&field=&keyword=&s_category=
+TRANSP:TRANSPARENT
+URL:https://www.dreamparkcf.com/sub/board.php?mn=notice&fn=board&md=v&zes
+ t_bn=hana_board_19&bn=hana_board_19&seq=173&page=1&field=&keyword=&s_cat
+ egory=
+END:VEVENT
+BEGIN:VEVENT
+UID:e48c81af01a83bde@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:🔮 예고⭐ 인천도시공사 백년이음 기획전시 《
+ 붉은 돌\, 유리 바다》 전시 연계 워크숍 참여자 모집 
+ 인천도시공사
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 인천도시공사 백년이음 
+ 기획전시 《붉은 돌\, 유리 바다》 전시 연계 워크숍 
+ 참여자 모집 인천도시공사 (2026-03-31) https://ifac.or.kr/bbs/
+ list.do?key=m2501152808367&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:b374cf0de9cde07e@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:🔮 예고⭐ 「2026 상상플랫폼 키즈마켓」 참여 업
+ 체 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 상상플랫폼 키즈마
+ 켓」 참여 업체 모집 공고 (2026-04-01) https://www.ito.or.kr/ma
+ in/bbs/bbsMsgDetail.do?msg_seq=1076&bcd=notice&pgno=8
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1076&bcd=notic
+ e&pgno=8
+END:VEVENT
+BEGIN:VEVENT
+UID:97a6aa9632c1fcd8@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:🔮 예고⭐ 「2026 상상플랫폼 키즈마켓」 참여 키
+ 즈셀러 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 상상플랫폼 키즈마
+ 켓」 참여 키즈셀러 모집 공고 (2026-04-01) https://www.ito.or
+ .kr/main/bbs/bbsMsgDetail.do?msg_seq=1075&bcd=notice&pgno=8
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1075&bcd=notic
+ e&pgno=8
+END:VEVENT
+BEGIN:VEVENT
+UID:f4c8d2a9d704815e@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:🔮 예고 인공지능(AI) 전문인력 양성사업 교육생 
+ 모집공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인공지능(AI) 전
+ 문인력 양성사업 교육생 모집공고 (2026-04-01) https://www.i
+ tp.or.kr/intro.asp?tmid=13&PageNum=4
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=4
+END:VEVENT
+BEGIN:VEVENT
+UID:17ee293d50b4d470@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:🔮 예고 중소기업 기술지원단 운영사업 참여기
+ 업 모집 공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 중소기업 기술
+ 지원단 운영사업 참여기업 모집 공고 (2026-04-01) https://w
+ ww.itp.or.kr/intro.asp?tmid=13&PageNum=4
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=4
+END:VEVENT
+BEGIN:VEVENT
+UID:5f20155e09ab98a8@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:🔮 예고⭐ 인천 관광스타트업 공모 (~4/17까지)
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인천 관광
+ 스타트업 공모 (~4/17까지) (2026-04-01) https://tourbiz.ito.or.kr
+ /info/notice?pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:b145c55db425e99e@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:🔮 예고⭐ 인천 야간관광 콘텐츠 공모
+DESCRIPTION:인천관광공사 · 디자인·상품·콘텐츠\n\n이 시
+ 기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바
+ 뀝니다.\n\n[근거]\n- 작년 공고: 2026 인천 야간관광 콘텐
+ 츠 공모 (2026-04-02) https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?m
+ sg_seq=1078&bcd=notice&pgno=7
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1078&bcd=notic
+ e&pgno=7
+END:VEVENT
+BEGIN:VEVENT
+UID:73baf60ae4eb067a@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:🔮 예고⭐ 「2026 드림파크 벚꽃길 산책」플리마
+ 켓 모집 공고
+DESCRIPTION:드림파크문화재단 · 관광·판로·마케팅\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 「2026 드림파크 벚꽃
+ 길 산책」플리마켓 모집 공고 (2026-04-03) https://www.dreampa
+ rkcf.com/sub/board.php?mn=notice&fn=board&md=v&zest_bn=hana_board_19&bn=
+ hana_board_19&seq=174&page=1&field=&keyword=&s_category=
+TRANSP:TRANSPARENT
+URL:https://www.dreamparkcf.com/sub/board.php?mn=notice&fn=board&md=v&zes
+ t_bn=hana_board_19&bn=hana_board_19&seq=174&page=1&field=&keyword=&s_cat
+ egory=
+END:VEVENT
+BEGIN:VEVENT
+UID:2ba5771ea3653b6f@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:🔮 예고⭐ 인천소상공인종합지원센터 「2026년 
+ 소상공인 재도약 컨설팅 지원 공고」 홍보 (3/5~예산 소
+ 진시까지)
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 인천소상공인종
+ 합지원센터 「2026년 소상공인 재도약 컨설팅 지원 공
+ 고」 홍보 (3/5~예산 소진시까지) (2026-04-03) https://tourbiz.
+ ito.or.kr/info/notice?pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:3845f8097c2830a0@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:🔮 예고⭐ 「2026년 인천 1-Day 힐링투어 상품 공모
+ 전」 공고
+DESCRIPTION:인천관광공사 · 디자인·상품·콘텐츠\n\n이 시
+ 기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바
+ 뀝니다.\n\n[근거]\n- 작년 공고: 「2026년 인천 1-Day 힐링
+ 투어 상품 공모전」 공고 (2026-04-06) https://www.ito.or.kr/mai
+ n/bbs/bbsMsgDetail.do?msg_seq=1080&bcd=notice&pgno=7
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1080&bcd=notic
+ e&pgno=7
+END:VEVENT
+BEGIN:VEVENT
+UID:bf76e9a2ca01004b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:🔮 예고⭐ 인천예술인 창작공간 임차료 지원 공
+ 고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천예술인 창작공간 임
+ 차료 지원 공고 (2026-04-09) https://ifac.or.kr/bbs/list.do?key=m25
+ 01152808232&pageIndex=16\n- 작년 공고: 2026 인천예술인 창작
+ 공간 임차료 지원 공고 (2026-04-09) https://ifac.or.kr/artsSupPr
+ ojects/supProjects/list.do?key=m2501143953255&pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=16
+END:VEVENT
+BEGIN:VEVENT
+UID:461ed552c865b780@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:🔮 예고⭐ 예술창작생애지원(생애처음/원로) 공
+ 모 (접수: 4/13 10:00 ~ 4/29 17:59)
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 예술창작생애지원(생애
+ 처음/원로) 공모 (접수: 4/13 10:00 ~ 4/29 17:59) (2026-04-09) htt
+ ps://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=16\n- 작년 
+ 공고: 2026 예술창작생애지원(생애처음/원로) 공모 (접
+ 수: 4/13 10:00 ~ 4/29 17:59) (2026-04-09) https://ifac.or.kr/artsSupPro
+ jects/supProjects/list.do?key=m2501143953255&pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=16
+END:VEVENT
+BEGIN:VEVENT
+UID:25f7d46b57edefb9@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:🔮 예고⭐ 인천 국내관광 공모사업 심사위원 후
+ 보자 등록 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 인천 국내관광 공모
+ 사업 심사위원 후보자 등록 공고 (2026-04-10) https://www.ito
+ .or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1083&bcd=notice&pgno=7
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1083&bcd=notic
+ e&pgno=7
+END:VEVENT
+BEGIN:VEVENT
+UID:985c9dd314305a81@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:🔮 예고⭐ 학교문화예술교육 협력사업 <초등 교
+ 급별 프로그램> 신청 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 학교문화예술교육 협력
+ 사업 <초등 교급별 프로그램> 신청 안내 (2026-04-13) https:
+ //ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=16
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=16
+END:VEVENT
+BEGIN:VEVENT
+UID:269b5b3498ac1974@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:🔮 예고⭐ 5월 예술인 역량강화 교육 참여자 모
+ 집 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026년 5월 예술인 역량강화 
+ 교육 참여자 모집 안내 (2026-04-14) https://ifac.or.kr/bbs/list.
+ do?key=m2501152808232&pageIndex=16
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=16
+END:VEVENT
+BEGIN:VEVENT
+UID:670592c5c45310bb@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:🔮 예고 인천문화재단 시민크리에이터 ‘In-Viewer
+ ’ 모집
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026 인천문화재단 시민크리에이터 ‘In-
+ Viewer’ 모집 (2026-04-15) https://ifac.or.kr/bbs/list.do?key=m250115
+ 2808232&pageIndex=16
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=16
+END:VEVENT
+BEGIN:VEVENT
+UID:3c4f4aeaa073ce3e@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:🔮 예고⭐ 인천대학교 『2026년 재도전성공패키
+ 지(추경)』(예비)재창업자 모집
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 인천대학교 『20
+ 26년 재도전성공패키지(추경)』(예비)재창업자 모집 (20
+ 26-04-17) https://tourbiz.ito.or.kr/info/notice?pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:fbf9ee31a4ec2919@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:🔮 예고 인천광역시교육청 유물 구입 공고 인천
+ 광역시교육청
+DESCRIPTION:인천 문화기관 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인천광역시교
+ 육청 유물 구입 공고 인천광역시교육청 (2026-04-20) https:
+ //ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:451e7b488b05f22d@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:🔮 예고⭐ 법률고문 위촉 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 법률고문 위촉 공고 (2026-0
+ 4-23) https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1086&bcd=no
+ tice&pgno=7
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1086&bcd=notic
+ e&pgno=7
+END:VEVENT
+BEGIN:VEVENT
+UID:0f65cde41e099cd1@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:🔮 예고⭐ 인천 워케이션 호텔 상품 공모 공고
+DESCRIPTION:인천관광공사 · 디자인·상품·콘텐츠\n\n이 시
+ 기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바
+ 뀝니다.\n\n[근거]\n- 작년 공고: 2026 인천 워케이션 호텔
+  상품 공모 공고 (2026-04-24) https://www.ito.or.kr/main/bbs/bbsMsg
+ Detail.do?msg_seq=1089&bcd=notice&pgno=6
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1089&bcd=notic
+ e&pgno=6
+END:VEVENT
+BEGIN:VEVENT
+UID:2bdd31d0bd408243@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:🔮 예고⭐ 한국관광공사 「2026 관광기업 데이터
+ ·AI 활용 지원사업」 홍보
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 한국관광공사 
+ 「2026 관광기업 데이터·AI 활용 지원사업」 홍보 (2026-0
+ 4-27) https://tourbiz.ito.or.kr/info/notice?pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:b8318a4465aaa1fc@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:🔮 예고⭐ 인천관광공사 「인천투어프렌즈 5기
+ 」 모집 홍보
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 인천관광공사 
+ 「인천투어프렌즈 5기」 모집 홍보 (2026-04-27) https://tour
+ biz.ito.or.kr/info/notice?pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:f4728996f41c26ab@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:🔮 예고 블록체인 바우처 지원사업 공급기업 모
+ 집 공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 블록체인 바우
+ 처 지원사업 공급기업 모집 공고 (2026-04-28) https://www.itp
+ .or.kr/intro.asp?tmid=13&PageNum=4
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=4
+END:VEVENT
+BEGIN:VEVENT
+UID:ce10c973565ae517@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:🔮 예고⭐ 「2026 인천투어프렌즈 5기」 모집 공
+ 고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 인천투어프렌즈 5기
+ 」 모집 공고 (2026-04-29) https://www.ito.or.kr/main/bbs/bbsMsgDeta
+ il.do?msg_seq=1092&bcd=notice&pgno=6
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1092&bcd=notic
+ e&pgno=6
+END:VEVENT
+BEGIN:VEVENT
+UID:2f8e6060416b293b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:🔮 예고⭐ 인천 1-Day 힐링투어 운영 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 인천 1-Day 힐링투어 
+ 운영 공고 (2026-04-29) https://www.ito.or.kr/main/bbs/bbsMsgDetail.d
+ o?msg_seq=1091&bcd=notice&pgno=6
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1091&bcd=notic
+ e&pgno=6
+END:VEVENT
+BEGIN:VEVENT
+UID:f0b1b81fd99c1aa9@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:🔮 예고⭐ 유아 문화예술교육 지원사업「아이와
+ 락-인천」누리과정 연계 문화예술교육 프로그램 2차 
+ 신청 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 유아 문화예술교육 지원
+ 사업「아이와락-인천」누리과정 연계 문화예술교육 
+ 프로그램 2차 신청 안내 (2026-07-29) https://ifac.or.kr/bbs/list
+ .do?key=m2501152808232&pageIndex=8\n- 작년 공고: 2026 유아 문화
+ 예술교육 지원사업「아이와락-인천」 누리과정 연계 
+ 문화예술교육 프로그램 1차 신청 안내 (2026-04-29) https://
+ ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=15
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8
+END:VEVENT
+BEGIN:VEVENT
+UID:b610a7e5c2fffaae@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:🔮 예고⭐ 인천미술은행 기획전시 <공존의 정원\
+ , 흩어진 점들이 우리가 될 때> 연계프로그램 참여자 
+ 모집
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 인천미술은행 기획전시 <공
+ 존의 정원\, 흩어진 점들이 우리가 될 때> 연계프로그
+ 램 참여자 모집 (2026-04-30) https://ifac.or.kr/bbs/list.do?key=m25
+ 01152808232&pageIndex=14
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=14
+END:VEVENT
+BEGIN:VEVENT
+UID:0921ede717387398@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:🔮 예고 한국근대문학관 신흥동구시장관사 문학
+ 교양강좌 <목요공방>(4.30~5.5.)\, <방석인문학>(4.30.~5.7) 
+ 참가자 모집
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 한국근대문학관 신흥동구시장관사 문
+ 학교양강좌 <목요공방>(4.30~5.5.)\, <방석인문학>(4.30.~5.7)
+  참가자 모집 (2026-04-30) https://ifac.or.kr/bbs/list.do?key=m25011
+ 52808232&pageIndex=14
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=14
+END:VEVENT
+BEGIN:VEVENT
+UID:aae8d79eb0d7e1f5@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:🔮 예고⭐ 주민점검신청제 운영
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 주민점검신청제 운영 (2026
+ -05-08) https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1097&bcd=
+ notice&pgno=6
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1097&bcd=notic
+ e&pgno=6
+END:VEVENT
+BEGIN:VEVENT
+UID:2acdfe724cc1bbdd@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:🔮 예고⭐ 인천기업경영지원센터 혁신기업 육성
+  프로젝트 2026년「인천형 퍼스트펭귄 지원 프로그램」
+ 참여기업 모집 공고
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 인천기업경영지
+ 원센터 혁신기업 육성 프로젝트 2026년「인천형 퍼스트
+ 펭귄 지원 프로그램」참여기업 모집 공고 (2026-05-11) htt
+ ps://tourbiz.ito.or.kr/info/notice?pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:f64bd558c26e09d6@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:🔮 예고⭐ 중동 수출 중소기업 긴급 경영안정자
+ 금 지원 공고
+DESCRIPTION:인천테크노파크 · 관광·판로·마케팅\n\n이 시
+ 기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바
+ 뀝니다.\n\n[근거]\n- 작년 공고: 2026년 중동 수출 중소기
+ 업 긴급 경영안정자금 지원 공고 (2026-05-13) https://www.itp
+ .or.kr/intro.asp?tmid=13&PageNum=4
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=4
+END:VEVENT
+BEGIN:VEVENT
+UID:c204a0ddfefb2a24@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:🔮 예고⭐ AI·SNS 역량강화를 위한 인천관광 맞춤
+ 형 교육 참가자 모집
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: AI·SNS 역량강화
+ 를 위한 인천관광 맞춤형 교육 참가자 모집 (2026-05-13) h
+ ttps://tourbiz.ito.or.kr/info/notice?pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:1de318dfa9b9f3e9@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:🔮 예고⭐ 지역기반 독립예술영화 인큐베이팅 
+ 지원사업 인천독립영화협회
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 지역기반 독립예술영
+ 화 인큐베이팅 지원사업 인천독립영화협회 (2026-05-13) h
+ ttps://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:a4bfcaa50bb032df@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270515
+SUMMARY:🔮 예고⭐ 인천 콘텐츠 실증 제작지원 사업 통합
+  재공고(연장)
+DESCRIPTION:인천테크노파크 · 디자인·상품·콘텐츠\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026 인천 콘텐츠 실증
+  제작지원 사업 통합 재공고(연장) (2026-05-14) https://www.i
+ tp.or.kr/intro.asp?tmid=13&PageNum=3
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=3
+END:VEVENT
+BEGIN:VEVENT
+UID:bf042fe6f886a009@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:🔮 예고⭐ 「2026 하반기 인천관광 맞춤형 경영컨
+ 설팅」참여기업 모집 안내
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 「2026 하반기 인
+ 천관광 맞춤형 경영컨설팅」참여기업 모집 안내 (2026-0
+ 8-18) https://tourbiz.ito.or.kr/info/notice?pageIndex=1\n- 작년 공고
+ : 「2026 인천관광 맞춤형 경영컨설팅」 참여기업 모집 
+ 안내 (2026-05-15) https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=1
+END:VEVENT
+BEGIN:VEVENT
+UID:06a7add868b1349d@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:🔮 예고 인천문화재단 시민크리에이터 선정 공
+ 고
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026 인천문화재단 시민크리에이터 선정
+  공고 (2026-05-15) https://ifac.or.kr/bbs/list.do?key=m2501152808232&p
+ ageIndex=13
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=13
+END:VEVENT
+BEGIN:VEVENT
+UID:f558fe8b298b36d0@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:🔮 예고 블록체인 바우처 지원사업 수요기업 모
+ 집 공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 블록체인 바우
+ 처 지원사업 수요기업 모집 공고 (2026-05-18) https://www.itp
+ .or.kr/intro.asp?tmid=13&PageNum=3
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=3
+END:VEVENT
+BEGIN:VEVENT
+UID:fac360b96f4cc09a@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:🔮 예고⭐ 우리미술관 작품수집 공모 안내 인천
+ 광역시 동구 문화관광과
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: [우리미술관] 2026년 우리
+ 미술관 작품수집 공모 안내 인천광역시 동구 문화관광
+ 과 (2026-05-18) https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageI
+ ndex=4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:1c63919515f75684@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270520
+SUMMARY:🔮 예고⭐ 「아트·T 인천」 공공기관 기획전시 
+ 참여기관 모집 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 「아트·T 인천」 공공기
+ 관 기획전시 참여기관 모집 공고 (2026-05-19) https://ifac.or
+ .kr/bbs/list.do?key=m2501152808232&pageIndex=12
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=12
+END:VEVENT
+BEGIN:VEVENT
+UID:c47b43cccf5504c3@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270520
+SUMMARY:🔮 예고⭐ 「아트·T 인천」 일상공간 기획전시 
+ 참여 지역상점 모집 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 「아트·T 인천」 일상공
+ 간 기획전시 참여 지역상점 모집 공고 (2026-05-19) https://
+ ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=13
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=13
+END:VEVENT
+BEGIN:VEVENT
+UID:f6c6a04038431f8c@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270520
+SUMMARY:🔮 예고⭐ 「아트·T 인천」 참여 작가 공모 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 「아트·T 인천」 참여 
+ 작가 공모 공고 (2026-05-19) https://ifac.or.kr/bbs/list.do?key=m25
+ 01152808232&pageIndex=13
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=13
+END:VEVENT
+BEGIN:VEVENT
+UID:05b796b580cc80e7@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:🔮 예고⭐ 인천소상공인종합지원센터 "인천 골
+ 목창업 첫걸음 지원사업" 홍보
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 인천소상공인종
+ 합지원센터 "인천 골목창업 첫걸음 지원사업" 홍보 (202
+ 6-05-20) https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:3785257573e8f353@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:🔮 예고 글로벌 실증 파트너십 지원(재공고) 사
+ 업 과제 선정 통지
+DESCRIPTION:인천테크노파크 · 기타\n\n이 시기쯤 공고가 
+ 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[
+ 근거]\n- 작년 공고: 2026 글로벌 실증 파트너십 지원(재
+ 공고) 사업 과제 선정 통지 (2026-05-21) https://www.itp.or.kr/i
+ ntro.asp?tmid=13&PageNum=3
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=3
+END:VEVENT
+BEGIN:VEVENT
+UID:b62bc0571ce4cb9b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:🔮 예고⭐ 인천신용보증재단 「소상공인복합클
+ 러스터」 입주기관 모집
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 인천신용보증재
+ 단 「소상공인복합클러스터」 입주기관 모집 (2026-05-26
+ ) https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:7c88172df6c8629a@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:🔮 예고⭐ 한국사회적기업진흥원 「2026년 사회
+ 적기업 창업지원사업 창업팀 추가모집」 홍보
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 한국사회적기업
+ 진흥원 「2026년 사회적기업 창업지원사업 창업팀 추가
+ 모집」 홍보 (2026-05-27) https://tourbiz.ito.or.kr/info/notice?page
+ Index=3
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:c1c02ff62a4b58ad@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:🔮 예고 인천향교 The 다가감\, 전통문화교감(상
+ 상) 참여 어린이 모집
+DESCRIPTION:인천 문화기관 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 인천향교 The 다가감\, 전통문화교감(상
+ 상) 참여 어린이 모집 (2026-05-30) https://ifac.or.kr/bbs/list.do
+ ?key=m2501152808367&pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:21a87dbb88b0f371@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:🔮 예고 디지털기술융합센터 입주 기업 모집 공
+ 고[4차]
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 디지털기술융합센터 
+ 입주 기업 모집 공고[4차] (2026-06-02) https://www.itp.or.kr/int
+ ro.asp?tmid=13&PageNum=3
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=3
+END:VEVENT
+BEGIN:VEVENT
+UID:d6de7443a767f9cf@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:🔮 예고⭐ 지역 문화예술교육 성장 지원 '인천문
+ 화예술교육 스위치 온(Switch on)' 공모
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 지역 문화예술교육 성장
+  지원 '인천문화예술교육 스위치 온(Switch on)' 공모 (2026
+ -06-02) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=11\n
+ - 작년 공고: 2026 지역 문화예술교육 성장 지원 '인천문
+ 화예술교육 스위치 온(Switch on)' 공모 (2026-06-02) https://if
+ ac.or.kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageInde
+ x=3
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=11
+END:VEVENT
+BEGIN:VEVENT
+UID:9e268db7cedd2997@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:🔮 예고⭐ 6월 예술인 역량강화 교육 참여자 모
+ 집 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026년 6월 예술인 역량강화 
+ 교육 참여자 모집 안내 (2026-06-04) https://ifac.or.kr/bbs/list.
+ do?key=m2501152808232&pageIndex=10
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=10
+END:VEVENT
+BEGIN:VEVENT
+UID:946a2ce846f5e0fc@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:🔮 예고 '전통문화 예절학교' 참가자 모집 연수
+ 문화원
+DESCRIPTION:인천 문화기관 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: [연수문화원] 2026년 '전통문화 예절학교
+ ' 참가자 모집 연수문화원 (2026-06-04) https://ifac.or.kr/bbs/l
+ ist.do?key=m2501152808367&pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:73a1b53e35bc21cb@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:🔮 예고⭐ 인천예술인 창작공간 임차료 지원 선
+ 정 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천예술인 창작공간 임
+ 차료 지원 선정 공고 (2026-06-05) https://ifac.or.kr/bbs/list.do?
+ key=m2501152808232&pageIndex=10\n- 작년 공고: 2026 인천예술인 
+ 창작공간 임차료 지원 선정 공고 (2026-06-05) https://ifac.or
+ .kr/artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=10
+END:VEVENT
+BEGIN:VEVENT
+UID:3759a26f625468d2@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:🔮 예고⭐ 제물포 웨이브 파트너스 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 제물포 웨이브 파트
+ 너스 모집 공고 (2026-06-08) https://www.ito.or.kr/main/bbs/bbsMsgD
+ etail.do?msg_seq=1105&bcd=notice&pgno=5
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1105&bcd=notic
+ e&pgno=5
+END:VEVENT
+BEGIN:VEVENT
+UID:f5a55b5005325746@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+SUMMARY:🔮 예고 「2026년 인천광역시 중소기업육성자금 
+ 지원 공고(7차)」기술전환기업자금 지원(신설)
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 「2026년 인천광역시 
+ 중소기업육성자금 지원 공고(7차)」기술전환기업자금 
+ 지원(신설) (2026-06-09) https://www.itp.or.kr/intro.asp?tmid=13&Page
+ Num=3
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=3
+END:VEVENT
+BEGIN:VEVENT
+UID:22a83a7c10c5e08d@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:🔮 예고⭐ 인천 문화예술교육 지원사업 정산보
+ 고서 회계검증기관 공모 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천 문화예술교육 지원
+ 사업 정산보고서 회계검증기관 공모 안내 (2026-06-10) htt
+ ps://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=10
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=10
+END:VEVENT
+BEGIN:VEVENT
+UID:8507d1099e86e04c@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:🔮 예고⭐ 인천 섬 아웃도어 개최지원 수정공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천 섬 아웃도어 개
+ 최지원 수정공고 (2026-06-12) https://www.ito.or.kr/main/bbs/bbsMs
+ gDetail.do?msg_seq=1107&bcd=notice&pgno=5
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1107&bcd=notic
+ e&pgno=5
+END:VEVENT
+BEGIN:VEVENT
+UID:52a2c4132d942983@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:🔮 예고⭐ 인천관광 온라인 AI 취업컨설팅 참가
+ 자 모집
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천관광 온라인 AI 취
+ 업컨설팅 참가자 모집 (2026-06-15) https://www.ito.or.kr/main/bb
+ s/bbsMsgDetail.do?msg_seq=1108&bcd=notice&pgno=5
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1108&bcd=notic
+ e&pgno=5
+END:VEVENT
+BEGIN:VEVENT
+UID:2e637fc6eb670a8f@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:🔮 예고⭐ 「온라인 AI 취업 컨설팅」참가자 모
+ 집 안내
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 「온라인 AI 취
+ 업 컨설팅」참가자 모집 안내 (2026-06-15) https://tourbiz.ito
+ .or.kr/info/notice?pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:a6644f5f388943fd@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:🔮 예고⭐ 인천광역시 「2026년 관광서비스 기반 
+ 강화사업 민간위탁기관 공모」 홍보
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 인천광역시 「20
+ 26년 관광서비스 기반 강화사업 민간위탁기관 공모」 
+ 홍보 (2026-06-16) https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:0aa063227e8cdc47@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:🔮 예고 쇼케이스 기획지원사업 최종 선정 공고
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026년 쇼케이스 기획지원사업 최종 선
+ 정 공고 (2026-06-17) https://ifac.or.kr/bbs/list.do?key=m250115280823
+ 2&pageIndex=10\n- 작년 공고: 2026년 쇼케이스 기획지원사업
+  최종 선정 공고 (2026-06-17) https://ifac.or.kr/artsSupProjects/su
+ pProjects/list.do?key=m2501143953255&pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=10
+END:VEVENT
+BEGIN:VEVENT
+UID:b7a9a1a2f1b130aa@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:🔮 예고⭐ 콘텐츠 스케일업 플러스 모집 재공고
+DESCRIPTION:인천테크노파크 · 디자인·상품·콘텐츠\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026 콘텐츠 스케일업 
+ 플러스 모집 재공고 (2026-06-18) https://www.itp.or.kr/intro.asp?
+ tmid=13&PageNum=3
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=3
+END:VEVENT
+BEGIN:VEVENT
+UID:0a5e5ab8f5eedab7@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:🔮 예고⭐ 인천 크루즈 기항관광 상품 인센티브 
+ 지원 공고
+DESCRIPTION:인천관광공사 · 디자인·상품·콘텐츠\n\n이 시
+ 기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바
+ 뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인천 크루즈 기항
+ 관광 상품 인센티브 지원 공고 (2026-06-23) https://www.ito.or
+ .kr/main/bbs/bbsMsgDetail.do?msg_seq=1109&bcd=notice&pgno=4
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1109&bcd=notic
+ e&pgno=4
+END:VEVENT
+BEGIN:VEVENT
+UID:e828158b2732f7a5@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:🔮 예고⭐ 인천창조경제혁신센터 2026 빅웨이브(B
+ iig WAVE) 글로벌(싱가포르) 참가기업 모집 안내
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 인천창조경제혁
+ 신센터 2026 빅웨이브(Biig WAVE) 글로벌(싱가포르) 참가기
+ 업 모집 안내 (2026-06-23) https://tourbiz.ito.or.kr/info/notice?pag
+ eIndex=3
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:79747cef0ae2a6bd@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:🔮 예고 인천문화재단 고문 노무사 공개모집 공
+ 고(6.25. ~ 7. 13.)
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026 인천문화재단 고문 노무사 공개모
+ 집 공고(6.25. ~ 7. 13.) (2026-06-25) https://ifac.or.kr/bbs/list.do?k
+ ey=m2501152808232&pageIndex=9
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=9
+END:VEVENT
+BEGIN:VEVENT
+UID:efaa012a3941a07e@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:🔮 예고⭐ 국립인천해양박물관-인천문화재단 협
+ 력 문화예술교육 프로젝트\, 2026년 해양 문화예술교육 
+ 프로그램 신청 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 국립인천해양박물관-인천문
+ 화재단 협력 문화예술교육 프로젝트\, 2026년 해양 문화
+ 예술교육 프로그램 신청 안내 (2026-06-26) https://ifac.or.kr/
+ bbs/list.do?key=m2501152808232&pageIndex=9
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=9
+END:VEVENT
+BEGIN:VEVENT
+UID:7f81b18f8ff8023c@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:🔮 예고 글로벌 실증 파트너십 지원 모집공고(추
+ 가모집)
+DESCRIPTION:인천테크노파크 · 기타\n\n이 시기쯤 공고가 
+ 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[
+ 근거]\n- 작년 공고: 2026 글로벌 실증 파트너십 지원 모
+ 집공고(추가모집) (2026-06-29) https://www.itp.or.kr/intro.asp?tmi
+ d=13&PageNum=2
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=2
+END:VEVENT
+BEGIN:VEVENT
+UID:16f1c6c1d1c24854@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:🔮 예고 중소기업 정보보호 지원사업 수요기업 
+ 모집공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 중소기업 정보
+ 보호 지원사업 수요기업 모집공고 (2026-06-30) https://www.i
+ tp.or.kr/intro.asp?tmid=13&PageNum=2
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=2
+END:VEVENT
+BEGIN:VEVENT
+UID:c6f8ad72947af180@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:🔮 예고 <남겨진 문장들: 한하운 육필 원고전> 개
+ 최 및 특별강좌 참가자 모집(7.1.~7.21.)
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: <남겨진 문장들: 한하운 육필 원고전> 
+ 개최 및 특별강좌 참가자 모집(7.1.~7.21.) (2026-07-01) https:
+ //ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=9
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=9
+END:VEVENT
+BEGIN:VEVENT
+UID:45011a6ea677c0e3@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:🔮 예고⭐ 「2026 인천 의료관광 코디네이터 양성
+  교육」 교육생 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 인천 의료관광 코디
+ 네이터 양성 교육」 교육생 모집 공고 (2026-07-02) https://
+ www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1114&bcd=notice&pgno=4
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1114&bcd=notic
+ e&pgno=4
+END:VEVENT
+BEGIN:VEVENT
+UID:0366ae4c29e9f49e@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:🔮 예고⭐ 제물포 웨이브 파트너스 선발 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 제물포 웨이브 파트
+ 너스 선발 공고 (2026-07-02) https://www.ito.or.kr/main/bbs/bbsMsgD
+ etail.do?msg_seq=1113&bcd=notice&pgno=4
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1113&bcd=notic
+ e&pgno=4
+END:VEVENT
+BEGIN:VEVENT
+UID:ccd86a60b3148032@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:🔮 예고⭐ 「체크인 강화\, 당신만의 강화 라이
+ 프」 강화도 체류형 관광 참가자 모집 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「체크인 강화\, 당신만의
+  강화 라이프」 강화도 체류형 관광 참가자 모집 공고 
+ (2026-07-02) https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1112
+ &bcd=notice&pgno=4
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1112&bcd=notic
+ e&pgno=4
+END:VEVENT
+BEGIN:VEVENT
+UID:d777ec250afbbdb0@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:🔮 예고⭐ 「아트·T 인천」 참여 예술인 공모 선
+ 정 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 「아트·T 인천」 참여 
+ 예술인 공모 선정 공고 (2026-07-02) https://ifac.or.kr/bbs/list.
+ do?key=m2501152808232&pageIndex=9
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=9
+END:VEVENT
+BEGIN:VEVENT
+UID:ae51e01b311f27af@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:🔮 예고⭐ 7월 예술인 역량강화 교육 참여자 모
+ 집 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026년 7월 예술인 역량강화 
+ 교육 참여자 모집 안내 (2026-07-03) https://ifac.or.kr/bbs/list.
+ do?key=m2501152808232&pageIndex=9
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=9
+END:VEVENT
+BEGIN:VEVENT
+UID:a69d8b0585b10803@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270708
+SUMMARY:🔮 예고⭐ 인천 Young MICE 리더 썸머캠프 모집
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천 Young MICE 리더 썸
+ 머캠프 모집 (2026-07-07) https://www.ito.or.kr/main/bbs/bbsMsgDetai
+ l.do?msg_seq=1115&bcd=notice&pgno=4
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1115&bcd=notic
+ e&pgno=4
+END:VEVENT
+BEGIN:VEVENT
+UID:23c29b9558c6b95a@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270708
+SUMMARY:🔮 예고 인천지역 중소기업 정보보호 특화지원
+ 사업 수요기업 모집공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인천지역 중소
+ 기업 정보보호 특화지원사업 수요기업 모집공고 (2026-0
+ 7-07) https://www.itp.or.kr/intro.asp?tmid=13&PageNum=2
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=2
+END:VEVENT
+BEGIN:VEVENT
+UID:7c02ba524a31347b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:🔮 예고⭐ 정부혁신 유공 정부포상 후보자 공모
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 정부혁신 유공 정부포상 
+ 후보자 공모 (2026-07-08) https://www.ito.or.kr/main/bbs/bbsMsgDetai
+ l.do?msg_seq=1116&bcd=notice&pgno=4
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1116&bcd=notic
+ e&pgno=4
+END:VEVENT
+BEGIN:VEVENT
+UID:45fc9b20f30a4979@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:🔮 예고 자동차 사이버보안 전문인력 양성 교육 
+ (1회차) 참가자 모집
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 자동차 사이버
+ 보안 전문인력 양성 교육 (1회차) 참가자 모집 (2026-07-09
+ ) https://www.itp.or.kr/intro.asp?tmid=13&PageNum=2
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=2
+END:VEVENT
+BEGIN:VEVENT
+UID:6be3290e56236587@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:🔮 예고⭐ 「2026 산업 현장 연계형 관광 인력 양
+ 성 사업」 참여 기업 모집
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 「2026 산업 현장
+  연계형 관광 인력 양성 사업」 참여 기업 모집 (2026-07-
+ 14) https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:e8278c56b8d64b1e@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:🔮 예고⭐ 인천아트플랫폼 <창작스튜디오 프로
+ 젝트> 시민참여 워크숍 참여자 모집
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천아트플랫폼 <창작스
+ 튜디오 프로젝트> 시민참여 워크숍 참여자 모집 (2026-07
+ -14) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8
+END:VEVENT
+BEGIN:VEVENT
+UID:9c9b51d34705dfd6@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:🔮 예고⭐ 신규 문화예술교육 매개자 역량강화 
+ 워크숍 참여자 모집 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 신규 문화예술교육 매개
+ 자 역량강화 워크숍 참여자 모집 안내 (2026-07-15) https://
+ ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8
+END:VEVENT
+BEGIN:VEVENT
+UID:7dcb9ecca2825c04@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:🔮 예고⭐ 인천 중소 관광기업 고용장려금 지원
+ 사업 참여기업 모집 변경 공고
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인천 중소
+  관광기업 고용장려금 지원사업 참여기업 모집 변경 
+ 공고 (2026-07-16) https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:bbd72172d49420e4@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:🔮 예고 문화누리카드 사용 불편 계층을 위한 <
+ 인천문화누리 전화결제 가맹점> 모집 안내
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 문화누리카드 사용 불편 계층을 위한 <
+ 인천문화누리 전화결제 가맹점> 모집 안내 (2026-07-16) ht
+ tps://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8
+END:VEVENT
+BEGIN:VEVENT
+UID:b99001399cae392e@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:🔮 예고⭐ 인천아트플랫폼 문화예술교육 <2026 IAP
+  도슨트 양성 프로그램> 참여자 모집
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천아트플랫폼 문화예
+ 술교육 <2026 IAP 도슨트 양성 프로그램> 참여자 모집 (202
+ 6-07-24) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8
+END:VEVENT
+BEGIN:VEVENT
+UID:0a065f4dd78230d6@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:🔮 예고⭐ 관광 일자리페스타 참가기업 모집 안
+ 내
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: [한국관광공사] 
+ 2026 관광 일자리페스타 참가기업 모집 안내 (2026-07-27) h
+ ttps://tourbiz.ito.or.kr/info/notice?pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:7cf947a9fbbd8861@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:🔮 예고⭐ 인천개항장 국가유산 야행 야행 아카
+ 데미 참가자 모집 안내
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천개항장 국가유산 
+ 야행 야행 아카데미 참가자 모집 안내 (2026-07-29) https://
+ www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1120&bcd=notice&pgno=3
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1120&bcd=notic
+ e&pgno=3
+END:VEVENT
+BEGIN:VEVENT
+UID:35c9a0a2d0c0cac2@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:🔮 예고⭐ 제2회 인천 섬의 날 연계 인천 섬 사진
+  공모 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 제2회 인천 섬의 날 연
+ 계 인천 섬 사진 공모 공고 (2026-07-29) https://www.ito.or.kr/m
+ ain/bbs/bbsMsgDetail.do?msg_seq=1119&bcd=notice&pgno=3
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1119&bcd=notic
+ e&pgno=3
+END:VEVENT
+BEGIN:VEVENT
+UID:8db5ed7e45d4ceb0@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:🔮 예고⭐ 인천문화재단-인천광역시교육청 협력
+ 사업 <학교 유휴공간 레지던시> 입주예술가 모집 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천문화재단-인천광역
+ 시교육청 협력사업 <학교 유휴공간 레지던시> 입주예
+ 술가 모집 공고 (2026-07-29) https://ifac.or.kr/bbs/list.do?key=m25
+ 01152808232&pageIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=8
+END:VEVENT
+BEGIN:VEVENT
+UID:2fbffa608be9d126@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:🔮 예고⭐ 글로벌 실증 파트너십 지원(추가모집)
+  사업 과제 선정 통지
+DESCRIPTION:인천테크노파크 · 디자인·상품·콘텐츠\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: [콘텐츠기업지원센터
+ ]2026 글로벌 실증 파트너십 지원(추가모집) 사업 과제 
+ 선정 통지 (2026-07-30) https://www.itp.or.kr/intro.asp?tmid=13&PageN
+ um=2
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=2
+END:VEVENT
+BEGIN:VEVENT
+UID:cf5137cc91005879@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:🔮 예고⭐ 한국관광공사 「2026 관광 일자리페스
+ 타」 참가기업 모집 홍보
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 한국관광공사 
+ 「2026 관광 일자리페스타」 참가기업 모집 홍보 (2026-07
+ -31) https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:ca876cfcc40af6aa@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270803
+DTEND;VALUE=DATE:20270804
+SUMMARY:🔮 예고⭐ [한국관광공사] 미래형 관광인재 양성
+ 교육 '복합리조트 산업 이해와 현장 실무 체험' 교육생
+  모집
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: [한국관광공사] 
+ 미래형 관광인재 양성교육 '복합리조트 산업 이해와 
+ 현장 실무 체험' 교육생 모집 (2026-08-03) https://tourbiz.ito.
+ or.kr/info/notice?pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:fe47038e72fa3bc8@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270803
+DTEND;VALUE=DATE:20270804
+SUMMARY:🔮 예고⭐ 8월 예술인 역량강화 교육 참여자 모
+ 집 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026년 8월 예술인 역량강화 
+ 교육 참여자 모집 안내 (2026-08-03) https://ifac.or.kr/bbs/list.
+ do?key=m2501152808232&pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=7
+END:VEVENT
+BEGIN:VEVENT
+UID:f48b88f7d2f39126@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270803
+DTEND;VALUE=DATE:20270804
+SUMMARY:🔮 예고⭐ <꿈의 극단 부평> 예술감독 모집 공고 
+ 부평구문화재단
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 <꿈의 극단 부평> 예술
+ 감독 모집 공고 부평구문화재단 (2026-08-03) https://ifac.or.
+ kr/bbs/list.do?key=m2501152808367&pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:42ea726015261e73@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270805
+SUMMARY:🔮 예고 [연수문화원] 캡컷 숏폼 영상전문가 2급 
+ 자격증과정 참가자 모집 연수문화원
+DESCRIPTION:인천 문화기관 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: [연수문화원] 캡컷 숏폼 영상전문가 2급
+  자격증과정 참가자 모집 연수문화원 (2026-08-04) https://i
+ fac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:4f7be2e6499b5b65@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270805
+SUMMARY:🔮 예고⭐ 문화예술교육 매개자 네트워크 「모
+ 닥」 참여 신청 (재)부평구문화재단
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 문화예술교육 매개자 
+ 네트워크 「모닥」 참여 신청 (재)부평구문화재단 (2026
+ -08-04) https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:14817c6d8d8b4c99@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:🔮 예고⭐ 역사문화 거점(마을안내소) 시범운영 
+ 공모사업 모집공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 역사문화 거점(마을안내
+ 소) 시범운영 공모사업 모집공고 (2026-08-07) https://www.ito
+ .or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1125&bcd=notice&pgno=3
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1125&bcd=notic
+ e&pgno=3
+END:VEVENT
+BEGIN:VEVENT
+UID:9e7ff57a11c46621@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:🔮 예고⭐ 송도컨벤시아 리에종 2기 모집
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 송도컨벤시아 리에종 
+ 2기 모집 (2026-08-07) https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?
+ msg_seq=1122&bcd=notice&pgno=3
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1122&bcd=notic
+ e&pgno=3
+END:VEVENT
+BEGIN:VEVENT
+UID:29d45da438bf8ed0@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:🔮 예고 제물포구 도시재생지원센터 「역사문화
+  거점(마을안내소) 시범운영 공모사업」 운영단체 모
+ 집공고 제물포구 도시재생지원센터
+DESCRIPTION:인천 문화기관 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 제물포구 도시재생지원센터 「역사문
+ 화 거점(마을안내소) 시범운영 공모사업」 운영단체 
+ 모집공고 제물포구 도시재생지원센터 (2026-08-07) https://
+ ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:e45daa157fe178fc@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:🔮 예고 인천 연구장비 공동활용 지원사업 모집 
+ 공고 (수정공고)
+DESCRIPTION:인천테크노파크 · 기타\n\n이 시기쯤 공고가 
+ 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[
+ 근거]\n- 작년 공고: 2026년 인천 연구장비 공동활용 지
+ 원사업 모집 공고 (수정공고) (2026-08-10) https://www.itp.or.k
+ r/intro.asp?tmid=13&PageNum=5
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=5
+END:VEVENT
+BEGIN:VEVENT
+UID:4e5f03539f496688@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:🔮 예고⭐ 드림파크문화재단 지역문예창작활동 
+ 지원 공고
+DESCRIPTION:드림파크문화재단 · 예술·창작·교육\n\n이 시
+ 기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바
+ 뀝니다.\n\n[근거]\n- 작년 공고: 2026년 드림파크문화재
+ 단 지역문예창작활동 지원 공고 (2026-08-10) https://www.drea
+ mparkcf.com/sub/board.php?mn=notice&fn=board&md=v&zest_bn=hana_board_19&
+ bn=hana_board_19&seq=177&page=1&field=&keyword=&s_category=
+TRANSP:TRANSPARENT
+URL:https://www.dreamparkcf.com/sub/board.php?mn=notice&fn=board&md=v&zes
+ t_bn=hana_board_19&bn=hana_board_19&seq=177&page=1&field=&keyword=&s_cat
+ egory=
+END:VEVENT
+BEGIN:VEVENT
+UID:4b5c5188d5639deb@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:🔮 예고⭐ AI·SNS 역량강화를 위한 인천관광 맞춤
+ 형 교육(심화반) 참가자 모집
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: AI·SNS 역량강화
+ 를 위한 인천관광 맞춤형 교육(심화반) 참가자 모집 (20
+ 26-08-10) https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:a8cdbafb837be11b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:🔮 예고 문화유산시설 긴담모퉁이집(신흥동시장
+ 관사) 9~11월 문학교양강좌 참여자 모집 공고
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 문화유산시설 긴담모퉁이집(신흥동시
+ 장관사) 9~11월 문학교양강좌 참여자 모집 공고 (2026-08-1
+ 1) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=7
+END:VEVENT
+BEGIN:VEVENT
+UID:fbb2732fc1882ff7@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:🔮 예고⭐ [한국관광공사] 인천관광기업지원센
+ 터 연계 'DX 아카데미' 참가자 모집
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: [한국관광공사] 
+ 인천관광기업지원센터 연계 'DX 아카데미' 참가자 모집
+  (2026-08-12) https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:a057d0d9c7d1f589@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270813
+DTEND;VALUE=DATE:20270814
+SUMMARY:🔮 예고 <너의 도시\, 나의 도시> EP.2 싱가포르 참
+ 가자 모집 공고(~8/27\, 14:00)
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: <너의 도시\, 나의 도시> EP.2 싱가포르 
+ 참가자 모집 공고(~8/27\, 14:00) (2026-08-13) https://ifac.or.kr/b
+ bs/list.do?key=m2501152808232&pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=7
+END:VEVENT
+BEGIN:VEVENT
+UID:637dfdd7de4ee1cf@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:🔮 예고⭐ 인천관광 열린혁신 아이디어 공모전
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026년 인천관광 열린혁신 
+ 아이디어 공모전 (2026-08-14) https://www.ito.or.kr/main/bbs/bbsMs
+ gDetail.do?msg_seq=1126&bcd=notice&pgno=3
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1126&bcd=notic
+ e&pgno=3
+END:VEVENT
+BEGIN:VEVENT
+UID:a07b8c27c7f36006@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+SUMMARY:🔮 예고⭐ 인천관광 열린혁신 아이디어 공모
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: [인천관광공사] 
+ 2026 인천관광 열린혁신 아이디어 공모 (2026-08-18) https://
+ tourbiz.ito.or.kr/info/notice?pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:54af72ac2214d969@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:🔮 예고⭐ -2027년도 송도컨벤시아 전시장 동절기
+  장기이벤트 모집 공고
+DESCRIPTION:인천관광공사 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026-2027년도 송도컨벤시아 
+ 전시장 동절기 장기이벤트 모집 공고 (2026-08-20) https://w
+ ww.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1127&bcd=notice&pgno=3
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1127&bcd=notic
+ e&pgno=3
+END:VEVENT
+BEGIN:VEVENT
+UID:9d4f1c32f645c562@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:🔮 예고⭐ 「2026 인천 관광스타트업 IR 데이」 참
+ 가 기업 모집(~9.8 까지)
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: 「2026 인천 관광
+ 스타트업 IR 데이」 참가 기업 모집(~9.8 까지) (2026-08-20)
+  https://tourbiz.ito.or.kr/info/notice?pageIndex=1
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=1
+END:VEVENT
+BEGIN:VEVENT
+UID:0c6a6ab5214990a9@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:🔮 예고⭐ 부평 문화예술교육 학습공동체(CoP) 모
+ 집 공고 (재)부평구문화재단
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 부평 문화예술교육 학
+ 습공동체(CoP) 모집 공고 (재)부평구문화재단 (2026-08-21) 
+ https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:0216260af01d1a5d@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:🔮 예고⭐ 상상플랫폼 CCTV 설치 행정예고 공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 상상플랫폼 CCTV 설치 행정
+ 예고 공고 (2026-08-27) https://www.ito.or.kr/main/bbs/bbsMsgDetail.d
+ o?msg_seq=1129&bcd=notice&pgno=3
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1129&bcd=notic
+ e&pgno=3
+END:VEVENT
+BEGIN:VEVENT
+UID:7d54c6996fead0c7@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:🔮 예고⭐ 인천문화재단 예술인간담회 신청 안
+ 내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천문화재단 예술인간
+ 담회 신청 안내 (2026-08-27) https://ifac.or.kr/bbs/list.do?key=m25
+ 01152808232&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:3b4b4427af581ffe@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:🔮 예고⭐ 생애전환 문화예술학교 생활학교·예
+ 술학교 참여자 모집 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 생애전환 문화예술학교 
+ 생활학교·예술학교 참여자 모집 공고 (2026-08-27) https://
+ ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:e369ee66fc4dd3c5@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:🔮 예고⭐ 9월 예술인 역량강화 교육 참여자 모
+ 집 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026년 9월 예술인 역량강화 
+ 교육 참여자 모집 안내 (2026-08-27) https://ifac.or.kr/bbs/list.
+ do?key=m2501152808232&pageIndex=6
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:e4541407b5af7758@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:🔮 예고⭐ 인천미술은행 소장품 구입 공모 (접수
+ : 8/28 10:00 ~ 9/18 17:59)
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천미술은행 소장품 구
+ 입 공모 (접수: 8/28 10:00 ~ 9/18 17:59) (2026-08-27) https://ifac.o
+ r.kr/bbs/list.do?key=m2501152808232&pageIndex=6\n- 작년 공고: 2026 
+ 인천미술은행 소장품 구입 공모 (접수: 8/28 10:00 ~ 9/18 17
+ :59) (2026-08-27) https://ifac.or.kr/artsSupProjects/supProjects/list.do
+ ?key=m2501143953255&pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=6
+END:VEVENT
+BEGIN:VEVENT
+UID:9263067e18bb2872@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:🔮 예고⭐ 인천개항장 국가유산 야행 「개항장 
+ 야행 프린지」 참가자 모집 안내
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 인천개항장 국가유산 
+ 야행 「개항장 야행 프린지」 참가자 모집 안내 (2026-08
+ -28) https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1130&bcd=not
+ ice&pgno=2
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1130&bcd=notic
+ e&pgno=2
+END:VEVENT
+BEGIN:VEVENT
+UID:d7f9045e7d27ab4d@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:🔮 예고⭐ 글로벌 스타트업 서밋(일본 2차) 참여 
+ 기업 모집
+DESCRIPTION:인천관광기업지원센터 · 관광·판로·마케팅\n
+ \n이 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 
+ ✅로 바뀝니다.\n\n[근거]\n- 작년 공고: [인천창조경제
+ 혁신센터] 2026 글로벌 스타트업 서밋(일본 2차) 참여 기
+ 업 모집 (2026-09-01) https://tourbiz.ito.or.kr/info/notice?pageIndex=
+ 1
+TRANSP:TRANSPARENT
+URL:https://tourbiz.ito.or.kr/info/notice?pageIndex=1
+END:VEVENT
+BEGIN:VEVENT
+UID:f219eb9bfb67e543@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270902
+DTEND;VALUE=DATE:20270903
+SUMMARY:🔮 예고⭐ 인천 대표공연 콘텐츠 유통활성화 지
+ 원 공모
+DESCRIPTION:인천문화재단 · 디자인·상품·콘텐츠\n\n이 시
+ 기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바
+ 뀝니다.\n\n[근거]\n- 작년 공고: 인천 대표공연 콘텐츠 
+ 유통활성화 지원 공모 (2026-09-02) https://ifac.or.kr/bbs/list.d
+ o?key=m2501152808232&pageIndex=5\n- 작년 공고: 인천 대표공연 
+ 콘텐츠 유통활성화 지원 공모 (2026-09-02) https://ifac.or.kr/
+ artsSupProjects/supProjects/list.do?key=m2501143953255&pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:b4b326aa75355c4b@incheon-instructor-alerts
+DTSTAMP:20261127T125022Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270908
+SUMMARY:🔮 예고 인천글로벌스케일업캠퍼스 입주기업 상
+ 시모집 공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 인천글로벌스
+ 케일업캠퍼스 입주기업 상시모집 공고 (2026-09-07) https:/
+ /www.itp.or.kr/intro.asp?tmid=13&PageNum=3
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=3
+END:VEVENT
+BEGIN:VEVENT
+UID:203475a54593e3c2@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:🔮 예고⭐ 제20회 우현예술상(2024~2025) 추천 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 제20회 우현예술상(2024~2025) 
+ 추천 공고 (2026-09-09) https://ifac.or.kr/bbs/list.do?key=m250115280
+ 8232&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:d2f0440cff34ab34@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:🔮 예고 한국근대문학관 자료 기증 공고
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026 한국근대문학관 자료 기증 공고 (202
+ 6-09-15) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=5
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=5
+END:VEVENT
+BEGIN:VEVENT
+UID:15c041f0051c6353@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:🔮 예고 제물포 인문로드 참가자 모집 안내
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026 제물포 인문로드 참가자 모집 안내 
+ (2026-09-16) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex
+ =4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:f740e953107a14a7@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270917
+DTEND;VALUE=DATE:20270918
+SUMMARY:🔮 예고 중소기업 대만 기술교류 지원사업 참여
+ 기업 모집 공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2026년 중소기업 대만 
+ 기술교류 지원사업 참여기업 모집 공고 (2026-09-17) https:
+ //www.itp.or.kr/intro.asp?tmid=13&PageNum=1
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=1
+END:VEVENT
+BEGIN:VEVENT
+UID:7b1ee8b8ad8f47b7@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:🔮 예고 글로벌 인·아웃바운드 법률상담 무상지
+ 원 '오피스아워(Office Hour)' 추진 공고
+DESCRIPTION:인천테크노파크 · 기타\n\n이 시기쯤 공고가 
+ 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[
+ 근거]\n- 작년 공고: 글로벌 인·아웃바운드 법률상담 
+ 무상지원 '오피스아워(Office Hour)' 추진 공고 (2026-09-21) h
+ ttps://www.itp.or.kr/intro.asp?tmid=13&PageNum=1
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=1
+END:VEVENT
+BEGIN:VEVENT
+UID:d1bb046a2e0057f4@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:🔮 예고 [공지]「2026 드림파크 국화축제」푸드트
+ 럭 운영자 모집 공고
+DESCRIPTION:드림파크문화재단 · 기타\n\n이 시기쯤 공고가
+  뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[
+ 근거]\n- 작년 공고: [공지]「2026 드림파크 국화축제」
+ 푸드트럭 운영자 모집 공고 (2026-09-21) https://www.dreamparkc
+ f.com/sub/board.php?mn=notice&fn=board&md=v&zest_bn=hana_board_19&bn=han
+ a_board_19&seq=179&page=1&field=&keyword=&s_category=
+TRANSP:TRANSPARENT
+URL:https://www.dreamparkcf.com/sub/board.php?mn=notice&fn=board&md=v&zes
+ t_bn=hana_board_19&bn=hana_board_19&seq=179&page=1&field=&keyword=&s_cat
+ egory=
+END:VEVENT
+BEGIN:VEVENT
+UID:0b9d20ae61ab4aa3@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:🔮 예고 재단법인 인천문화재단 감사(비상임) 모
+ 집 공고(9.21.~10.6.)
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 재단법인 인천문화재단 감사(비상임) 
+ 모집 공고(9.21.~10.6.) (2026-09-21) https://ifac.or.kr/bbs/list.do?k
+ ey=m2501152808232&pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:cf332ee38608ed01@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:🔮 예고 재단법인 인천문화재단 근로자 이사(비
+ 상임) 모집 공고(9.21.~10.6.)
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 재단법인 인천문화재단 근로자 이사(비
+ 상임) 모집 공고(9.21.~10.6.) (2026-09-21) https://ifac.or.kr/bbs/l
+ ist.do?key=m2501152808232&pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:c069724baac11195@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:🔮 예고 재단법인 인천문화재단 이사(비상임) 모
+ 집 공고(9.21.~10.6.)
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 재단법인 인천문화재단 이사(비상임) 
+ 모집 공고(9.21.~10.6.) (2026-09-21) https://ifac.or.kr/bbs/list.do?k
+ ey=m2501152808232&pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:9c5e5ce27e5db12a@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:🔮 예고⭐ 「2026 I♥FEsta 영종」 플리마켓 셀러 
+ 모집
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「2026 I♥FEsta 영종」 플리
+ 마켓 셀러 모집 (2026-09-28) https://www.ito.or.kr/main/bbs/bbsMsgD
+ etail.do?msg_seq=1142&bcd=notice&pgno=2
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1142&bcd=notic
+ e&pgno=2
+END:VEVENT
+BEGIN:VEVENT
+UID:64238b5615d443e5@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:🔮 예고⭐ [공지] 「2026 드림파크 국화축제」플
+ 리마켓 모집 공고
+DESCRIPTION:드림파크문화재단 · 관광·판로·마케팅\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: [공지] 「2026 드림파
+ 크 국화축제」플리마켓 모집 공고 (2026-09-28) https://www.d
+ reamparkcf.com/sub/board.php?mn=notice&fn=board&md=v&zest_bn=hana_board_
+ 19&bn=hana_board_19&seq=180&page=2&field=&keyword=&s_category=
+TRANSP:TRANSPARENT
+URL:https://www.dreamparkcf.com/sub/board.php?mn=notice&fn=board&md=v&zes
+ t_bn=hana_board_19&bn=hana_board_19&seq=180&page=2&field=&keyword=&s_cat
+ egory=
+END:VEVENT
+BEGIN:VEVENT
+UID:2759c9c977c068fb@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20270930
+SUMMARY:🔮 예고⭐ 10월 예술인 역량강화 교육 참여자 모
+ 집 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026년 10월 예술인 역량강화 
+ 교육 참여자 모집 안내 (2026-09-29) https://ifac.or.kr/bbs/list.
+ do?key=m2501152808232&pageIndex=4
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=4
+END:VEVENT
+BEGIN:VEVENT
+UID:f17e1e4310c8862c@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20270930
+SUMMARY:🔮 예고⭐ 남동소래아트홀 갤러리 화ㆍ소 전시
+ 공간지원사업 모집공고 남동문화재단
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2026 남동소래아트홀 갤러
+ 리 화ㆍ소 전시공간지원사업 모집공고 남동문화재단 (
+ 2026-09-29) https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=
+ 2
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:b99a3251043a3529@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20270930
+SUMMARY:🔮 예고 [2026 생생국가유산] 개항장\, 시간을 걷
+ 다 참여자 모집 제물포문화원
+DESCRIPTION:인천 문화기관 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: [2026 생생국가유산] 개항장\, 시간을 걷
+ 다 참여자 모집 제물포문화원 (2026-09-29) https://ifac.or.kr/
+ bbs/list.do?key=m2501152808367&pageIndex=2
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=2
+END:VEVENT
+BEGIN:VEVENT
+UID:9c2e6dfd55c59326@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:🔮 예고 한국근대문학관 <인천 어반스케치 : 걷
+ 고\, 보고\, 그리다> 참가자 모집 안내
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 2026 한국근대문학관 <인천 어반스케치 :
+  걷고\, 보고\, 그리다> 참가자 모집 안내 (2026-09-30) https
+ ://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:23354d60aa2dad43@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:🔮 예고⭐ 문화예술교육 매개자 역량강화 '오랜
+ 만입니다. 별빛살롱' 참여 신청 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 문화예술교육 매개자 역
+ 량강화 '오랜만입니다. 별빛살롱' 참여 신청 안내 (2026-
+ 10-01) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:d3a1a2e38dd791e8@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271013
+DTEND;VALUE=DATE:20271014
+SUMMARY:🔮 예고⭐ 인천문화재단 예술지원사업 환류 간
+ 담회 신청 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 인천문화재단 예술지원사업
+  환류 간담회 신청 안내 (2026-10-13) https://ifac.or.kr/bbs/list
+ .do?key=m2501152808232&pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:3dedcc6eb104d741@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:🔮 예고 긴담모퉁이집 제물포 정원사 연계 워크
+ 숍① <꽃과 정원 이야기> 일반 접수 안내
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 긴담모퉁이집 제물포 정원사 연계 워크
+ 숍① <꽃과 정원 이야기> 일반 접수 안내 (2026-10-15) https
+ ://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=3
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=3
+END:VEVENT
+BEGIN:VEVENT
+UID:5bc3accafcba1325@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+SUMMARY:🔮 예고⭐ 산다락 복합문화센터 문화예술 프로
+ 그램 신청 안내(~10/23)
+DESCRIPTION:인천테크노파크 · 디자인·상품·콘텐츠\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: [환경디자인센터] 2026
+  산다락 복합문화센터 문화예술 프로그램 신청 안내(~1
+ 0/23) (2026-10-16) https://www.itp.or.kr/intro.asp?tmid=13&PageNum=1
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=1
+END:VEVENT
+BEGIN:VEVENT
+UID:490768b317fa50cc@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
+SUMMARY:🔮 예고⭐ 「찾아가는 예술인 권리보호 교육」
+ 신청 안내 한국예술인복지재단
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2025년「찾아가는 예술인 
+ 권리보호 교육」신청 안내 한국예술인복지재단 (2025-10
+ -23) https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=8
+END:VEVENT
+BEGIN:VEVENT
+UID:154722e3827f4d3c@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
+SUMMARY:🔮 예고 재단법인 인천문화재단 대표이사(상임) 
+ 모집 공고 (10. 24. ~ 11. 7.)
+DESCRIPTION:인천문화재단 · 기타\n\n이 시기쯤 공고가 뜰 
+ 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니다.\n\n[근거
+ ]\n- 작년 공고: 재단법인 인천문화재단 대표이사(상임)
+  모집 공고 (10. 24. ~ 11. 7.) (2025-10-24) https://ifac.or.kr/bbs/li
+ st.do?key=m2501152808232&pageIndex=27
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=27
+END:VEVENT
+BEGIN:VEVENT
+UID:0a17096f48453717@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
+SUMMARY:🔮 예고⭐ <해외우수플랫폼 초청 문화예술공연
+ 전시 지원(K-arts on the GO)> 2026년 제1차 공모 개최
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: <해외우수플랫폼 초청 문
+ 화예술공연전시 지원(K-arts on the GO)> 2026년 제1차 공모 
+ 개최 (2025-10-31) https://ifac.or.kr/bbs/list.do?key=m2501152808367&pa
+ geIndex=8
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=8
+END:VEVENT
+BEGIN:VEVENT
+UID:525f238b1f9ff08a@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
+SUMMARY:🔮 예고⭐ 11월 예술인 역량강화 교육 참여자 모
+ 집 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026년 11월 예술인 역량강화 
+ 교육 참여자 모집 안내 (2026-11-03) https://ifac.or.kr/bbs/list.
+ do?key=m2501152808232&pageIndex=1
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=1
+END:VEVENT
+BEGIN:VEVENT
+UID:ed7119adac2f2242@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
+SUMMARY:🔮 예고⭐ 「Book적 Book적 in 송도컨벤시아」 인문
+ 학 강연 참가자 모집 (그림책으로 보는 인문학)
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 「Book적 Book적 in 송도컨벤
+ 시아」 인문학 강연 참가자 모집 (그림책으로 보는 인
+ 문학) (2026-11-04) https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_
+ seq=1148&bcd=notice&pgno=1
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1148&bcd=notic
+ e&pgno=1
+END:VEVENT
+BEGIN:VEVENT
+UID:faeb671d0bd853e8@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
+SUMMARY:🔮 예고⭐ [부평구문화재단] 관객 맞춤형 콘텐츠
+  공동개발 예술단체 공모 (재)인천광역시부평구문화재
+ 단
+DESCRIPTION:인천 문화기관 · 디자인·상품·콘텐츠\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: [부평구문화재단] 관
+ 객 맞춤형 콘텐츠 공동개발 예술단체 공모 (재)인천광
+ 역시부평구문화재단 (2026-11-04) https://ifac.or.kr/bbs/list.do?
+ key=m2501152808367&pageIndex=1
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=1
+END:VEVENT
+BEGIN:VEVENT
+UID:3a0289def1f0c215@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
+SUMMARY:🔮 예고⭐ 인천관광기업지원센터 입주기업 모집
+  공고
+DESCRIPTION:인천관광공사 · 관광·판로·마케팅\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2027년 인천관광기업지원
+ 센터 입주기업 모집 공고 (2026-11-05) https://www.ito.or.kr/mai
+ n/bbs/bbsMsgDetail.do?msg_seq=1149&bcd=notice&pgno=1\n- 작년 공고: 2
+ 027년 인천관광기업지원센터 입주기업 모집 (2026-11-05) h
+ ttps://tourbiz.ito.or.kr/info/notice?pageIndex=7
+TRANSP:TRANSPARENT
+URL:https://www.ito.or.kr/main/bbs/bbsMsgDetail.do?msg_seq=1149&bcd=notic
+ e&pgno=1
+END:VEVENT
+BEGIN:VEVENT
+UID:7aabf1ac814a2a96@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
+SUMMARY:🔮 예고⭐ 가온갤러리 전시 공모 신청 안내 인천
+ 광역시교육청학생교육문화회관
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2027 가온갤러리 전시 공모
+  신청 안내 인천광역시교육청학생교육문화회관 (2026-11
+ -05) https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=1
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=1
+END:VEVENT
+BEGIN:VEVENT
+UID:89898e3fbcaebbc9@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
+SUMMARY:🔮 예고 1인 창조기업 지원센터 상반기 입주기업
+  1차 모집 공고
+DESCRIPTION:인천테크노파크 · 여성·소상공인·기업\n\n이 
+ 시기쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 
+ 바뀝니다.\n\n[근거]\n- 작년 공고: 2027년 1인 창조기업 
+ 지원센터 상반기 입주기업 1차 모집 공고 (2026-11-09) http
+ s://www.itp.or.kr/intro.asp?tmid=13&PageNum=1
+TRANSP:TRANSPARENT
+URL:https://www.itp.or.kr/intro.asp?tmid=13&PageNum=1
+END:VEVENT
+BEGIN:VEVENT
+UID:4f1532c7b9890c07@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
+SUMMARY:🔮 예고⭐ 꿈의 극단 ‘부평’ 창작인력 모집 공
+ 고 부평구문화재단
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2027 꿈의 극단 ‘부평’ 
+ 창작인력 모집 공고 부평구문화재단 (2026-11-13) https://if
+ ac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=1
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=1
+END:VEVENT
+BEGIN:VEVENT
+UID:e9bbcba2cd459574@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
+SUMMARY:🔮 예고⭐ 12월 예술인 역량강화 교육 참여자 모
+ 집 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026년 12월 예술인 역량강화 
+ 교육 참여자 모집 안내 (2026-11-17) https://ifac.or.kr/bbs/list.
+ do?key=m2501152808232&pageIndex=1
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=1
+END:VEVENT
+BEGIN:VEVENT
+UID:134bc5408695f0d7@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
+SUMMARY:🔮 예고⭐ 공연장상주단체 육성지원사업 참여공
+ 연장 모집 연장 및 공연단체 공모 일정 사전 안내
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2027년 공연장상주단체 육성
+ 지원사업 참여공연장 모집 연장 및 공연단체 공모 일
+ 정 사전 안내 (2026-11-17) https://ifac.or.kr/bbs/list.do?key=m25011
+ 52808232&pageIndex=1\n- 작년 공고: 2027년 공연장상주단체 육
+ 성지원사업 참여공연장 모집 연장 및 공연단체 공모 
+ 일정 사전 안내 (2026-11-17) https://ifac.or.kr/artsSupProjects/sup
+ Projects/list.do?key=m2501143953255&pageIndex=1
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=1
+END:VEVENT
+BEGIN:VEVENT
+UID:9a0d0846bfc5c585@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271123
+DTEND;VALUE=DATE:20271124
+SUMMARY:🔮 예고⭐ 예술창작지원사업 공모 공고 (설명회 
+ 11.27. / 접수 12.1.~23.)
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2027 예술창작지원사업 공모 
+ 공고 (설명회 11.27. / 접수 12.1.~23.) (2026-11-23) https://ifac.o
+ r.kr/bbs/list.do?key=m2501152808232&pageIndex=1\n- 작년 공고: 2027 
+ 예술창작지원사업 공모 공고 (설명회 11.27. / 접수 12.1.~
+ 23.) (2026-11-23) https://ifac.or.kr/artsSupProjects/supProjects/list.do
+ ?key=m2501143953255&pageIndex=1
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=1
+END:VEVENT
+BEGIN:VEVENT
+UID:74276100eee1a4e9@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
+SUMMARY:🔮 예고⭐ 꿈의 예술단(스튜디오) ‘미추홀’ 예
+ 술가 공개모집 주안영상미디어센터 교육사업팀
+DESCRIPTION:인천 문화기관 · 예술·창작·교육\n\n이 시기
+ 쯤 공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝
+ 니다.\n\n[근거]\n- 작년 공고: 2027 꿈의 예술단(스튜디오
+ ) ‘미추홀’ 예술가 공개모집 주안영상미디어센터 교
+ 육사업팀 (2026-11-25) https://ifac.or.kr/bbs/list.do?key=m2501152808
+ 367&pageIndex=1
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808367&pageIndex=1
+END:VEVENT
+BEGIN:VEVENT
+UID:77a4cb44fc5b9ed8@incheon-instructor-alerts
+DTSTAMP:20261127T125023Z
+DTSTART;VALUE=DATE:20271126
+DTEND;VALUE=DATE:20271127
+SUMMARY:🔮 예고⭐ 인천아트플랫폼 작가교환 프로그램(
+ 호주\, 2027년) 참여 예술가 모집 공고
+DESCRIPTION:인천문화재단 · 예술·창작·교육\n\n이 시기쯤
+  공고가 뜰 것으로 예상해요. 공고가 뜨면 ✅로 바뀝니
+ 다.\n\n[근거]\n- 작년 공고: 2026 인천아트플랫폼 작가교
+ 환 프로그램(호주\, 2027년) 참여 예술가 모집 공고 (2026-
+ 11-26) https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=1
+TRANSP:TRANSPARENT
+URL:https://ifac.or.kr/bbs/list.do?key=m2501152808232&pageIndex=1
+END:VEVENT
+END:VCALENDAR
