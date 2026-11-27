@@ -137,8 +137,9 @@ function addGhosts() {
   });
 }
 function renderNote() {
+  const x = document.getElementById('xfer'); if (x) x.style.display = sync === 'on' ? 'none' : '';
   $('#syncNote').innerHTML = sync === 'on'
-    ? '⭐ 지원예정·숨기기 표시는 <b>모든 기기에서 같이</b> 보여요. ⭐ 공고의 첨부(공고문·지원서)는 1시간 안에 구글드라이브 「강사지원DB/공고첨부」에 자동 저장돼요.'
+    ? '⭐ 지원예정·숨기기 표시는 누르는 즉시 구글시트에 저장돼 <b>모든 기기에서 같이</b> 보여요. ⭐ 공고의 첨부(공고문·지원서)는 1시간 안에 구글드라이브 「강사지원DB/공고첨부」에 자동 저장돼요.'
     : sync === 'loading' ? '표시 불러오는 중…'
     : sync === 'fail' ? '표시를 불러오지 못했어요. 지금은 이 브라우저에 저장된 표시만 보여요.'
     : '⭐ 지원예정·숨기기 표시는 지금 쓰는 이 브라우저에 저장돼요.';
