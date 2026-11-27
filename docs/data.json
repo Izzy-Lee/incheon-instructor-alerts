@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 03:39",
+ "updated": "2026-11-27 12:47",
  "status": [
   {
    "name": "인천일자리플랫폼 공공채용",
@@ -10,14 +10,14 @@
   {
    "name": "인천광역시교육청 채용공고",
    "ok": true,
-   "total": 200,
-   "hits": 56
+   "total": 0,
+   "hits": 0
   },
   {
    "name": "나라일터",
    "ok": true,
    "total": 38,
-   "hits": 7
+   "hits": 8
   },
   {
    "name": "미추홀구 채용공고",
@@ -94,7 +94,7 @@
   {
    "name": "선학종합사회복지관 채용",
    "ok": true,
-   "total": 12,
+   "total": 11,
    "hits": 0
   },
   {
@@ -106,7 +106,7 @@
   {
    "name": "인천 여성복지관 알림",
    "ok": true,
-   "total": 14,
+   "total": 15,
    "hits": 3
   },
   {
@@ -130,7 +130,7 @@
   {
    "name": "인천사회복지사협회 구인정보",
    "ok": true,
-   "total": 0,
+   "total": 21,
    "hits": 0
   },
   {
@@ -167,13 +167,13 @@
    "name": "직행 채용공고",
    "ok": true,
    "total": 140,
-   "hits": 31
+   "hits": 32
   },
   {
    "name": "늘봄허브 학교별 요청",
    "ok": true,
-   "total": 6,
-   "hits": 6
+   "total": 8,
+   "hits": 8
   }
  ],
  "postings": [
@@ -575,7 +575,7 @@
    "org": "인천광역시교육청 인천생활과학고등학교",
    "kind": "시간강사",
    "status": "대기중",
-   "via": "인사혁신처-나라일터, 인천광역시교육청 채용공고",
+   "via": "인사혁신처-나라일터",
    "url": "https://www.incheon.go.kr/jobs/main/recruit/public/view.do?rcrut_info_sn=136706",
    "posted": null,
    "deadline": "2026-11-29",
@@ -788,7 +788,7 @@
   {
    "title": "2026학년도 강화중학교 국어 시간강사 채용 공고",
    "org": "인천광역시교육청 인천광역시강화교육지원청 강화중학교",
-   "via": "인사혁신처-나라일터, 인천광역시교육청 채용공고",
+   "via": "인사혁신처-나라일터",
    "url": "https://www.incheon.go.kr/jobs/main/recruit/public/view.do?rcrut_info_sn=135227",
    "posted": null,
    "deadline": "2026-12-01",
@@ -959,6 +959,57 @@
    "last_seen": "2026-11-27"
   },
   {
+   "title": "인천 원당중학교 시간강사(음악) 채용 공고",
+   "org": "인천광역시교육청 인천광역시서부교육지원청 원당중학교",
+   "via": "나라일터",
+   "url": "https://www.gojobs.go.kr/apmView.do?menuNo=401&searchJobsecode=020&empmnsn=400728",
+   "posted": "2026-11-27",
+   "deadline": "2026-12-03",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27"
+  },
+  {
+   "title": "[늘봄 기타>기타] 돌봄교실(인성활동)강사채용공고",
+   "org": "인천양촌초등학교 (인천광역시 북부)",
+   "kind": "늘봄 강사 요청",
+   "via": "늘봄허브 학교별 요청",
+   "url": "https://neulbomhub.kosac.re.kr/hmpg/prpb/papr/paprDetail.do?prgrm_pbanc_mng_no=EFC3147AEA0311F1BFA8F220EF1D716C",
+   "posted": "2026-11-27",
+   "deadline": "2026-12-03",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27"
+  },
+  {
+   "title": "[늘봄 기타>기타] 돌봄교실(음악활동)강사채용공고",
+   "org": "인천양촌초등학교 (인천광역시 북부)",
+   "kind": "늘봄 강사 요청",
+   "via": "늘봄허브 학교별 요청",
+   "url": "https://neulbomhub.kosac.re.kr/hmpg/prpb/papr/paprDetail.do?prgrm_pbanc_mng_no=8713DAD8EA0311F1BFA8F220EF1D716C",
+   "posted": "2026-11-27",
+   "deadline": "2026-12-03",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27"
+  },
+  {
+   "title": "[늘봄 기타>기타] 돌봄교실(창의활동) 강사 채용공고",
+   "org": "인천양촌초등학교 (인천광역시 북부)",
+   "kind": "늘봄 강사 요청",
+   "via": "늘봄허브 학교별 요청",
+   "url": "https://neulbomhub.kosac.re.kr/hmpg/prpb/papr/paprDetail.do?prgrm_pbanc_mng_no=94473B27EA0211F1BFA8F220EF1D716C",
+   "posted": "2026-11-27",
+   "deadline": "2026-12-03",
+   "category": "학교·방과후",
+   "mine": false,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27"
+  },
+  {
    "title": "2027학년도 인천연송초등학교 돌봄교실 특기적성 프로그램 강사 채용 공고",
    "org": "인천연송초등학교",
    "kind": "돌봄",
@@ -1077,6 +1128,19 @@
    "category": "미술·공예",
    "mine": true,
    "first_seen": "2026-11-26",
+   "last_seen": "2026-11-27"
+  },
+  {
+   "title": "2027년 노년사회화교육(평생교육 및 취미여가) 강사채용",
+   "org": "김포시노인종합복지관",
+   "kind": "기타교육",
+   "via": "직행 채용공고",
+   "url": "https://zighang.com/recruitment/7fd3a20b-ecd1-4c2a-a373-38fa0bc30c93",
+   "posted": "2026-11-27",
+   "deadline": "2026-12-12",
+   "category": "주민자치·평생교육",
+   "mine": false,
+   "first_seen": "2026-11-27",
    "last_seen": "2026-11-27"
   },
   {
