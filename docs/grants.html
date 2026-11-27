@@ -86,12 +86,18 @@ const today = new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Seoul
 let all = [], cat = '전체', hide = true, view = 'open', marks = {}, lastUndo = null, toastT;
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const keyOf = p => (p.title || '').replace(/\[[^\]]*공고[^\]]*\]/g, '').replace(/[\s\p{P}\p{S}_]+/gu, '').toLowerCase();
+const keyOf = p => 'g:' + (p.title || '').replace(/\[[^\]]*공고[^\]]*\]/g, '').replace(/[\s\p{P}\p{S}_]+/gu, '').toLowerCase();
 
-const API = '', SYNCED = 'incheon-grants-synced-v1';  // 지원사업 페이지는 표시를 이 브라우저에만 저장
+const API = window.MARKS_API || '', SYNCED = 'incheon-grants-synced-v1';  // 강사공고와 같은 시트에 'g:' 접두어로 저장
 let sync = API ? 'loading' : 'off';
 
-function loadMarks() { try { marks = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { marks = {}; } }
+function loadMarks() {
+  try { marks = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { marks = {}; }
+  // 예전(이 브라우저에만 저장하던 때) 표시를 새 형식(g:)으로 옮김
+  let moved = false;
+  Object.keys(marks).forEach(k => { if (!k.startsWith('g:')) { marks['g:' + k] = marks['g:' + k] || marks[k]; delete marks[k]; moved = true; } });
+  if (moved) saveMarks();
+}
 function saveMarks() { try { localStorage.setItem(KEY, JSON.stringify(marks)); } catch (e) {} }
 function toast(msg, undo) {
   $('#toastMsg').textContent = msg; $('#undo').style.display = undo ? '' : 'none'; $('#toast').style.display = 'block';
@@ -132,7 +138,7 @@ async function syncMarks() {
 function addGhosts() {
   const have = new Set(all.map(keyOf));
   Object.entries(marks).forEach(([k, m]) => {
-    if (['plan', 'applied', 'hold'].includes(m.state) && !have.has(k) && m.title)
+    if (k.startsWith('g:') && ['plan', 'applied', 'hold'].includes(m.state) && !have.has(k) && m.title)
       all.push({title: m.title, url: m.url || '#', org: m.org || '', deadline: m.deadline || '', category: '지난 공고', first_seen: '-', via: '기록', ghost: true});
   });
 }

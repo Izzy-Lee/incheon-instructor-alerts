@@ -132,7 +132,7 @@ async function syncMarks() {
 function addGhosts() {
   const have = new Set(all.map(keyOf));
   Object.entries(marks).forEach(([k, m]) => {
-    if (['plan', 'applied', 'hold'].includes(m.state) && !have.has(k) && m.title)
+    if (!k.startsWith('g:') && ['plan', 'applied', 'hold'].includes(m.state) && !have.has(k) && m.title)
       all.push({title: m.title, url: m.url || '#', org: m.org || '', deadline: m.deadline || '', category: '지난 공고', first_seen: '-', via: '기록', ghost: true});
   });
 }
