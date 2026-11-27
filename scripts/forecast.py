@@ -152,7 +152,7 @@ def parse_plan_pdf(blob: bytes, year: int):
 
 def load_plan():
     plan = json.loads(PLAN.read_text(encoding="utf-8")) if PLAN.exists() else {"years": {}, "checked": ""}
-    if plan.get("checked") == TODAY.isoformat():
+    if plan.get("checked") == TODAY.isoformat() and plan.get("years"):
         return plan
     try:
         notices = find_integrated_notices()
@@ -179,7 +179,8 @@ def load_plan():
                     pdf_link = a["href"]
                     break
             if not pdf_link:
-                raise RuntimeError("공고문 PDF를 못 찾음")
+                labels = [collect.clean((a.parent.parent or a).get_text(" "))[:80] for a in soup.select("a[href*='/afile/fileDownload/']")]
+                raise RuntimeError(f"공고문 PDF를 못 찾음: {labels}")
             r = collect.session.get(collect.urljoin(KSTARTUP_LIST, pdf_link), timeout=120)
             r.raise_for_status()
             rows = parse_plan_pdf(r.content, year)
